@@ -1,0 +1,351 @@
+political_decisions = {
+    permanently_hide_options = {
+        picture = rule_book
+        alert = yes
+	    potential = {
+            ai = no
+            NOT = { has_global_flag = permanently_hide_options } 
+        }
+        allow = {
+        }
+
+        effect = {
+            set_global_flag = permanently_hide_options
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+
+    enable_additional_features = {
+        picture = rule_book
+        alert = yes
+	    potential = {
+            ai = no
+            NOT = { has_global_flag = looking_through_additional_features }
+            NOT = { has_global_flag = permanently_hide_options } 
+#			OR = { OR = { year = 1836 NOT = { year = 1837 } } OR = { year = 1861 NOT = { year = 1862 } } }
+#			OR = { year = 1836 year = 1861 }
+#           NOT = { OR = { year = 1837 year = 1862 } }
+        }
+        allow = {
+        }
+
+        effect = {
+            set_global_flag = looking_through_additional_features
+            set_country_flag = country_looking_through_additional_features
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+
+    disable_additional_features = {
+        picture = rule_book
+        alert = yes
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = permanently_hide_options }
+#            NOT = { year = 1837 }
+        }
+
+        allow = {
+        }
+
+        effect = {
+            clr_global_flag = looking_through_additional_features
+            clr_country_flag = country_looking_through_additional_features
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+ 
+	enable_multiplayer_features = {
+        picture = Lan_party
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = permanently_hide_options }
+            NOT = { has_global_flag = multiplayer_game }
+        }
+
+        allow = {
+        }
+
+        effect = {
+            set_global_flag = multiplayer_game
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+
+    disable_multiplayer_features = {
+        picture = Lan_party
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = permanently_hide_options }
+            has_global_flag = multiplayer_game 
+        }
+
+        allow = {
+        }
+
+        effect = {
+            clr_global_flag = multiplayer_game
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+
+    enable_crimeamod_subsidies = {
+        picture = crimeamod
+        alert = no
+	    potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = crimeamod_subsidies_enabled }
+            NOT = { has_global_flag = permanently_hide_options }
+        }
+        allow = {
+
+        }
+
+        effect = {
+            set_global_flag = crimeamod_subsidies_enabled
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+    disable_crimeamod_subsidies = {
+        picture = crimeamod
+        alert = no
+	    potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            has_global_flag = crimeamod_subsidies_enabled 
+            NOT = { has_global_flag = permanently_hide_options }
+        }
+        allow = {
+
+        }
+
+        effect = {
+            clr_global_flag = crimeamod_subsidies_enabled
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+	enable_lower_infamy_mode = {
+        picture = good_boi
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = permanently_hide_options }
+            NOT = { has_global_flag = lower_infamy_mode }
+        }
+
+        allow = {
+        }
+
+        effect = {
+		set_global_flag = lower_infamy_mode
+		any_country = {
+			add_country_modifier = { name = lower_infamy duration = -1 }
+		}
+		add_country_modifier = { name = lower_infamy duration = -1 }
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+	disable_lower_infamy_mode = {
+        picture = good_boi
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = permanently_hide_options }
+            has_global_flag = lower_infamy_mode 
+        }
+
+        allow = {
+        }
+
+        effect = {
+		clr_global_flag = lower_infamy_mode
+		any_country = {
+			remove_country_modifier = lower_infamy
+		}
+		remove_country_modifier = lower_infamy
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+	enable_splendid_isolation = {
+        picture = pax_britannica
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = permanently_hide_options }
+            NOT = { has_global_flag = splendid_isolation }
+        }
+
+        allow = {
+        }
+
+        effect = {
+		set_global_flag = splendid_isolation
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+	disable_splendid_isolation = {
+        picture = pax_britannica
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = permanently_hide_options }
+            has_global_flag = splendid_isolation 
+        }
+
+        allow = {
+        }
+
+        effect = {
+		remove_global_flag = splendid_isolation
+        }
+
+        ai_will_do = { factor = 0 }
+    }	
+    enable_victoria3_mode = {
+        picture = victoria3
+        alert = no
+	    potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = victoria3_mode }
+            NOT = { has_global_flag = permanently_hide_options }
+        }
+        allow = {
+
+        }
+
+        effect = {
+			political_reform = victoria3_mode_yes
+		any_country = {
+			political_reform = victoria3_mode_yes
+		}
+            set_global_flag = victoria3_mode
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+    disable_victoria3_mode = {
+        picture = victoria3
+        alert = no
+	    potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            has_global_flag = victoria3_mode 
+            NOT = { has_global_flag = permanently_hide_options }
+        }
+        allow = {
+
+        }
+
+        effect = {
+			political_reform = victoria3_mode_no
+		any_country = {
+			political_reform = victoria3_mode_no
+		}
+
+            clr_global_flag = victoria3_mode
+        }
+
+        ai_will_do = { factor = 0 }
+    }	
+
+    enable_early_dismantle_cb = {
+        picture = rule_book
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = permanently_hide_options }
+            NOT = { has_global_flag = enabled_early_dismantle_cb }
+        }
+
+        allow = {
+        }
+
+        effect = {
+		set_global_flag = enabled_early_dismantle_cb
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+	disable_early_dismantle_cb = {
+        picture = rule_book
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = permanently_hide_options }
+            has_global_flag = enabled_early_dismantle_cb 
+        }
+
+        allow = {
+        }
+
+        effect = {
+		remove_global_flag = enabled_early_dismantle_cb
+        }
+
+        ai_will_do = { factor = 0 }
+    }	
+
+    enable_target_coring = {
+        picture = rule_book
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = permanently_hide_options }
+            NOT = { has_global_flag = enabled_target_coring }
+        }
+
+        allow = {
+        }
+
+        effect = {
+		set_global_flag = enabled_target_coring
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+	disable_target_coring = {
+        picture = rule_book
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = permanently_hide_options }
+            has_global_flag = enabled_target_coring 
+        }
+
+        allow = {
+        }
+
+        effect = {
+		remove_global_flag = enabled_target_coring
+        }
+
+        ai_will_do = { factor = 0 }
+    }	
+	
+	
+}

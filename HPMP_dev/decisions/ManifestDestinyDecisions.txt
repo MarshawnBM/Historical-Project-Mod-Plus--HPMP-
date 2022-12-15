@@ -1,0 +1,1090 @@
+political_decisions = {
+
+	organize_alaska_territory = {
+		picture = map_alaska
+		potential = {
+			OR = {
+				tag = USA
+				tag = CAN
+				tag = ENG
+				tag = FSA
+				tag = CSA
+				tag = AST
+				tag = NZL
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+			}
+			NOT = { has_global_flag = organized_alaska }
+			USA_1 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			USA_1 = { owned_by = THIS }
+		}
+		effect = {
+			set_global_flag = organized_alaska
+			1 = {
+				change_province_name = "Juneau"
+				
+			}
+			2 = {
+				change_province_name = "Skagway"
+				
+			}
+			3 = {
+				change_province_name = "Anchorage"
+				
+			}
+			4 = {
+				change_province_name = "Dutch Harbor"
+				
+			}
+			5 = {
+				change_province_name = "Bethel"
+				
+				state_scope = {
+					change_region_name = "Alaska"
+				}
+			}
+		}
+	}
+
+	organize_washington_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CAN
+				tag = ENG
+				tag = AST
+				tag = NZL
+				tag = CSA
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+			}
+			NOT = { has_global_flag = organized_washington }
+			78 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				78 = { owned_by = THIS }
+				79 = { owned_by = THIS }
+				80 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_washington
+			80 = {
+				change_province_name = "Olympia"
+				
+			}
+		}
+	}
+
+	organize_california_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CAN
+				tag = ENG
+				tag = CSA
+				tag = TEX
+				tag = AST
+				tag = NZL
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_california }
+			84 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				84 = { owned_by = THIS }
+				85 = { owned_by = THIS }
+				86 = { owned_by = THIS }
+				87 = { owned_by = THIS }
+				88 = { owned_by = THIS }
+				89 = { owned_by = THIS }
+				90 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_california
+			country_event = 32566
+		}
+	}
+
+	organize_new_mexico_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = AST
+				tag = NZL
+				tag = CAN
+				tag = ENG
+				tag = CSA
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_new_mexico }
+			103 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				103 = { owned_by = THIS }
+				104 = { owned_by = THIS }
+				105 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_new_mexico
+			country_event = 32567
+		}
+	}
+
+	organize_nevada_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CAN
+				tag = ENG
+				tag = CSA
+				tag = TEX
+				tag = CAL
+				tag = AST
+				tag = NZL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_nevada }
+			94 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				94 = { owned_by = THIS }
+				95 = { owned_by = THIS }
+				96 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_nevada
+			country_event = 32568
+		}
+	}
+
+	organize_utah_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CAN
+				tag = ENG
+				tag = CSA
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+				tag = AST
+				tag = NZL
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_utah }
+			MEX_97 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				97 = { owned_by = THIS }
+				98 = { owned_by = THIS }
+				99 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_utah
+			98 = {
+				
+				change_province_name = "Cedar City"
+			}
+		}
+	}
+
+	organize_colorado_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CAN
+				tag = ENG
+				tag = CSA
+				tag = AST
+				tag = NZL
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_colorado }
+			106 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				106 = { owned_by = THIS }
+				107 = { owned_by = THIS }
+				108 = { owned_by = THIS }
+				109 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_colorado
+			country_event = 32569
+		}
+	}
+
+	organize_texas_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CAN
+				tag = ENG
+				tag = CSA
+				tag = TEX
+				tag = CAL
+				tag = AST
+				tag = NZL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_texas }
+			132 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				132 = { owned_by = THIS }
+				133 = { owned_by = THIS }
+				134 = { owned_by = THIS }
+				135 = { owned_by = THIS }
+				136 = { owned_by = THIS }
+				137 = { owned_by = THIS }
+				138 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_texas
+			country_event = 32570
+		}
+	}
+
+	organize_puerto_rico_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = AST
+				tag = NZL
+				tag = CAN
+				tag = ENG
+				tag = CSA
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_puerto_rico }
+			2222 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			2222 = { owned_by = THIS }
+		}
+		effect = {
+			set_global_flag = organized_puerto_rico
+			country_event = 32571
+		}
+	}
+
+	organize_trinidad_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CSA
+				tag = TEX
+				tag = AST
+				tag = NZL
+				tag = CAN
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_trinidad }
+			2237 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			2237 = { owned_by = THIS }
+		}
+		effect = {
+			set_global_flag = organized_trinidad
+			country_event = 32572
+		}
+	}
+
+	organize_hispanola_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CSA
+				tag = CAN
+				tag = ENG
+				tag = TEX
+				tag = CAL
+				tag = AST
+				tag = NZL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_hispanola }
+			2213 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2213 = { owned_by = THIS }
+				2214 = { owned_by = THIS }
+				2215 = { owned_by = THIS }
+				2216 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_hispanola
+			country_event = 32573
+		}
+	}
+
+	organize_cuba_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CSA
+				tag = TEX
+				tag = CAN
+				tag = ENG
+				tag = AST
+				tag = NZL
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_cuba }
+			2209 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2209 = { owned_by = THIS }
+				2210 = { owned_by = THIS }
+				2211 = { owned_by = THIS }
+				2212 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_cuba
+			country_event = 32574
+		}
+	}
+
+	organize_sonora_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = CAN
+				tag = ENG
+				tag = FSA
+				tag = CSA
+				tag = TEX
+				tag = CAL
+				tag = AST
+				tag = NZL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_south_california }
+			MEX_2138 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2137 = { owned_by = THIS }
+				2138 = { owned_by = THIS }
+				2139 = { owned_by = THIS }
+				2140 = { owned_by = THIS }
+				2141 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_south_california
+			country_event = 32575
+		}
+	}
+
+	organize_chihuahua_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CAN
+				tag = ENG
+				tag = AST
+				tag = NZL
+				tag = CSA
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_west_texas }
+			MEX_2142 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2142 = { owned_by = THIS }
+				2143 = { owned_by = THIS }
+				2144 = { owned_by = THIS }
+				2145 = { owned_by = THIS }
+				2147 = { owned_by = THIS }
+				2152 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_west_texas
+			country_event = 32576
+		}
+	}
+
+	organize_nuevo_leon_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = AST
+				tag = NZL
+				tag = CSA
+				tag = CAN
+				tag = ENG
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_lyon }
+			MEX_2146 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2146 = { owned_by = THIS }
+				2148 = { owned_by = THIS }
+				2149 = { owned_by = THIS }
+				2150 = { owned_by = THIS }
+				2155 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_lyon
+			country_event = 32577
+		}
+	}
+
+	organize_durango_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CSA
+				tag = TEX
+				tag = CAL
+				tag = CAN
+				tag = ENG
+				tag = AST
+				tag = NZL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_new_catalonia }
+			MEX_2151 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2151 = { owned_by = THIS }
+				2153 = { owned_by = THIS }
+				2154 = { owned_by = THIS }
+				2156 = { owned_by = THIS }
+				2157 = { owned_by = THIS }
+				2161 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_new_catalonia
+			country_event = 32578
+		}
+	}
+
+	organize_zacatecas_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = AST
+				tag = NZL
+				tag = CAN
+				tag = ENG
+				tag = FSA
+				tag = CSA
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_azteca }
+			2173 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2158 = { owned_by = THIS }
+				2159 = { owned_by = THIS }
+				2167 = { owned_by = THIS }
+				2173 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_azteca
+			country_event = 32579
+		}
+	}
+
+	organize_jalisco_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CSA
+				tag = CAN
+				tag = ENG
+				tag = TEX
+				tag = AST
+				tag = NZL
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_new_valencia }
+			2161 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2160 = { owned_by = THIS }
+				2166 = { owned_by = THIS }
+				2168 = { owned_by = THIS }
+				2169 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_new_valencia
+			country_event = 32580
+		}
+	}
+
+	organize_morelia_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CSA
+				tag = CAN
+				tag = ENG
+				tag = AST
+				tag = NZL
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_hamilton }
+			2170 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2170 = { owned_by = THIS }
+				2171 = { owned_by = THIS }
+				2174 = { owned_by = THIS }
+				2178 = { owned_by = THIS }
+				2179 = { owned_by = THIS }
+				2180 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_hamilton
+			country_event = 32581
+		}
+	}
+
+	organize_chiapas_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CSA
+				tag = TEX
+				tag = AST
+				tag = NZL
+				tag = CAL
+				tag = CAN
+				tag = ENG
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_chiapas }
+			2181 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2181 = { owned_by = THIS }
+				2182 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_chiapas
+			country_event = 32582
+		}
+	}
+
+	organize_yucatan_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = AST
+				tag = NZL
+				tag = CSA
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = CAN
+				tag = ENG
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_yucatan }
+			MEX_2183 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2183 = { owned_by = THIS }
+				2185 = { owned_by = THIS }
+				2184 = { owned_by = THIS }
+				2165 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_yucatan
+			country_event = 32583
+		}
+	}
+
+	organize_mexico_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CAN
+				tag = ENG
+				tag = AST
+				tag = NZL
+				tag = CSA
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_mexico }
+			MEX_2162 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2172 = { owned_by = THIS }
+				2162 = { owned_by = THIS }
+				2164 = { owned_by = THIS }
+				2175 = { owned_by = THIS }
+				2176 = { owned_by = THIS }
+				2177 = { owned_by = THIS }
+				2163 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_mexico
+			country_event = 32584
+		}
+	}
+
+	organize_guatemala_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = AST
+				tag = NZL
+				tag = CAN
+				tag = ENG
+				tag = CSA
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_guatemala }
+			UCA_2186 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2186 = { owned_by = THIS }
+				2187 = { owned_by = THIS }
+				2188 = { owned_by = THIS }
+				2189 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_guatemala
+			country_event = 32585
+		}
+	}
+
+	organize_el_salvador_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CSA
+				tag = CAN
+				tag = AST
+				tag = NZL
+				tag = ENG
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_el_salvador }
+			UCA_2191 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2191 = { owned_by = THIS }
+				2192 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_el_salvador
+			country_event = 32586
+		}
+	}
+
+	organize_honduras_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CSA
+				tag = AST
+				tag = NZL
+				tag = TEX
+				tag = CAL
+				tag = CAN
+				tag = ENG
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_honduras }
+			UCA_2193 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2193 = { owned_by = THIS }
+				2194 = { owned_by = THIS }
+				2195 = { owned_by = THIS }
+				2196 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_honduras
+			country_event = 32587
+		}
+	}
+
+	organize_nicaragua_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CSA
+				tag = CAN
+				tag = AST
+				tag = NZL
+				tag = ENG
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_nicaragua }
+			UCA_2197 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2197 = { owned_by = THIS }
+				2198 = { owned_by = THIS }
+				2199 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_nicaragua
+			country_event = 32588
+		}
+	}
+
+	organize_costa_rica_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = CSA
+				tag = AST
+				tag = NZL
+				tag = CAN
+				tag = ENG
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_costa_rica }
+			UCA_2201 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				2201 = { owned_by = THIS }
+				2202 = { owned_by = THIS }
+				2203 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_costa_rica
+			country_event = 32589
+		}
+	}
+
+	organize_panama_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = AST
+				tag = NZL
+				tag = CSA
+				tag = TEX
+				tag = CAN
+				tag = ENG
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_panama }
+			CLM_1723 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			AND = {
+				1723 = { owned_by = THIS }
+				2204 = { owned_by = THIS }
+				2205 = { owned_by = THIS }
+				2206 = { owned_by = THIS }
+				2208 = { owned_by = THIS }
+			}
+		}
+		effect = {
+			set_global_flag = organized_panama
+			country_event = 32590
+		}
+	}
+
+	organize_hawaii_territory = {
+		picture = manifest_destiny
+		potential = {
+			OR = {
+				tag = USA
+				tag = FSA
+				tag = AST
+				tag = NZL
+				tag = CAN
+				tag = ENG
+				tag = CSA
+				tag = TEX
+				tag = CAL
+				tag = NEN
+				tag = DES
+				 
+				 
+				 
+			}
+			NOT = { has_global_flag = organized_hawaii }
+			658 = { owned_by = THIS }
+		}
+		allow = {
+			war = no
+			658 = { owned_by = THIS }
+		}
+		effect = {
+			set_global_flag = organized_hawaii
+			658 = {
+				
+				change_province_name = "Honolulu"
+				state_scope = {
+					change_region_name = "Hawaii"
+				}
+			}
+		}
+	}
+}

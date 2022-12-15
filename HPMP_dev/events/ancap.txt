@@ -1,0 +1,254 @@
+country_event = {
+	id = 148814
+	title = "EVTNAME148814"
+	desc = "EVTDESC148814"
+	picture = "switch_to_liberty"
+	
+	trigger = {
+		has_country_flag = ancap
+		NOT = { government = bourgeois_dictatorship }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA148814"
+		remove_country_modifier = ancap_stable
+		remove_country_modifier = cult_of_capital
+		clr_country_flag = ancap
+				scaled_consciousness = {
+					factor = 9
+					ideology = anarcho_liberal
+				}
+				scaled_militancy = {
+					factor = 9
+					ideology = anarcho_liberal
+				}
+			}
+		}
+
+country_event = {
+    id = 1133229
+	title = "Bourgeois Dictatorship"
+	desc = "The lack of a standard bureaucracy has lead to some problems, and it appears that the ruling party was officially not anarcho-liberal for quite some time. The council, however, has already dealt with this issue."
+	picture = "switch_to_liberty"
+	
+	trigger = {
+		    government = bourgeois_dictatorship
+			is_ideology_enabled = anarcho_liberal 
+			NOT = {
+			ruling_party_ideology = anarcho_liberal
+			}
+		}
+	mean_time_to_happen = {
+		days = 120
+	}
+	option = {
+	    name = "Good."
+		ruling_party_ideology = anarcho_liberal
+	}
+}
+country_event = {
+    id = 1133227
+	title = "Fascist Dictatorship"
+	desc = "We are fascists. It's only right that the fascist party should be in charge."
+	picture = "switch_to_liberty"
+	
+	trigger = {
+		    government = fascist_dictatorship
+			is_ideology_enabled = fascist
+			NOT = {
+			ruling_party_ideology = fascist
+			}
+		}
+	mean_time_to_happen = {
+		days = 120
+	}
+	option = {
+	    name = "Makes sense."
+		ruling_party_ideology = fascist
+	}
+}
+country_event = {
+    id = 1133226
+	title = "Proletarian Dictatorship"
+	desc = "We are communists. It is only right that the ruling party is also communist."
+	picture = "switch_to_liberty"
+	
+	trigger = {
+		    government = proletarian_dictatorship
+			is_ideology_enabled = communist
+			NOT = {
+			ruling_party_ideology = communist
+			}
+		}
+	mean_time_to_happen = {
+		days = 120
+	}
+	option = {
+	    name = "Makes sense."
+		ruling_party_ideology = communist
+	}
+}
+country_event = {
+	id = 11229988
+	title = "EVTNAME11229988"
+	desc = "EVTDESC11229988"
+	picture = "Fascist"
+	
+	trigger = {
+		ruling_party_ideology = anarcho_liberal
+		upper_house = {
+			ideology = anarcho_liberal
+			value = 0.2
+		}
+		OR = {
+			government = hms_government
+			government = democracy
+			government = presidential_dictatorship
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+		 modifier = {
+            factor = 0.8
+            anarcho_liberal = 20
+        }
+		modifier = {
+            factor = 0.8
+			upper_house = {
+			ideology = anarcho_liberal
+			value = 0.3
+			}
+		}
+        modifier = {
+            factor = 0.5
+            anarcho_liberal = 30
+        }
+        modifier = {
+            factor = 0.3
+            anarcho_liberal = 40
+        }
+		modifier = {
+            factor = 0.6
+            upper_house = {
+			ideology = anarcho_liberal
+			value = 0.4
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTA11229988"
+		government = bourgeois_dictatorship
+		prestige_factor = -0.1
+		any_pop = {
+			militancy = 2
+			consciousness = 2
+		}
+		ruling_party_ideology = anarcho_liberal
+		political_reform = universal_voting
+		political_reform = party_appointed
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = no_trade_unions
+		political_reform = underground_parties
+        political_reform = debtors_prisons
+		political_reform = yes_slavery
+		social_reform = no_minimum_wage
+		social_reform = no_work_hour_limit
+		social_reform = no_safety
+		social_reform = no_subsidies
+		social_reform = no_pensions
+		social_reform = child_labor_legal
+		social_reform = no_schools
+		upper_house = {
+			ideology = anarcho_liberal
+			value = 1
+		}
+		any_pop = {
+			scaled_militancy = {
+					ideology = socialist
+					factor = 5
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+					ideology = communist
+					factor = 9
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+					ideology = liberal
+					factor = -3
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+					ideology = fascist
+					factor = 5
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+					ideology = anarcho_liberal
+					factor = -9
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+					ideology = reactionary
+					factor = 3
+			}
+		}			
+	}
+	
+	option = {
+		name = "Put them down!"
+		prestige = -10
+		consciousness = 1
+		upper_house = {
+			ideology = anarcho_liberal
+			value = -1
+		}
+		any_pop = {
+			scaled_militancy = {
+					ideology = anarcho_liberal
+					factor = 9
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+					ideology = conservative
+					factor = 1
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+					ideology = reactionary
+					factor = -2
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+					ideology = socialist
+					factor = -5
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+					ideology = communist
+					factor = -9
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+					ideology = liberal
+					factor = 3
+			}
+		}			
+	}
+}

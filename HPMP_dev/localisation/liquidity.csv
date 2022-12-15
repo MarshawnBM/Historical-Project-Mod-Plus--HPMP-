@@ -1,0 +1,12 @@
+Key;English;French;German;Polish;Spanish;Italian;Swedish;Czech;Hungarian;Dutch;Portuguese;Russian;Finnish;
+tax_refund_no_title;Disable Tax Refunds;;;;;;;;;;;;;;;;;;;;;;;;;;
+tax_refund_no_desc;Click this if you don't want to give back money over 15,000,000 to your pops to help their liquidity.;;;;;;;;;;;;;;;;;;;;;;;;;;
+tax_refund_yes_title;Enable Tax Refunds;;;;;;;;;;;;;;;;;;;;;;;;;;
+tax_refund_yes_desc;Click this if you want to give back money over 15,000,000 to your pops to help their liquidity.;;;;;;;;;;;;;;;;;;;;;;;;;;
+money_hoarder_1;Money Hoarder (1 million);;;;;;;;;;;;x,,
+money_hoarder_2;Money Hoarder (2 million);;;;;;;;;;;;x,,
+money_hoarder_3;Money Hoarder (5 million);;;;;;;;;;;;x,,
+money_hoarder_4;Money Hoarder (10 million);;;;;;;;;;;;x,,
+money_hoarder_5;Money Hoarder (15 million);;;;;;;;;;;;x,,
+TRIGMOD_HEADER;The $MONARCHTITLE$ reports that;;;;;;;;;;;;;;;;;;;;;;;;;;;
+TRIGMODLOST_HEADER;The $MONARCHTITLE$ reports that;;;;;;;;;;;;;;;;;;;;;;;;;;;

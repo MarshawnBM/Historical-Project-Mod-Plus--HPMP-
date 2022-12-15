@@ -1,0 +1,119 @@
+political_decisions = {
+    unite_the_kingdoms = {
+        picture = reino_unido
+        potential = {
+            OR = { 
+                primary_culture = portuguese
+                primary_culture = brazilian
+            }
+            NOT = { has_global_flag = Union_of_PTBR}
+        }
+
+        allow = {
+            war = no
+            OR = {
+                is_greater_power = yes
+                is_secondary_power = yes
+            }
+            OR = {
+                BRZ = {
+                    OR = {
+                        substate_of  = THIS
+                        vassal_of = THIS
+                    }
+                }
+                POR = {
+                    OR = {
+                        substate_of = THIS
+                        vassal_of = THIS
+                    }
+                }
+            }
+            AND = {
+                BRZ = {
+                    OR = {
+							government = absolute_monarchy
+							government = prussian_constitutionalism
+							government = hms_government
+                    }
+                }
+                POR = {
+                    OR = {
+							government = absolute_monarchy
+							government = prussian_constitutionalism
+							government = hms_government
+                    }
+                }
+            }
+        }
+
+        effect = {
+            prestige = 10
+            badboy = 5
+
+            any_country = {
+                limit = {
+                    tag = BRZ
+					NOT = { tag = THIS }
+                }
+                annex_to = THIS
+            }
+			any_country = {
+				limit = {
+					tag = POR
+					NOT = { tag = THIS }
+				}
+				annex_to = THIS
+			}
+
+            POR = { all_core = { add_core = UPB } }
+            BRZ = { all_core = { add_core = UPB } }
+
+            random_owned = {
+				limit = {
+					owner = { tag = IBR primary_culture = portuguese }
+				}
+				owner = { all_core = { add_core = UPB } }
+			}
+
+            change_tag = UPB
+			
+			random_owned = {
+				limit = {
+					owner = { NOT = { OR = { primary_culture = brazilian accepted_culture = brazilian } } }
+				}
+				owner = { add_accepted_culture = brazilian }
+			}
+
+            set_global_flag = Union_of_PTBR
+
+            country_event = {
+                id = 718171
+                days = 10
+            }
+        }
+    }
+    accept_afro_brazilians = {
+        picture = golden_law
+        potential = {
+            OR = { tag = BRZ tag = UPB }
+			NOT = { accepted_culture = afro_brazilian }
+            slavery = no_slavery 
+        }
+
+        allow = {
+            invention = national_fraternity
+            realism = 1
+            OR = {
+                upper_house = { ideology = liberal value = 0.40 }
+                upper_house = { ideology = socialist value = 0.40 }
+            }
+        }
+
+        effect = {
+            badboy = -1
+            add_accepted_culture = afro_brazilian
+            any_pop = { limit = { has_pop_culture = afro_brazilian } consciousness = -5 militancy = -6 }
+        }
+    }
+}

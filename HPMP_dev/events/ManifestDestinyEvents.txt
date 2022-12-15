@@ -1,0 +1,1157 @@
+# Americans Rename The West - California
+country_event = {
+	
+	id = 32566
+	title = "California Dreamin'" #Renaming California
+	desc = "EVTDESC32566"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		84 = {
+			change_province_name = "Lutherville"
+			
+		}
+		86 = {
+			change_province_name = "Citrus Heights"
+			
+		}
+		87 = {
+			change_province_name = "Pacific Grove"
+			
+		}
+		88 = {
+			change_province_name = "Lost Hills"
+			
+		}
+		89 = {
+			change_province_name = "Grover City"
+			
+		}
+		90 = {
+			change_province_name = "Otisburg"
+			
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		relation = { who = MEX value = 5 }
+		ai_chance = {
+			factor = 90
+		}
+	}
+}
+
+# Americans Rename The West - New Mexico
+country_event = {
+	
+	id = 32567
+	title = "EVTNAME32567" #Renaming New Mexico
+	desc = "EVTDESC32567"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		103 = {
+			change_province_name = "Silver City"
+			
+		}
+		104 = {
+			change_province_name = "Sandia"
+			
+		}
+		105 = {
+			change_province_name = "Crossfield"
+			
+			state_scope = {
+				change_region_name = "Anasazia"
+			}
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+
+	option = {
+		name = "Rename the land, and integrate it into the Arizona territory."
+		103 = {
+			change_province_name = "Silver City"
+			
+		}
+		104 = {
+			change_province_name = "Sandia"
+			
+		}
+		105 = {
+			change_province_name = "Crossfield"
+			
+			state_scope = {
+				change_region_name = "East Arizona"
+			}
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+
+	option = {
+		name = "Rename the lands, but not the territory itself."
+		103 = {
+			change_province_name = "Silver City"
+			
+		}
+		104 = {
+			change_province_name = "Sandia"
+			
+		}
+		105 = {
+			change_province_name = "Crossfield"
+			
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		relation = { who = MEX value = 5 }
+		ai_chance = {
+			factor = 85
+		}
+	}
+}
+
+# Americans Rename The West - Nevada
+country_event = {
+	
+	id = 32568
+	title = "EVTNAME32568" #Renaming Nevada
+	desc = "EVTDESC32568"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		96 = {
+			change_province_name = "New Vegas"
+			
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+
+	option = {
+		name = "Just remove Las and leave it at that."
+		96 = {
+			change_province_name = "Vegas"
+			
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		relation = { who = MEX value = 5 }
+		ai_chance = {
+			factor = 90
+		}
+	}
+}
+
+# Americans Rename The West - Colorado
+country_event = {
+	
+	id = 32569
+	title = "EVTNAME32569" #Renaming Colorado
+	desc = "EVTDESC32569"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		108 = {
+			change_province_name = "Telluride"
+			
+		}
+		109 = {
+			change_province_name = "Colorado Springs"
+			
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		relation = { who = MEX value = 5 }
+		ai_chance = {
+			factor = 90
+		}
+	}
+}
+
+# Americans Rename The West - Texas
+country_event = {
+	
+	id = 32570
+	title = "EVTNAME32570" #Renaming Texas
+	desc = "EVTDESC32570"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		136 = {
+			change_province_name = "Odessa"
+			
+		}
+		137 = {
+			change_province_name = "Lytle"
+			
+		}
+		138 = {
+			change_province_name = "Kingsville"
+			
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		relation = { who = MEX value = 5 }
+		ai_chance = {
+			factor = 90
+		}
+	}
+}
+
+# Americans Rename The Caribbean - Puerto Rico
+country_event = {
+	
+	id = 32571
+	title = "EVTNAME32571" #Renaming Puerto Rico
+	desc = "EVTDESC32571"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the island to Saint John!"
+		2222 = {
+			change_province_name = "Saint John"
+			
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+
+	option = {
+		name = "Rename the island to Saint Richard, Saint John is taken."
+		2222 = {
+			change_province_name = "Saint Richard"
+			
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+
+	option = {
+		name = "Fix the mistake, but leave it in Spanish."
+		2222 = {
+			change_province_name = "San Juan"
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		relation = { who = SPA value = 5 }
+		ai_chance = {
+			factor = 85
+		}
+	}
+}
+
+# Americans Rename The Caribbean - Trinidad
+country_event = {
+	
+	id = 32572
+	title = "EVTNAME32572" #Renaming Trinidad
+	desc = "EVTDESC32572"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the island!"
+		2237 = {
+			change_province_name = "Trinity"
+			
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		relation = { who = ENG value = 5 }
+		ai_chance = {
+			factor = 90
+		}
+	}
+}
+
+# Americans Rename The Caribbean - Hispanola
+country_event = {
+	
+	id = 32573
+	title = "EVTNAME32573" #Renaming Hispanola
+	desc = "EVTDESC32573"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		2213 = {
+			change_province_name = "Princeport"
+			
+		}
+		2214 = {
+			change_province_name = "Point Denis"
+			
+		}
+		2215 = {
+			change_province_name = "Cape Dominic"
+			
+		}
+		2216 = {
+			change_province_name = "Great Valley"
+			
+			state_scope = {
+				change_region_name = "Saint Dominic"
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		relation = { who = SPA value = 5 }
+		ai_chance = {
+			factor = 90
+		}
+	}
+}
+
+# Americans Rename The Caribbean - Cuba
+country_event = {
+	
+	id = 32574
+	title = "EVTNAME32574" #Renaming Cuba
+	desc = "EVTDESC32574"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		2210 = {
+			change_province_name = "Bay of Pigs"
+			
+		}
+		2211 = {
+			change_province_name = "Kennedy"
+			
+		}
+		2212 = {
+			change_province_name = "Jacobstown"
+			
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		relation = { who = SPA value = 5 }
+		ai_chance = {
+			factor = 90
+		}
+	}
+}
+
+# Americans Rename Mexico - Sonora
+country_event = {
+	
+	id = 32575
+	title = "EVTNAME32575" #Renaming Sonora
+	desc = "EVTDESC32575"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		2137 = {
+			change_province_name = "Reeve Bay"
+			
+		}
+		2138 = {
+			change_province_name = "Cape"
+			
+		}
+		2139 = {
+			change_province_name = "Rosebud"
+			
+		}
+		2140 = {
+			change_province_name = "Trecsun"
+			
+		}
+		2141 = {
+			change_province_name = "Saint Luke"
+			
+			state_scope = {
+				change_region_name = "South California"
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		relation = { who = MEX value = 5 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Americans Rename Mexico - Chihuahua
+country_event = {
+	
+	id = 32576
+	title = "EVTNAME32576" #Renaming Chihuahua
+	desc = "EVTDESC32576"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Such is the burden of our people. Rename the lands and get to work."
+		2142 = {
+			change_province_name = "Elysian Fields"
+			
+		}
+		2143 = {
+			change_province_name = "Northern Passage"
+			
+		}
+		2144 = {
+			change_province_name = "Mary"
+			
+		}
+		2145 = {
+			change_province_name = "Peril"
+			
+		}
+		2147 = {
+			change_province_name = "Grand River"
+			
+		}
+		2152 = {
+			change_province_name = "Monclover"
+			
+			state_scope = {
+				change_region_name = "West Texas"
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "Do not rename the lands, let it serve as a lesson in history."
+		prestige = 1
+		relation = { who = MEX value = 5 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Americans Rename Mexico - Nuevo Leon
+country_event = {
+	
+	id = 32577
+	title = "EVTNAME32577" #Renaming Nuevo Leon
+	desc = "EVTDESC32577"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		2146 = {
+			change_province_name = "King's Hill"
+			
+		}
+		2148 = {
+			change_province_name = "Rayton"
+			
+		}
+		2149 = {
+			change_province_name = "Moresby"
+			
+		}
+		2150 = {
+			change_province_name = "Victoria"
+			
+		}
+		2151 = {
+			change_province_name = "Saltfield"
+			
+			state_scope = {
+				change_region_name = "New Lyon"
+			}
+		}
+		2155 = {
+			change_province_name = "Tory"
+			
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		relation = { who = MEX value = 5 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Americans Rename Mexico - Durango
+country_event = {
+	
+	id = 32578
+	title = "EVTNAME32578" #Renaming Durango
+	desc = "EVTDESC32578"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		2153 = {
+			change_province_name = "Dupont"
+			
+		}
+		2154 = {
+			change_province_name = "Golden Heights"
+			
+		}
+		2156 = {
+			change_province_name = "Mazdin"
+			
+		}
+		2161 = {
+			change_province_name = "Hardstone" #Original name
+			
+		}
+		2157 = {
+			change_province_name = "Valiant Coast"
+			
+			state_scope = {
+				change_region_name = "New Catalonia"
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "You can read a map in any language."
+		prestige = 1
+		relation = { who = MEX value = 5 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Americans Rename Mexico - Zacatecas (Collaboration with schaffer12345678)
+country_event = {
+	
+	id = 32579
+	title = "EVTNAME32579" #Renaming Zacatecas
+	desc = "EVTDESC32579"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		2158 = {
+			change_province_name = "Grassland City"
+			
+		}
+		2159 = {
+			change_province_name = "Garden City" #nickname of city
+			
+		}
+		2167 = {
+			change_province_name = "Frog Hills"
+			
+		}
+		2173 = {
+			change_province_name = "Boulder Hills"
+			
+			state_scope = {
+				change_region_name = "Azteca"
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "Just follow the glint of silver and you will not lose your way."
+		prestige = 1
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Americans Rename Mexico - Jalisco (Collaboration with schaffer12345678)
+country_event = {
+	
+	id = 32580
+	title = "EVTNAME32580" #Renaming Jalisco
+	desc = "EVTDESC32580"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Fascinating. Rename the lands!"
+		2160 = {
+			change_province_name = "Hotwaters"
+			
+		}
+		2166 = {
+			change_province_name = "Fortress Valley" #Original name
+			
+		}
+		2168 = {
+			change_province_name = "Flag Port" #Original name given by Cortes
+			
+		}
+		2169 = {
+			change_province_name = "White Village" #Current nickname
+			
+			state_scope = {
+				change_region_name = "New Valencia" 
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "To erase this culture would be an insult."
+		prestige = 1
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Americans Rename Mexico - Morelia (Collaboration with schaffer12345678)
+country_event = {
+	
+	id = 32581
+	title = "EVTNAME32581" #Renaming Morelia
+	desc = "EVTDESC32581"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		2170 = {
+			change_province_name = "Pinkstone" #Named after the pink stone found there
+			
+		}
+		2171 = {
+			change_province_name = "Palm City"
+			
+		}
+		2174 = {
+			change_province_name = "Cornland"
+			
+		}
+		2178 = {
+			change_province_name = "Angel Port" #Only city that actually exists in real life
+			
+		}
+		2179 = {
+			change_province_name = "Diamond Coast"
+			
+		}
+		2180 = {
+			change_province_name = "Wasp City"
+			
+			state_scope = {
+				change_region_name = "Hamilton" #Since Guerrero is named after a figure in Mexican independence
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Americans Rename Mexico - Chiapas (Collaboration with schaffer12345678)
+country_event = {
+	
+	id = 32582
+	title = "EVTNAME32582" #Renaming Chiapas
+	desc = "EVTDESC32582"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		2181 = {
+			change_province_name = "Rabbitland"
+			
+		}
+		2182 = {
+			change_province_name = "Floodwaters"
+			
+			state_scope = {
+				change_region_name = "Woodland"
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Americans Rename Mexico - Yucatan
+country_event = {
+	
+	id = 32583
+	title = "EVTNAME32583" #Renaming Yucatan
+	desc = "EVTDESC32583"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		2183 = {
+			change_province_name = "Port Kidd"
+			
+		}
+		2185 = {
+			change_province_name = "Tulum"
+			
+		}
+		2184 = {
+			change_province_name = "Ade's Landing"
+			
+		}
+		2165 = {
+			change_province_name = "Kenway Valley"
+			
+			state_scope = {
+				change_region_name = "Maya"
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		relation = { who = MEX value = 5 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Americans Rename Mexico - Mexico
+country_event = {
+	
+	id = 32584
+	title = "EVTNAME32584" #Renaming Mexico
+	desc = "EVTDESC32584"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		2162 = {
+			change_province_name = "Saint Anne"
+			
+		}
+		2164 = {
+			change_province_name = "Monroeville"
+			
+		}
+		2175 = {
+			change_province_name = "Archer"
+			
+		}
+		2176 = {
+			change_province_name = "Mexicantown"
+			
+		}
+		2163 = {
+			change_province_name = "Otterville"
+			
+		}
+		2177 = {
+			change_province_name = "Oakville"
+			
+			state_scope = {
+				change_region_name = "Mexico"
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		relation = { who = MEX value = 5 }
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Americans Rename Central America - Guatemala
+country_event = {
+	
+	id = 32585
+	title = "EVTNAME32585" #Renaming Guatemala
+	desc = "EVTDESC32585"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		2186 = {
+			change_province_name = "Guatemala City"
+			
+		}
+		2187 = {
+			change_province_name = "Saint Mark"
+			
+		}
+		2188 = {
+			change_province_name = "Port Amatique"
+			
+		}
+		2189 = {
+			change_province_name = "Seibal"
+			
+		}
+		2190 = {
+			state_scope = {
+				change_region_name = "New Markland"
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Americans Rename Central America - El Salvador
+country_event = {
+	
+	id = 32586
+	title = "EVTNAME32586" #Renaming El Salvador
+	desc = "EVTDESC32586"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		2191 = {
+			change_province_name = "Saint Isabelle"
+			
+		}
+		2192 = {
+			change_province_name = "Saint Michael"
+			
+			state_scope = {
+				change_region_name = "Petoria" #Named after Pedro de Alvarado
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Americans Rename Central America - Honduras
+country_event = {
+	
+	id = 32587
+	title = "EVTNAME32587" #Renaming Honduras
+	desc = "EVTDESC32587"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		2193 = {
+			change_province_name = "Silver Hills"
+			
+		}
+		2194 = {
+			change_province_name = "Port Cortes"
+			
+		}
+		2195 = {
+			change_province_name = "Ceibafields"
+			
+		}
+		2196 = {
+			change_province_name = "Port Lempira" #Natives who revolted against Spanish, USA sympathy story
+			
+			state_scope = {
+				change_region_name = "Cavendishland"
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Americans Rename Central America - Nicaragua
+country_event = {
+	
+	id = 32588
+	title = "EVTNAME32588" #Renaming Nicaragua
+	desc = "EVTDESC32588"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		2197 = {
+			change_province_name = "Nearwater"
+			
+		}
+		2198 = {
+			change_province_name = "New Granada"
+			
+			state_scope = {
+				change_region_name = "New Gildenshire"
+			}
+		}
+		2199 = {
+			change_province_name = "Lion City"
+			
+		}
+		ai_chance = {
+			factor = 75
+		}
+		}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Americans Rename Central America - Costa Rica
+country_event = {
+	
+	id = 32589
+	title = "EVTNAME32589" #Renaming Costa Rica
+	desc = "EVTDESC32589"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		2201 = {
+			change_province_name = "New Carthage" #Nearby City called Cartago
+			
+		}
+		2203 = {
+			change_province_name = "Lemonfields"
+			
+			state_scope = {
+				change_region_name = "New Friesland"
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Americans Rename Central America - Panama
+country_event = {
+	
+	id = 32590
+	title = "EVTNAME32590" #Renaming Panama
+	desc = "EVTDESC32590"
+	picture = yankee
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Rename the lands!"
+		1723 = {
+			change_province_name = "Balboa" #Founded by Americans!
+			
+		}
+		2205 = {
+			change_province_name = "David City"
+			
+		}
+		2206 = {
+			change_province_name = "Nometown" #Named after native who resisted Spanish, American sympathy story
+			
+		}
+		2208 = {
+			change_province_name = "Darien"
+			
+			state_scope = {
+				change_region_name = "New Caledonia"
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		name = "Don't, let it serve as a lesson of our history."
+		prestige = 1
+		ai_chance = {
+			factor = 25
+		}
+	}
+}

@@ -1,0 +1,399 @@
+country_event = {
+    id = 718171
+    title = "Capital Situation"
+    desc = "Where should the capital be moved to?"
+    picture = "administration"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "Keep it in Lisbon, the Metropolis of the old nation of Portugal!"
+        capital = 521
+        prestige = 15
+        random_owned = {
+			limit = {
+				owner = { primary_culture = brazilian }
+			}
+			owner = { primary_culture = portuguese }
+		}
+		random_owned = {
+			limit = {
+				owner = { NOT = { accepted_culture = brazilian } }
+			}
+			owner = { add_accepted_culture = brazilian }
+		}
+        clr_country_flag = new_world_nation
+        any_pop = {
+            limit = {
+                has_pop_culture = portuguese
+            }
+            militancy = -5
+        }
+        any_pop = {
+            limit = {
+                has_pop_culture = brazilian
+            }
+            militancy = 5
+        }
+       ai_chance = { factor = 50 }
+    }
+    option = {
+        name = "Move it to the great Rio de Janeiro, the future is in the New World!"
+        capital = 2447
+        any_pop = {
+            limit = {
+                has_pop_culture = portuguese
+            }
+            militancy = 5
+        }
+        any_pop = {
+            limit = {
+                has_pop_culture = brazilian
+            }
+            militancy = -5
+        }
+        set_country_flag = new_world_nation
+        add_country_modifier = { name = small_immigration_boom duration = -1 }
+        prestige = 5
+        random_owned = {
+			limit = {
+				owner = { primary_culture = portuguese }
+			}
+			owner = { primary_culture = brazilian }
+		}
+		random_owned = {
+			limit = {
+				owner = { NOT = { accepted_culture = portuguese } }
+			}
+			owner = { add_accepted_culture = portuguese }
+		}
+       ai_chance = { factor = 50 }
+    }
+}
+# UPB - Death of Dona Maria II
+country_event = {
+    id = 11007511
+    title = "EVTNAME11007511"
+    desc = "EVTDESC11007511"
+	major = yes
+
+    trigger = {
+        tag = UPB 
+        NOT = { has_country_flag = coronation_of_pedro }
+		NOT = { has_country_modifier = dom_pedro_ii }
+        year = 1853
+        OR = {
+            government = absolute_monarchy
+            government = prussian_constitutionalism
+            government = hms_government
+        }
+    }
+
+    mean_time_to_happen = { months = 12 }
+    fire_only_once = yes
+
+    option = {
+        name = "EVT11007511OPTA" #She will be missed.
+        prestige = 1
+        ai_chance = { factor = 90 }
+    }
+
+    option = {
+        name = "EVT11007511OPTB" #Bring in Dom Pedro II
+        set_country_flag = coronation_of_pedro
+		add_country_modifier = { name = dom_pedro_ii duration = -1 }
+        prestige = -10
+			any_pop = { 
+                scaled_militancy = {
+                    factor = 3
+                    ideology = reactionary
+                }
+                scaled_militancy = {
+                    factor = 1
+                    ideology = conservative
+                }
+                scaled_militancy = {
+                    factor = -2
+                    ideology = liberal
+                }
+			}
+        ai_chance = { factor = 10 }
+    }
+}
+#Brazil revolts to save slavery
+country_event = {
+	
+	id = 99388811
+	title = "Brazilian Revolt to preserve slavery"
+	desc = "The Slave owning elites in Brazil will not give up their property without a fight!"
+	major = yes
+	
+	trigger = {
+		tag = UPB
+		slavery = no_slavery
+		NOT = { exists = BRZ }
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option = {
+		name = "This nation will not be divided."
+        capital = 521
+		set_country_flag = brazil_slavery_revolt
+        clr_country_flag = new_world_nation
+        remove_country_modifier = small_immigration_boom 
+		primary_culture = portuguese
+		release = BRZ
+		BRZ = {
+			government = presidential_dictatorship
+            upper_house = { ideology = reactionary value = 1 }
+			political_reform = yes_slavery
+			political_reform = none_voting
+			political_reform = party_appointed
+			political_reform = first_past_the_post
+			political_reform = state_press
+			political_reform = no_trade_unions
+			political_reform = underground_parties
+			ruling_party_ideology = reactionary
+			set_country_flag = brazil_slavery_revolt
+			set_country_flag = new_world_nation
+			leadership = 200
+			small_arms = 750
+			canned_food = 1500
+			artillery = 750
+			luxury_clothes = 250
+			wine = 500
+			liquor = 500
+			any_owned = {
+			state_scope = {
+				is_slave = yes
+			}
+		}		
+			any_owned = {
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		}
+		UPB = {
+			war = {
+				target = BRZ
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+			}
+		}
+		ai_chance = {
+			factor = 90
+		}
+	}
+
+	option = {
+		name = "Agreed."
+		prestige = -15
+        capital = 521
+		set_country_flag = brazil_slavery_revolt
+        clr_country_flag = new_world_nation
+        remove_country_modifier = small_immigration_boom 
+		release = BRZ
+        change_tag = POR
+		primary_culture = portuguese
+		remove_accepted_culture = brazilian
+		diplomatic_influence = { who = BRZ value = 200 }
+		any_country = { all_core = { remove_core = UPB } }
+        BRZ = { all_core = { remove_core = POR } }
+		BRZ = {
+			government = presidential_dictatorship
+            upper_house = { ideology = reactionary value = 1 }
+			political_reform = yes_slavery
+			political_reform = none_voting
+			political_reform = party_appointed
+			political_reform = first_past_the_post
+			political_reform = state_press
+			political_reform = no_trade_unions
+			political_reform = underground_parties
+			ruling_party_ideology = reactionary
+			set_country_flag = brazil_slavery_revolt
+			set_country_flag = new_world_nation
+			any_owned = {
+			state_scope = {
+				is_slave = yes
+			}
+		}		
+			any_owned = {
+			state_scope = {
+				is_slave = yes
+			}
+		}
+		}	
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
+country_event = {
+	
+	id = 99388815
+	title = "End of Freedom!"
+	desc = "With the end of slavery in the United Kingdom, Brazil's wealth is at risk, we won't do down without a fight!"
+	picture = "cotton_fields"
+	
+	trigger = {
+		tag = BRZ
+		slavery = yes_slavery
+		has_country_flag = brazil_slavery_revolt
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "They are our property!"
+			any_pop = {
+				limit = {
+					OR = {
+						is_culture_group = african_diaspora_cultures
+						is_culture_group = west_african
+						is_culture_group = central_african
+						is_culture_group = east_african
+						is_culture_group = southern_african
+						has_pop_culture = asian_minor
+					}
+					OR = {
+						pop_type = farmers
+						pop_type = labourers
+						pop_type = soldiers
+						pop_type = clergymen
+						pop_type = bureaucrats
+						pop_type = officers
+						pop_type = artisans
+						pop_type = craftsmen
+						pop_type = clerks
+					}
+					NOT = {
+						OR = {
+							is_primary_culture = yes
+							is_accepted_culture = yes
+						}
+					}
+				}
+				pop_type = slaves
+				militancy = 9
+				consciousness = 9
+			}
+			clr_country_flag = brazil_slavery_revolt
+			add_country_modifier = {
+				name = enslaved_freedom
+				duration = 5475
+			}
+	}
+}
+country_event = {
+	
+	id = 99388812
+	title = "End of the United Kingdom!"
+	desc = "With the loss of one of Brazil the United Kingdom is no more!"
+	major = yes
+	
+	trigger = {
+		tag = UPB
+        war = no
+		exists = BRZ 
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	option = {
+		name = "There is nothing we can do"
+		prestige = -5
+        change_tag = POR
+		remove_accepted_culture = brazilian
+		remove_accepted_culture = afro_brazilian
+		any_country = { all_core = { remove_core = UPB } }
+        BRZ = { all_core = { remove_core = POR } }
+        clr_country_flag = new_world_nation
+		clr_country_flag = brazil_slavery_revolt
+	}
+}
+country_event = {
+	
+	id = 99388813
+	title = "End of the United Kingdom!"
+	desc = "With the loss of one of Portugal the United Kingdom is no more!"
+	major = yes
+	
+	trigger = {
+		tag = UPB
+        war = no
+		exists = POR
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	option = {
+		name = "There is nothing we can do"
+		prestige = -5
+        change_tag = BRZ
+		remove_accepted_culture = portuguese
+   		any_country = { all_core = { remove_core = UPB } }
+        POR = { all_core = { remove_core = BRZ } }
+	}
+}
+country_event = {
+	
+	id = 99388814
+	title = "Brazilian Revolt Crushed"
+	desc = "We have defeated the Brazilian elites who tried to break away in an attempt to preserve slavery, we can now restore Rio as our capital if we should want to."
+	major = yes
+	
+	trigger = {
+		tag = UPB
+        war = no
+		NOT = { exists = BRZ }
+		has_country_flag = brazil_slavery_revolt 
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+    option = {
+        name = "Keep it in Lisbon, the Metropolis of the old nation of Portugal is clearly safer for the seat of government."
+        capital = 521
+		primary_culture = portuguese
+		add_accepted_culture = brazilian
+        clr_country_flag = new_world_nation
+		clr_country_flag = brazil_slavery_revolt
+       ai_chance = { factor = 50 }
+    }
+    option = {
+        name = "Move it to the great Rio de Janeiro, the future is still in the New World!"
+        capital = 2447
+        set_country_flag = new_world_nation
+        add_country_modifier = { name = small_immigration_boom duration = -1 }
+		primary_culture = brazilian
+		add_accepted_culture = portuguese
+		clr_country_flag = brazil_slavery_revolt
+       ai_chance = { factor = 50 }
+    }
+}

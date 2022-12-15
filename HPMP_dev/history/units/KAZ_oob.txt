@@ -1,0 +1,51 @@
+
+RUS = {
+    value = -200
+}
+
+KAZ = {
+    value = -200
+}
+
+KHI = {
+    value = -200
+}
+
+KOK = {
+    value = -200
+}
+
+TKM = {
+    value = -200
+}
+
+BUK = {
+    value = -200
+}
+
+AFG = {
+    value = -200
+}
+
+PER = {
+    value = -200
+}
+
+
+army = {
+    name = "The Middle Juz Army"
+    location = 1185
+    regiment = {
+        name= "Juz Cavalry"
+        type = cavalry
+        home = 1185
+    }
+}
+
+leader = {
+    name = "Kenesary Khan"
+    type = land
+    date = 1836.1.1
+    background = aristocrat
+    personality = mediocre
+    }

@@ -1,0 +1,116 @@
+country_event = {
+    id = 585153
+	title = "Laissez Faire"
+	desc = "This event stops you from subsidising your factories.(takes a monthly tick to have an effect)"
+	picture = Subsidy
+
+	trigger = {
+	    AND = {
+		
+			subsidise = subsidise_yes
+			economic_policy = laissez_faire
+		}
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	option = {
+	    name = "OK"
+		political_reform = subsidise_no
+	}
+}
+country_event = {
+    id = 585154
+	title = "Subsidising"
+	desc = "This event lets you subsidize your factories again.(takes a monthly tick to have an effect)"
+	picture = Subsidy
+	
+	trigger = {
+	    AND = {
+		    	ai = no
+			subsidise = subsidise_no
+			NOT = {
+			economic_policy = laissez_faire
+			}
+			NOT = {
+			has_country_flag = hates_subsidies
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	option = {
+	    name = "OK"
+		political_reform = subsidise_yes
+	}
+}
+country_event = {
+    id = 5851532
+	title = "eventforai"
+	desc = "forai"
+	
+	trigger = {
+		has_global_flag = crimeamod_subsidies_enabled
+	    AND = {
+		    ai = yes
+			economic_policy = planned_economy
+			subsidise = subsidise_no
+		}
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	option = {
+	    name = "OK"
+		political_reform = subsidise_yes
+	}
+}
+country_event = {
+    id = 5851533
+	title = "evnetforai"
+	desc = "forai"
+	
+	trigger = {
+		has_global_flag = crimeamod_subsidies_enabled
+	    AND = {
+			ai = yes
+			NOT = {
+			economic_policy = planned_economy
+			}
+			subsidise = subsidise_yes
+		}
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	option = {
+		name = "OK"
+		political_reform = subsidise_no
+	}
+}
+
+country_event = {
+    id = 5851542
+	title = "Subsidising"
+	desc = "This event lets the ai subsidize it's factories again with the crimeamod subsidies disabled.(takes a monthly tick to have an effect)"
+	
+	trigger = {
+
+	    AND = {
+		   	ai = yes
+			subsidise = subsidise_no
+			NOT = {
+			economic_policy = laissez_faire
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	option = {
+	    name = "OK"
+		political_reform = subsidise_yes
+		clr_country_flag = hates_subsidies
+	}
+}

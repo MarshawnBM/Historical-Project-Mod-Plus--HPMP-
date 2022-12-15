@@ -1,0 +1,101 @@
+country_event = {
+	id = 800009
+	title = "Unlawful Military Access"
+	desc = "Our spherelord has forbidden us from granting military access to their potential enemies"
+	
+	trigger = {
+		part_of_sphere = yes
+			OR = {
+			any_neighbor_country = {
+				military_access = THIS
+				NOT = {
+					is_sphere_leader_of = THIS
+					is_our_vassal = THIS
+					vassal_of = THIS
+					sphere_owner = { is_sphere_leader_of = THIS }
+				}
+			}
+			any_greater_power = {
+				military_access = THIS
+				NOT = {
+					is_sphere_leader_of = THIS
+					is_our_vassal = THIS
+					vassal_of = THIS
+					sphere_owner = { is_sphere_leader_of = THIS }
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 0
+	}
+	option = {
+		name = "Makes Sense"
+		random_country = {
+			limit = {
+				military_access = THIS
+				NOT = {
+					is_sphere_leader_of = THIS
+					is_our_vassal = THIS
+					vassal_of = THIS
+					sphere_owner = { is_sphere_leader_of = THIS }
+				}
+			}
+			end_military_access = THIS
+			relation = {
+				who = THIS
+				value = -25
+			}
+		}
+	}
+}
+country_event = {
+	id = 80000911
+	title = "Ally With Overlord"
+	desc = "Ally With Overlord"
+	
+	trigger = {
+	is_vassal = yes
+	ai = yes
+	exists = yes
+	overlord = {
+		ai = yes
+		exists = yes
+		NOT = { alliance_with = THIS }
+	}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = "Makes Sense"
+            random_owned = {
+                limit = {
+                    owner = {
+					exists = yes
+                    }
+                }
+                owner = {
+                    overlord = { country_event = 80000912 }
+                }
+            }
+	}
+}
+country_event = {
+	id = 80000912
+	title = "Ally With Vassal"
+	desc = "Ally With Vassal"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "OK"
+            random_country = {
+                limit = {
+				vassal_of = THIS
+				NOT = { alliance_with = THIS }
+                }
+                create_alliance = THIS
+            }
+	}
+}

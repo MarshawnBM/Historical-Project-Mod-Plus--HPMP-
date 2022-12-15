@@ -1,0 +1,31 @@
+political_decisions = {
+    tax_refund_no = {
+		picture = institute_central_bank
+	    potential = {
+		NOT = { has_country_flag = tax_refund_disabled }
+		has_country_flag = government_decisions_on	
+		}
+		
+		effect = {
+			set_country_flag = tax_refund_disabled
+		    	
+		}
+	ai_will_do = {
+				factor = 0
+	}
+    }
+	tax_refund_yes = {
+		picture = institute_central_bank
+	    potential = {
+		has_country_flag = tax_refund_disabled
+		has_country_flag = government_decisions_on
+		}
+		
+		effect = {
+			clr_country_flag = tax_refund_disabled
+		}		
+	ai_will_do = {
+	factor = 1
+	}
+    }
+}

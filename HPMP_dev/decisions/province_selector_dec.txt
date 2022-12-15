@@ -1,0 +1,164 @@
+political_decisions = {
+#########################################################################
+# 						RESET PROVINCE SELECTOR							#
+#########################################################################
+
+	zzreset_province_selector = {
+		picture = province_selector
+		potential = {
+			ai = no
+			any_owned_province = { has_building = province_selector }
+		}	
+		allow = {
+			any_owned_province = { has_building = province_selector }
+		}
+		effect = {
+			any_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+			}
+		}
+	}
+
+#########################################################################
+# 							COLONIAL POLICY								#
+#########################################################################
+
+	zstate_colonial_policy = {
+		picture = colonial_policy
+		potential = {
+			ai = no
+			colonial_nation = yes
+		}
+		allow = {
+			any_owned_province = {
+				is_colonial = yes
+				has_building = province_selector
+			}
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					is_colonial = yes
+				}
+				province_selector = -1
+				province_event = { id = 91520 days = 0 }
+			}
+		}
+	}
+
+#########################################################################
+# 							PROVINCE SUPPLY								#
+#########################################################################
+zcreate_supply_depot = {
+	picture = supply_depot
+	alert = yes
+	potential = {
+		NOT = { any_owned_province = { has_province_modifier = supply_depot } }
+		ai = no
+	}
+	allow = {
+		money = 500000
+		any_owned_province = { has_building = province_selector }
+	}
+	effect = {
+		treasury = -500000
+		random_owned = {
+			limit = { has_building = province_selector }
+			add_province_modifier = { name = supply_depot duration = -1 }
+			province_selector = -1
+		}
+	}
+}
+
+zdismantle_supply_depot = {
+	picture = supply_depot
+	alert = no
+	potential = {
+		any_owned_province = { has_province_modifier = supply_depot }
+		ai = no
+	}
+	allow = {
+	}
+	effect = {
+		any_owned = {
+			limit = { has_province_modifier = supply_depot }
+			remove_province_modifier = supply_depot
+		}
+	}
+}
+
+#########################################################################
+# 								CORES									#
+#########################################################################
+
+zadd_cores = {
+	picture = add_cores
+	potential = {
+		ai = no
+		NOT = { has_country_modifier = diplomatic_cores }
+		#any_owned_province = { has_building = province_selector }
+		has_global_flag = enabled_target_coring
+	}
+	allow = {
+		NOT = { has_country_modifier = diplomatic_cores }
+		any_owned_province = { 
+			has_building = province_selector
+		}
+	}
+	effect = {
+		add_country_modifier = { name = diplomatic_cores duration = 5475 }
+		random_owned = {
+			limit = {
+				has_building = province_selector
+			}
+			state_scope = {
+				any_owned = {
+					add_province_modifier = { name = adding_cores duration = -1 }
+				}
+			}
+			province_selector = -1
+		}
+	}
+}
+
+zremove_cores = {
+	picture = remove_cores
+	potential = {
+		ai = no
+		NOT = { has_country_modifier = diplomatic_cores }
+		#any_owned_province = { has_building = province_selector }
+		has_global_flag = enabled_target_coring
+	}
+	allow = {
+		NOT = { has_country_modifier = diplomatic_cores }
+		any_owned_province = { 
+			has_building = province_selector
+		}
+	}
+	effect = {
+		add_country_modifier = { name = diplomatic_cores duration = 5475 }
+		random_owned = {
+			limit = {
+				has_building = province_selector
+			}
+			state_scope = {
+				any_owned = {
+					add_province_modifier = { name = removing_cores duration = -1 }
+				}
+			}
+			province_selector = -1
+		}
+	}
+}
+
+
+
+
+
+
+}
+	

@@ -1,0 +1,31 @@
+#Studies published in 1930 written independently by Lebedev, the American Wallace Carothers and the German scientist Hermann Staudinger led in 1931 to one of the first successful synthetic rubbers, known as neoprene
+synthetic_rubber = {
+    limit = { synthetic_polymers = 1 }
+    chance = {
+        base = 2
+        modifier = {
+            factor = 2
+            invention = rayon
+        }
+    }
+    effect = {
+        activate_building = synthetic_rubber_factory
+    }
+}
+#The Claus process is the most significant gas desulfurizing process, recovering elemental sulfur from gaseous hydrogen sulfide. First patented in 1883 by the chemist Carl Friedrich Claus, the Claus process has become the industry standard. 
+#In the mid-1950s, the first noble metal catalytic reforming process (the Platformer process) was commercialized.
+#starting in the 1970s, byproduct sulfur recovery from oil and natural gas lowered the price of sulfur and drove many Frasch-process mines out of business.
+#The vast majority of the 64,000,000 tonnes of sulfur produced worldwide in 2005 was byproduct sulfur from refineries and other hydrocarbon processing plants
+hydrodesulphurization = {
+    limit = { electric_furnace = 1 }
+    chance = {
+        base = 2 
+        modifier = {
+            factor = 2
+            synthetic_polymers = 1
+        }
+    }
+    effect = {
+        activate_building = hydrodesulphurization_plant
+    }
+}

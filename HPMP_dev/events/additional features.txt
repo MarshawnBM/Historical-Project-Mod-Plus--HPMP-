@@ -1,0 +1,74 @@
+#Splendid Isolation GB
+country_event = {
+	id = 99930
+	title = "EVTNAME99930" #Splendid Isolation
+	desc = "EVTDESC99930"
+	picture = "bad_badboy"
+	
+	trigger = {
+		tag = ENG
+		any_greater_power = {
+			alliance_with = ENG
+		}
+		NOT = { exists = IRE }
+        has_global_flag = splendid_isolation
+		NOT = { exists = GER }
+		rank = 1
+		NOT = { year = 1870 }
+		NOT = {
+			AND = {
+				EGY = {
+					war_with = TUR
+				}
+				war_with = EGY
+				war_with = FRA
+			}
+		}
+		OR = {
+			TUR = {
+				is_greater_power = yes
+				NOT = { alliance_with = THIS }
+			}
+			TUR = { is_greater_power = no }
+		}
+		OR = {
+			BEL = {
+				is_greater_power = yes
+				NOT = { alliance_with = THIS }
+			}
+			BEL = { is_greater_power = no }
+		}
+		OR = {
+			JAP = {
+				is_greater_power = yes
+				NOT = { alliance_with = THIS }
+			}
+			JAP = { is_greater_power = no }
+		}
+		OR = {
+			POR = {
+				is_greater_power = yes
+				NOT = { alliance_with = THIS }
+			}
+			POR = { is_greater_power = no }
+		}
+	}
+
+	option = {
+		name = "EVT99930OPT"
+		any_greater_power = {
+			limit = {
+				NOT = { 
+					tag = BEL
+					tag = TUR
+				}
+				alliance_with = ENG
+			}
+			leave_alliance = THIS
+			relation = {
+				who = THIS
+				value = -150
+			}
+		}
+	}
+}

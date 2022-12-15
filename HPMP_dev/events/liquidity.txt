@@ -1,0 +1,1334 @@
+#Tax Refund
+country_event = {
+	id = 6660000
+	title = "Tax Refund?"
+	desc = "In order to avoid a liquidity crisis, money is forcibly injected back into the economy if there is over 15,000,000 in the treasury while at peace."
+	picture = "Poor"
+	
+	trigger = {
+		NOT = { has_country_flag = tax_refund_disabled }
+        war = no
+        money = 15001000
+    }
+
+
+	option = {
+		name = "Restore liquidity!"
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+
+
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+
+
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			money = 5000
+		}
+		money = -5000
+
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+		random_pop = {
+			limit = {
+				NOT = { cash_reserves = 500 }
+			}
+			money = 5000
+		}
+		money = -5000
+	}
+}
+
+country_event = {
+	
+	id = 99999999999
+	title = "Startup pop money"
+	desc = "Everyone didn't have 0 wealth in 1836, this will jumpstart the global economy at the start the game."
+
+    fire_only_once = yes
+	
+	trigger = {
+		ai = yes
+	}
+	
+	mean_time_to_happen = {
+		days = 0.00
+	}
+	
+	option = {
+		name = "Great!"
+				
+		any_country = {
+			any_owned = {
+				any_pop = { random_list = { 20 = { money = 100 } 20 = { money = 125 } 20 = { money = 150 } 20 = { money = 175 } 20 = { money = 200 } } }
+				}
+			}
+		}
+	}
+}

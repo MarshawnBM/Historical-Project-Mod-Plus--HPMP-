@@ -1,0 +1,50 @@
+zzreset_province_selector_title;§RReset Province Selector;;;;;;;;;x;;;;
+zzreset_province_selector_desc;Destroys all currently built province selectors.;;;;;;;;;x;;;;
+province_selector;Province Selector;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+PS_unlocked;PS Building Unlocked;;;;;;;;;;;;;x
+PS_unlocked_desc;You can now build Province Selector buildings.;;;;;;;;;;;;;x
+zremove_cores_title;§GRemove Cores;;;;;;;;;x;;;;
+zremove_cores_desc;Country modifier §RCore Integration in Progress§b and province modifier §WRemoving Cores§b will be added to this country and the selected state. When §RCore Integration in Progress§b runs out, all provinces with §WRemoving Cores§b modifier will have all other nations' cores removed. §WRemoving Cores§b will be removed from a province if it changes owners or gets occupied before the §RCore Integration in Progress§b timer runs out.;;;;;;;;;x;;;;
+zadd_cores_title;§GAdd Cores;;;;;;;;;x;;;;
+zadd_cores_desc;Country modifier §RCore Integration in Progress§b and province modifier §WAdding Cores§b will be added to this country and the selected state. When §RCore Integration in Progress§b runs out, this country's cores will be added to all provinces with the §WAdding Cores§b modifier. §WAdding Cores§b will be removed from a province if it changes owners or gets occupied before the §RCore Integration in Progress§b timer runs out.;;;;;;;;;x;;;;
+zstate_colonial_policy_title;§GColonial Policy;;;;;;;;;x;;;;
+zstate_colonial_policy_desc;Triggers a province event that allows you to choose a colonial policy for the selected state.;;;;;;;;;x;;;;
+indirect_rule;Indirect Rule;;;;;;;;;x;;;;
+civilizing;Civilizing;;;;;;;;;x;;;;
+settlement;Settlement;;;;;;;;;x;;;;
+EVTNAME91520;Colonial Policy in $PROVINCENAME$;;;;;;;;;x;;;;
+EVTDESC91520;We must decide how to govern this colony. Indirect rule prevents colonial migration to the state. Civilizing will attempt to assimilate the natives. Settlement allows colonial migration to the selected state but gives a +0.05 militancy modifier.;;;;;;;;;x;;;;
+EVTOPTA91520;Indirect Rule;;;;;;;;;x;;;;
+EVTOPTB91520;Civilizing;;;;;;;;;x;;;;
+EVTOPTC91520;Settlement;;;;;;;;;x;;;;
+EVTNAME91521;Choosing a Colonial Policy;;;;;;;;;x;;;;
+EVTDESC91521;We must decide how to govern our newly acquired colonies. The colonial policy of a state may be changed at any time by building a province selector in the selected state and enacting the "Colonial Policy" decision.;;;;;;;;;x;;;;
+EVTOPTA91521;Indirect Rule: §RNo Colonial Migration;;;;;;;;;x;;;;
+EVTOPTB91521;Civilizing: §GAssimilation of the Natives;;;;;;;;;x;;;;
+EVTOPTC91521;Settlement: §GMore Colonial Migration;;;;;;;;;x;;;;
+EVTNAME91707;Core Removal Complete;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91707;We have finished removing other countries' cores in the state of $STATE$.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA91707;Excellent.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME91708;Remove Cores;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91708;$FROMCOUNTRY$ has removed our cores from one of their states.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA91708;Too bad.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME91709;Core Integration Complete;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91709;We have finished integrating our cores in the state of $STATE$.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA91709;Excellent..;;;;;;;;;;;;;;;;;;;;;;;x
+EVTNAME91710;Core Integration Disrupted in $PROVINCE$;;;;;;;;;;;;;;;;;;;;;;;x
+EVTDESC91710;$PROVINCE$ has been recently occupied by foreign armies. After their people had a taste of freedom from our rule, they are no longer sympathetic to our nation.;;;;;;;;;;;;;;;;;;;;;;;x
+EVTOPTA91710;Damnit!;;;;;;;;;;;;;;;;;;;;;;;x
+zcreate_supply_depot_title;§GCreate Supply Depot;;;;;;;;;;;;;x
+zcreate_supply_depot_desc;A province with a supply depot will reduce attrition to 0 regardless of supply cap and should be used as a rallying point for mobilized troops. You can only have one supply depot at a time, and if a battle occurs in a province with a supply depot or the province is occupied by an enemy army it will be destroyed.;;;;;;;;;;;;;x
+zdismantle_supply_depot_title;§RDismantle Supply Depot;;;;;;;;;;;;;x
+zdismantle_supply_depot_desc;Removes the Supply Depot modifier from all provinces.;;;;;;;;;;;;;x
+supply_depot;Supply Depot;;;;;;;;;;;;;x
+supply_depot_destroyed;Supply Depot Recently Destroyed;;;;;;;;;;;;;x
+supply_depot_destroyed_desc;We require time to procure new supplies before we can build another supply depot.;;;;;;;;;;;;;x
+EVTNAME91320;Supply Depot Destroyed;;;;;;;;;;;;;x
+EVTDESC91320;Our supply depot in $PROVINCENAME$ has been destroyed in the recent fighting.;;;;;;;;;;;;;x
+EVTOPTA91320;Damn!;;;;;;;;;;;;;x
+diplomatic_cores;Core Integration in Progress;;;;;;;;;;;;;x
+diplomatic_cores_desc;If the provinces in a state still have the "Removing Cores" or "Adding Cores" province modifier when this country modifier runs out, then an event will trigger to remove other countries' cores or add this country's cores to said state. All province modifiers are automatically removed when a state changes owners, so if the state changes owners before this timer runs out then the event to add or remove cores will not trigger.;;;;;;;;;;;;;x
+removing_cores;Removing Cores\n§WIf this province does not get occupied or change owners for 15 years after this province modifier is added, then all cores other than the owner's will be removed from this province.;;;;;;;;;;;;;x
+adding_cores;Adding Cores\n§WIf this province does not get occupied or change owners for 15 years after this province modifier is added, then it's owners cores will be added to this province.;;;;;;;;;;;;;x

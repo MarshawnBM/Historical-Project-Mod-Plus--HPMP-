@@ -1,0 +1,13 @@
+owner = TEX
+controller = TEX
+add_core = TEX
+add_core = MEX
+trade_goods = cotton
+life_rating = 50
+1861.1.1 = {
+    controller = CSA
+    owner = CSA
+    add_core = USA
+    add_core = CSA
+    remove_core = MEX
+}

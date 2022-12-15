@@ -1,0 +1,323 @@
+
+########## PROVINCE MIGRAITON EVENT ##########
+
+#country_event = {
+#	id = 91709
+#	title = "EVTNAME91709"
+#	desc = "EVTDESC91709"
+#
+#	trigger = {
+#		has_country_flag = province_migration
+#		NOT = {
+#			any_owned_province = { has_province_modifier = province_attract_immigrants }
+#		}
+#	}
+#	
+#		
+#	immediate = {
+#		clr_country_flag = province_migration
+#	}
+#	
+#	option = {
+#		name = "EVTOPTA91709"
+#	}
+#}
+
+#########################################################################
+# 							COLONIAL POLICY								#
+#########################################################################
+
+
+province_event = {
+	id = 91520
+	title = "EVTNAME91520"
+	desc = "EVTDESC91520"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA91520"
+		state_scope = {
+			any_owned = {
+				remove_province_modifier = civilizing
+				remove_province_modifier = settlement
+				add_province_modifier = { name = indirect_rule duration = -1 }
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB91520"
+		state_scope = {
+			any_owned = {
+				remove_province_modifier = indirect_rule
+				remove_province_modifier = settlement
+				add_province_modifier = { name = civilizing duration = -1 }
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTC91520"
+		state_scope = {
+			any_owned = {
+				remove_province_modifier = civilizing
+				remove_province_modifier = indirect_rule
+				add_province_modifier = { name = settlement duration = -1 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 91521
+	title = "EVTNAME91521"
+	desc = "EVTDESC91521"
+	picture = "colonial_policy"
+
+	trigger = {
+		any_owned_province = {
+			is_colonial = yes
+			NOT = {
+				OR = {
+					has_province_modifier = indirect_rule
+					has_province_modifier = civilizing
+					has_province_modifier = settlement
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTA91521"
+		any_owned = {
+			limit = {
+				is_colonial = yes
+				NOT = {
+					OR = {
+						has_province_modifier = indirect_rule
+						has_province_modifier = civilizing
+						has_province_modifier = settlement
+					}
+				}
+			}
+			add_province_modifier = { name = indirect_rule duration = -1 }
+		}
+		ai_chance = {
+			factor = 0.34
+			modifier = {
+				factor = 0
+					NOT = { year = 1862 }
+					OR = {
+					capital_scope = { continent = north_america }
+					capital_scope = { continent = south_america }
+					tag = RUS 
+					tag = FRA
+					tag = ENG
+					tag = POR
+					tag = SPA
+					}
+				}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB91521"
+		any_owned = {
+			limit = {
+				is_colonial = yes
+				NOT = {
+					OR = {
+						has_province_modifier = indirect_rule
+						has_province_modifier = civilizing
+						has_province_modifier = settlement
+					}
+				}
+			}
+			add_province_modifier = { name = civilizing duration = -1 }
+		}
+		ai_chance = {
+			factor = 0.33
+			modifier = {
+				factor = 0
+					NOT = { year = 1862 }
+					OR = {
+					capital_scope = { continent = north_america }
+					capital_scope = { continent = south_america }
+					tag = RUS 
+					tag = FRA
+					}
+				}
+		}
+	}
+
+	option = {
+		name = "EVTOPTC91521"
+		any_owned = {
+			limit = {
+				is_colonial = yes
+				NOT = {
+					OR = {
+						has_province_modifier = indirect_rule
+						has_province_modifier = civilizing
+						has_province_modifier = settlement
+					}
+				}
+			}
+			add_province_modifier = { name = settlement duration = -1 }
+		}
+		ai_chance = {
+			factor = 0.33
+			modifier = {
+				factor = 1
+					NOT = { year = 1862 }
+					OR = {
+					capital_scope = { continent = north_america }
+					capital_scope = { continent = south_america }
+					tag = RUS 
+					tag = FRA
+					}
+				}
+			modifier = {
+				factor = 0
+					NOT = { year = 1870 }
+					capital_scope = { continent = europe }
+					NOT = { tag = RUS }
+					NOT = { tag = FRA }
+			}
+		}
+	}
+}
+
+
+########## CORES ##########
+province_event = {
+	id = 91707
+	title = "EVTNAME91707"
+	desc = "EVTDESC91707"
+
+	trigger = {
+		owner = {
+			NOT = { has_country_modifier = diplomatic_cores }
+		}
+		has_province_modifier = removing_cores
+	}
+
+	option = {
+		name = "EVTOPTA91707"
+		state_scope = {
+			any_owned = {
+				limit = {
+					has_province_modifier = removing_cores
+				}
+				remove_province_modifier = removing_cores
+				add_core = RMC
+			}
+		}
+		any_country = {
+			limit = {
+				any_core = {
+					is_core = RMC
+					owned_by = THIS
+				}
+				NOT = { tag = THIS }
+			}
+			country_event = { id = 91708 days = 0 }
+		}
+	}
+}
+
+country_event = {
+	id = 91708
+	title = "EVTNAME91708"
+	desc = "EVTDESC91708"
+	picture = generic_map
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA91708"
+		FROM = {
+			any_owned = {
+				limit = {
+					is_core = RMC
+					is_core = THIS
+				}
+				remove_core = THIS
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 91709
+	title = "EVTNAME91709"
+	desc = "EVTDESC91709"
+
+	trigger = {
+		owner = {
+			NOT = { has_country_modifier = diplomatic_cores }
+		}
+		has_province_modifier = adding_cores
+	}
+
+	option = {
+		name = "EVTOPTA91709"
+		state_scope = {
+			any_owned = {
+				limit = {
+					has_province_modifier = adding_cores
+				}
+				remove_province_modifier = adding_cores
+				add_core = THIS
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 91710
+	title = "EVTNAME91710"
+	desc = "EVTDESC91710"
+
+	trigger = {
+		NOT = { controlled_by = THIS }
+		OR = {
+			has_province_modifier = removing_cores
+			has_province_modifier = adding_cores
+		}
+	}
+
+	option = {
+		name = "EVTOPTA91710"
+		remove_province_modifier = removing_cores
+		remove_province_modifier = adding_cores
+	}
+}
+
+
+#########################################################################
+# 							SUPPLY DEPOT								#
+#########################################################################
+
+
+province_event = {
+	id = 91320
+	title = "EVTNAME91320"
+	desc = "EVTDESC91320"
+
+	trigger = {
+		has_province_modifier = supply_depot
+		OR = {
+			# Audax Validator "." Ignore_1007
+			unit_in_battle = yes
+			country_units_in_province = REB
+			NOT = { controlled_by = THIS }
+		}
+	}
+
+	option = {
+		name = "EVTOPTA91320"
+		remove_province_modifier = supply_depot
+		owner = { add_country_modifier = { name = supply_depot_destroyed duration = 180 } }
+	}
+}
+

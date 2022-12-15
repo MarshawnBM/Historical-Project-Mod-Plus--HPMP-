@@ -1,0 +1,72 @@
+###Version 6.0###
+Fixed the icon for consumer national focus, and fixed dyes in the texile one
+Added the Craftsmen fix from GFM, it is accessed by the "government decisions" decsion
+Added the Golden Circle from B&I/Crimeamod
+Fixed some USA and CSA cores in the 1861 start
+Added an addional option to enable Dismantlement CBs from the start
+Added in a "Province Selector" building that allows provinces to be selected for certain decisions, I plan to expand this feature in the future, for now you can core provinces/build suppy depots/set colony policies with it.
+Increased USA and RUS life ratings and adjusted their starting populations so that they will grow faster without needing a arbitray modifer
+Made pops who directly compete with slaves never/almost never move into a slave state. This will hopefully cause the settlement pattern within the USA to be more historical, and nerf the CSA
+Added in a "Pan-German friendship" decision to encourage the AI to do the historical German-Austrian alliance after Germany forms, and hasn't taken Austrian Cores
+Integrated the "Israel Minimod" for HPM 
+###Version 5.0###
+Moved some of the industry bonuses from the last update onto inventions instead of the main techs, so the increases in production of iron and coal are a bit more gradual.
+Reverted to default HPM gold production because the AI seems to do better with it.
+Added in scaling debuffs similar to GFM's to decrease tax and tarriff efficency that will help prevent the ai from sucking up all the money from its pops, the tax refund event is still present, but now triggers at 15,000,000 instead of 6, to matchup with the highest level of money hoarder debuff.
+Also added a 1 time event that an AI country will get on game start, which gives all pops in the world a semi-random amount of money up to $200 to jumpstart the world economy. 
+Reduced the MTTH for great game events to encourage Russia to expand historically
+Overhauled Russia to make them more unique, historically accurate, and more competent when played by the AI. I did this by adding a new hidden modifer for Russia which lasts until 1900, and will increase its population growth by 0.007%, this was done so Russia can actually reach near its historical population of 136,000,000 in 1900 when played by the AI. To prevent Russia from becoming the #1 industrial power in the 1890's from this change, this hidden modifer also gives -50% education efficency, so an AI Russia will usually have close to its historical literacy rate of ~16% in 1900. After 1900 Russia will keep the pop growth, but will lose the crippling education debuff
+Gave the USA a similar hidden modifer for extra pop growth like Russia, for the same reason, to allow it to be a late game juggernaut if left alone
+Serfdom has had its Education efficency malus increased to help contain Russia, and help represent the backwardness serfdom caused for countries which kept it later than the rest.
+Austria has been buffed with its Core territories having literacy comparable to the rest of Germany, and its non-core territories have had a slight increase as well. This was done beacause they also start with Serfdom, but shouldnt have their literacy gains as crippled as Russia's.
+Austria-Hungary has had their color changed to match Austria's becuase i like the clean white color much better than the Brown/Red color it was before.
+Changed the All-Mexico decision for the US to not require jingoism, instead, now a player can do it just by occuping 80% of mexico. The AI will only take the decision if a party with jingoism is in power (southern democrats)
+Added a fix to crisis white peacing this is turned on in the options decisions
+Added in the "liberate and puppet" cb's from B&I
+Changed the debuff countries get while at war stopping immigration to them, now it will only trigger once a core province is occupied
+Added in a stronger "vassal nation" triggered modifer for AI vassals like in crimeamod, that makes it very hard for them to gain prestige, and so much are less likely to break free by becoming a great power. Player vassals still use the HPM default one
+Added precious goods to Istanbul and Gibraltar to make them more strategic/important
+Probably a few other things I forgot to note/mention but these are the major ones
+###Version 4.0###
+Rebalanced several industry techs to produce better "First" and "Second" Industrial Revolutions, with Iron, Coal, and Steel being the driving force and in high demand. Then around 1870 enought places will be producing those they will become much more common, and things like electrical gears, cars, radios, fuel will become much more important. This was already how the game was supposed to work, but because of balancing Iron and Coal were always in chronic short supply, preventing these more advanced goods from being made in enough quantily to allow anyone other than the top 1-3 powers being able to build certain units. Those shortages should be fixed now, and in my opinion, the game plays much better because of it.
+Rebalance how much money factory workers/capitalists/Goldminers get from their jobs, they now keep much more of their paychecks to help them buy the luxury goods available in the late game
+Reverted the change of Liquor factories to "Beverages"
+Added in the 1861 start. Might have some bugs, but seems fun and stable from the few test gamess I ran on it.
+Made it easier for Japan to annex Korea via decision. Now Korea only needs to be in Japan's sphere, unless Korea is a player, in which case Japan still needs to puppet Korea to annex it
+China and Japan have had their naval ports returned to them.
+added a decision to remove the HPM and HPMP extra option decisions, had to do this so they could be toggled in both start dates not just in 1836
+reduced relations between Russia and the central asian countries, and reduced infamy for "the great game" cb to try and encourage russian to expand into central asia instead of going for China and Korea
+added in the same requirements as taking a state/colonial state for the taking capitals cb so the ai doesnt spam them as much
+###Version 3.0###
+Fixed starting hidden laissez faire policies for USA, UK, and France so they can't susidise for a month
+Fixed strange fascist Japanese flag back to the vanilla one
+10X'd the encourage industry national focuses to make them more effective for laissez faire, open to suggestions if this is too much
+Changed the totalitarian mechanics to require mass politics, i did this because the Russian monarchy in particular became too stable too quickly with them. Also made the AI a little more resistant to purging whenever it could.
+Added in a synthetic rubber and sulfre factories unlocked after 1900 industry techs, this is to help with late game shortages of these resources and because historically the processes to make them was known by the 1900's.
+Added in a "Victoria 3" addional option which will change a hidden policy for every country that will allow all economic systems to micro and build factories and railroads. I have barely tested this, it works for what i say, but it might be very unbalanced. I also tried to make it disable capitalist AI as well, for the full Vicky 3 experience, but idk if it does that too. Regardless have fun with it and let me know how well it works.
+###Version 2.0###
+Slavery Overhaul to provide alternative playstyles
+There are now 3 types of slavery, though not mutually exclusive, Racial slavery where non-accepted pops are enslaved, Political prisioner forced labor, Debt Slavery
+Revamped and expanded slavery to now also represent work camps like gualgs or concentraion camps.
+Slaves can now work in factories
+The trans-atlantic slave trade can now be restarted, though this will make the british angry
+Added the "United Kingdom of Portugal and Brazil" as the premier slaver power if formed, which both Portugal and Brazil can form by puppeting the other
+Added a civil war for the United Kingdom of Portugal and Brazil if slavery is ever abolished
+Any country which has slavery and is disarmed will be forced to abolish it
+Added an additional rule for the UK to have Splendid Isolation like in HFM/GFM
+###Version 1.0###
+Improved AI based off the AI from Crimeamod
+Toggle-able Forced AI no subsidies
+Toggle-able Reduced Infamy mode
+Toggle-able Subsidies auto subsidies when new factories are built
+Ability to Send money to other players in multiplayer via Grant decisions
+Added the ability for Anarcho Liberal (Bourgeois) dictatorships to have a lesser version of the totalitarian decisions for some flavor and to help them stablize
+Expanded the mechanics of totalitarianism, now it is available in 1870 with the Technology "Revolution and Counter Revolution" and is available to absolute monarchies and presidential dictatorships (reactionaries). A repeatable "Great Purge" decision has been added which becomes available once the totalitarian system has been established. It can be used once every three years to dramatically reduce militancy and conscientiousness and convert pops to your ruling ideology, at the cost of approximately 1.5-3% of your population.
+Absolute monarchies can now become Ruling Party Only once the totalitarian system has been established. 
+Replaced the "Workers' Revolution" event with a decision to demote all capitalists and aristocrats, abolishing the ruling class. 
+Added the ability to take capitals in a war. 
+Added the ability to transfer states to other players in multiplayer without any impact on infamy. 
+Added several events to prevent vassals and members of your sphere of influence from granting military access to enemy countries.
+Added an toggle-able event to hopefully prevent the late game liquidity crisis. 
+Revamped Mexican-American War options for U.S. to annex Mexico and for Mexico to refute Manifest Destiny and conquer west coast U.S. territory of its own. 
+U.S. can now integrate Canadian tags if it puppets them. 
