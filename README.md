@@ -52,7 +52,7 @@ State transfers)
 
 *localization for many countries to have more historical names based on government type
 
-* synthetic rubber and sulfur factories unlocked after 1900 industry techs
+*synthetic rubber and sulfur factories unlocked after 1900 industry techs
 
 *"Victoria 3 mode" which allows any economic policy to build factories or railroads.
 
