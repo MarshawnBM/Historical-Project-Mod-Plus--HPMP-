@@ -580,67 +580,169 @@ tariff_efficiency_modifier = -1.0
 icon = 1
 }
 
-# atlantic_only_nation = {
-    # trigger = {
-        # exists = yes
-        # NOT = { is_canal_enabled = 3 }
-        # year = 1837
-        # OR = {
-            # capital_scope = { continent = north_america }
-            # capital_scope = { continent = south_america }
-        # }
-        # any_owned_province = {
-            # is_overseas = no
-            # any_neighbor_province = {
-                # OR = {
-                    # #province_id = 2992 #Magellan Strait
-                    # province_id = 2991
-                    # province_id = 2990
-                    # province_id = 2989
-                    # province_id = 2988
-                    # province_id = 2987
-                    # province_id = 2986
-                    # province_id = 2985
-                    # province_id = 2984
-                    # province_id = 2983
-                    # province_id = 2982
-                    # province_id = 2981
-                    # province_id = 2980
-                    # province_id = 2975
-                    # province_id = 2973
-                    # province_id = 2972
-                    # province_id = 2968
-                    # province_id = 2967
-                    # province_id = 2966
-                    # province_id = 2965
-                    # province_id = 2964
-                    # province_id = 2963
-                    # province_id = 2962
-                    # province_id = 2961
-                    # province_id = 2960
-                    # province_id = 2959
-                    # province_id = 2958
-                    # province_id = 2956
-                    # province_id = 2955
-                    # province_id = 2954
-                    # province_id = 2953
-                    # province_id = 2952
-                    # province_id = 2945
-                    # province_id = 3022
-                    # province_id = 2944
-                    # province_id = 2943
-                    # province_id = 2946
-                    # province_id = 2978
-                    # province_id = 2971
-                    # province_id = 2969
-                    # province_id = 2974
-                    # province_id = 2979
-                    # province_id = 2977
-                # }
-            # }
-        # }
-    # }
+save_the_nation0.5  = {
+	trigger = {
+		revanchism = 0.05
+		NOT = { revanchism = 0.10 } 
+	}
+	
+	suppression_points_modifier = 0.05
+	
+	#global_immigrant_attract = -0.15
+	land_organisation = 0.0125
+	mobilisation_size = 0.005
+	supply_consumption = -0.025
+	icon = 9
+}
 
-    # global_immigrant_attract = 0.1
-    # icon = 16
-# }
+save_the_nation1  = {
+	trigger = {
+		revanchism = 0.10
+		NOT = { revanchism = 0.15 } 
+	}
+	
+	suppression_points_modifier = 0.10
+	
+	#global_immigrant_attract = -0.3
+	land_organisation = 0.025
+	mobilisation_size = 0.01
+	supply_consumption = -0.05
+	icon = 9
+}
+
+save_the_nation1.5  = {
+	trigger = {
+		revanchism = 0.15
+		NOT = { revanchism = 0.20 } 
+	}
+	
+	suppression_points_modifier = 0.10
+	
+	global_immigrant_attract = -0.45
+	land_organisation = 0.05
+	mobilisation_size = 0.015
+	supply_consumption = -0.1
+	mobilization_impact = 0.125
+	mobilisation_economy_impact = -0.0625
+	icon = 9
+}
+
+save_the_nation2  = {
+	trigger = {
+		revanchism = 0.20
+		NOT = { revanchism = 0.25 } 
+	}
+	
+	suppression_points_modifier = 0.10
+	
+	global_immigrant_attract = -0.60
+	land_organisation = 0.075
+	mobilisation_size = 0.02
+	supply_consumption = -0.15
+	mobilization_impact = 0.25
+	mobilisation_economy_impact = -0.125
+	icon = 9
+}
+
+save_the_nation2.5  = {
+	trigger = {
+		revanchism = 0.25
+		NOT = { revanchism = 0.30 } 
+	}
+	
+	suppression_points_modifier = 0.10
+	
+	global_immigrant_attract = -0.75
+	land_organisation = 0.0875
+	mobilisation_size = 0.025
+	supply_consumption = -0.175
+	mobilization_impact = 0.375
+	mobilisation_economy_impact = -0.19
+	icon = 9
+}
+
+save_the_nation3  = {
+	trigger = {
+		revanchism = 0.30
+		NOT = { revanchism = 0.35 } 
+	}
+	
+	suppression_points_modifier = 0.10
+	
+	global_immigrant_attract = -0.9
+	land_organisation = 0.1
+	mobilisation_size = 0.03
+	supply_consumption = -0.20
+	mobilization_impact = 0.5
+	mobilisation_economy_impact = -0.25
+	icon = 9
+}
+
+save_the_nation3.5  = {
+	trigger = {
+		revanchism = 0.35
+		NOT = { revanchism = 0.40 } 
+	}
+	
+	suppression_points_modifier = 0.10
+	
+	global_immigrant_attract = -1.05
+	land_organisation = 0.15
+	mobilisation_size = 0.035
+	supply_consumption = -0.25
+	mobilization_impact = 0.75
+	mobilisation_economy_impact = -0.375
+	icon = 9
+}
+
+save_the_nation4  = {
+	trigger = {
+		revanchism = 0.40
+		NOT = { revanchism = 0.45 } 
+	}
+	
+	suppression_points_modifier = 0.10
+	
+	global_immigrant_attract = -1.2
+	land_organisation = 0.2
+	mobilisation_size = 0.04
+	supply_consumption = -0.30
+	mobilization_impact = 1
+	mobilisation_economy_impact = -0.5
+	icon = 9
+}
+
+save_the_nation4.5  = {
+	trigger = {
+		revanchism = 0.45
+		NOT = { revanchism = 0.50 }
+	}
+	
+	suppression_points_modifier = 0.10
+	
+	global_immigrant_attract = -1.35
+	land_organisation = 0.225
+	land_unit_start_experience = 2.5
+	mobilisation_size = 0.045
+	supply_consumption = -0.30
+	mobilization_impact = 1
+	mobilisation_economy_impact = -0.58
+	icon = 9
+}
+
+save_the_nation5  = {
+	trigger = {
+		revanchism = 0.50
+	}
+	
+	suppression_points_modifier = 0.10
+	
+	global_immigrant_attract = -1.5
+	land_organisation = 0.25
+	land_unit_start_experience = 5
+	mobilisation_size = 0.05
+	supply_consumption = -0.30
+	mobilization_impact = 1
+	mobilisation_economy_impact = -0.66
+	icon = 9
+}

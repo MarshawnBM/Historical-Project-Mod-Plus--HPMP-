@@ -73,3 +73,26 @@ enable_target_coring_title;Enable Coring with Province Selector;;;;;;;;;;;;;
 enable_target_coring_desc;This will allow you to use the province selector to chose a state to core over 15 years.;;;;;;;;;;;;;
 disable_target_coring_title;Disable Coring with Province Selector;;;;;;;;;;;;;
 disable_target_coring_desc;This will turn off the ability to allow you to use the province selector to chose a state to core over 15 years.;;;;;;;;;;;;;
+#############################################;;;;;;;;;;;;;;x
+#Save The Nation;;;;;;;;;;;;;;x
+#############################################;;;;;;;;;;;;;;x
+save_the_nation0.5;Moderate Patriotism;;;;;;;;;;;;x,,,,,,,
+save_the_nation0.5_desc;Moderate Patriotism;;;;;;;;;;;;x,,,,,,,
+save_the_nation1;Patriotism;;;;;;;;;;;;x,,,,,,,
+save_the_nation1_desc;Patriotism;;;;;;;;;;;;x,,,,,,,
+save_the_nation1.5;Moderate Naionalism;;;;;;;;;;;;x,,,,,,,
+save_the_nation1.5_desc;Moderate Nationalism;;;;;;;;;;;;x,,,,,,,
+save_the_nation2;Heightened Naionalism;;;;;;;;;;;;x,,,,,,,
+save_the_nation2_desc;Heightened Nationalism;;;;;;;;;;;;x,,,,,,,
+save_the_nation2.5;Limited Desperate Defense;;;;;;;;;;;;x,,,,,,,
+save_the_nation2.5_desc;Limited Desperate Defense;;;;;;;;;;;;x,,,,,,,
+save_the_nation3;Full Desperate Defense;;;;;;;;;;;;x,,,,,,,
+save_the_nation3_desc;Full Desperate Defense;;;;;;;;;;;;x,,,,,,,
+save_the_nation3.5;Nearing the Final Hour;;;;;;;;;;;;x,,,,,,,
+save_the_nation3.5_desc;Nearing the Final Hour;;;;;;;;;;;;x,,,,,,,
+save_the_nation4;Final Hour;;;;;;;;;;;;x,,,,,,,
+save_the_nation4_desc;Final Hour;;;;;;;;;;;;x,,,,,,,
+save_the_nation4.5;Somewhat Spiteful Resistance;;;;;;;;;;;;x,,,,,,,
+save_the_nation4.5_desc;Somewhat Spiteful Resistance;;;;;;;;;;;;x,,,,,,,
+save_the_nation5;Spiteful Resistance;;;;;;;;;;;;x,,,,,,,
+save_the_nation5_desc;Spiteful Resistance;;;;;;;;;;;;x,,,,,,,
