@@ -346,6 +346,44 @@ political_decisions = {
 
         ai_will_do = { factor = 0 }
     }	
+	enable_harder_ai = {
+        picture = crimeamod
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = permanently_hide_options }
+            NOT = { has_global_flag = harder_ai }
+        }
+
+        allow = {
+        }
+
+        effect = {
+		set_global_flag = harder_ai
+        }
+
+        ai_will_do = { factor = 0 }
+    }
+	disable_harder_ai = {
+        picture = crimeamod
+        alert = no
+        potential = {
+            ai = no
+            has_country_flag = country_looking_through_additional_features
+            NOT = { has_global_flag = permanently_hide_options }
+            has_global_flag = harder_ai 
+        }
+
+        allow = {
+        }
+
+        effect = {
+		remove_global_flag = harder_ai
+        }
+
+        ai_will_do = { factor = 0 }
+    }	
 	
 	
 }

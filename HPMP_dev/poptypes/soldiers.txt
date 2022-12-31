@@ -608,6 +608,7 @@ promote_to = {
             factor = -100
             NOT = { location = { work_available = { worker = craftsmen } } }
         }
+		
     }
 
 }

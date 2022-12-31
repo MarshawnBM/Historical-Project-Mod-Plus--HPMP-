@@ -73,6 +73,10 @@ enable_target_coring_title;Enable Coring with Province Selector;;;;;;;;;;;;;
 enable_target_coring_desc;This will allow you to use the province selector to chose a state to core over 15 years.;;;;;;;;;;;;;
 disable_target_coring_title;Disable Coring with Province Selector;;;;;;;;;;;;;
 disable_target_coring_desc;This will turn off the ability to allow you to use the province selector to chose a state to core over 15 years.;;;;;;;;;;;;;
+enable_harder_ai_title;Enable Harder AI;;;;;;;;;;;;;
+enable_harder_ai_desc;This will cause the AI to use tariffs more effectively, making the AI have more money and be harder.;;;;;;;;;;;;;
+disable_harder_ai_title;Disable Harder AI;;;;;;;;;;;;;
+disable_harder_ai_desc;This will cause the AI to not use tariffs more effectively, making the AI have less money and be easier.;;;;;;;;;;;;;
 #############################################;;;;;;;;;;;;;;x
 #Save The Nation;;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x

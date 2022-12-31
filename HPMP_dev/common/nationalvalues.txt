@@ -33,7 +33,7 @@ nv_autocracy = {
     political_reform_desire = -0.05
     mobilisation_size = 0.045
     mobilisation_economy_impact = 1.0
-	war_exhaustion = -5
+	war_exhaustion = -2.5
 }
 
 nv_tradition = {

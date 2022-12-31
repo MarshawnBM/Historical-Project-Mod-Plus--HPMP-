@@ -746,3 +746,78 @@ save_the_nation5  = {
 	mobilisation_economy_impact = -0.66
 	icon = 9
 }
+laissez_faire_tarrifs = {
+	trigger = {
+		exists = yes
+		ai = yes
+		has_global_flag = harder_ai
+		OR = {
+		economic_policy = laissez_faire	
+		civilized = no
+		NOT = {
+		year = 1860
+		}
+		NOT = {
+		literacy = 0.4
+		}
+		}
+		OR = {
+		NOT = {
+		is_culture_group = british
+		is_culture_group = french
+		is_culture_group = germanic
+		}
+		is_greater_power = no
+		NOT = { year = 1860 }
+		}
+	}
+	icon = 10
+	min_tariff = 0.5
+}
+laissez_faire_tarrifs2 = {
+	trigger = {
+		exists = yes
+		ai = yes
+		has_global_flag = harder_ai
+		trade_policy = protectionism
+		war = yes
+		OR = {
+		NOT = {
+		is_culture_group = british
+		is_culture_group = french
+		is_culture_group = germanic
+		}
+		is_greater_power = no
+		NOT = { year = 1870 }
+		}
+	}
+	icon = 10
+	min_tariff = 0.25
+}
+low_lit_tariffs = {
+	trigger = {
+		exists = yes
+		ai = yes
+		has_global_flag = harder_ai
+		trade_policy = protectionism
+		NOT = {
+		literacy = 0.2
+		}
+	}
+	icon = 10
+	min_tariff = 0.25
+}
+low_lit_tariffs_war = {
+	trigger = {
+		exists = yes
+		ai = yes
+		has_global_flag = harder_ai
+		war = yes
+		trade_policy = protectionism
+		NOT = {
+		literacy = 0.2
+		}
+	}
+	icon = 10
+	min_tariff = 0.25
+}
