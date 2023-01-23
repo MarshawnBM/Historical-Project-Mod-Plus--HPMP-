@@ -594,6 +594,10 @@ country_event = {
 
     mean_time_to_happen = {
         months = 12
+        modifier = {
+            factor = 0.1
+            vassal_of = GER
+        }
     }
 
     option = {
@@ -611,6 +615,10 @@ country_event = {
         }
         ai_chance = {
             factor = 10
+			modifier = {
+				factor = 10
+				vassal_of = GER
+			}
             modifier = {
                 factor = 0.5
                 is_secondary_power = yes
@@ -691,6 +699,10 @@ country_event = {
         GER = { country_event = 31519 }
         ai_chance = {
             factor = 30
+			modifier = {
+				factor = 10
+				vassal_of = GER
+			}
             modifier = {
                 factor = 0.5
                 is_secondary_power = yes
@@ -778,6 +790,10 @@ country_event = {
         }
         ai_chance = {
             factor = 60
+			modifier = {
+				factor = 0
+				vassal_of = GER
+			}
             modifier = {
                 factor = 1.5
                 tag = KUK
@@ -1815,6 +1831,11 @@ country_event = {
 
     mean_time_to_happen = {
         months = 12
+        modifier = {
+            factor = 0.1
+            vassal_of = GER
+        }
+
     }
 
     option = {
@@ -1832,6 +1853,10 @@ country_event = {
         }
         ai_chance = {
             factor = 75
+			modifier = {
+				factor = 10
+				vassal_of = GER
+			}
             modifier = {
                 factor = 0.75
                 is_secondary_power = yes
@@ -1886,6 +1911,10 @@ country_event = {
         }
         ai_chance = {
             factor = 25
+			modifier = {
+				factor = 0
+				vassal_of = GER
+			}
             modifier = {
                 factor = 0.75
                 is_secondary_power = no

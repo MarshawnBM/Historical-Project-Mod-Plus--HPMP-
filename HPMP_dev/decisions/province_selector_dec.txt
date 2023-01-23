@@ -61,11 +61,11 @@ zcreate_supply_depot = {
 		ai = no
 	}
 	allow = {
-		money = 500000
+		money = 50000
 		any_owned_province = { has_building = province_selector }
 	}
 	effect = {
-		treasury = -500000
+		treasury = -50000
 		random_owned = {
 			limit = { has_building = province_selector }
 			add_province_modifier = { name = supply_depot duration = -1 }
