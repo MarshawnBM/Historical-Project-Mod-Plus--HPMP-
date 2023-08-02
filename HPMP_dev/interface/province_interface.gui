@@ -1474,7 +1474,7 @@ guiTypes = {
 	
 		iconType = {
 			name = "build_icon3"
-			spriteType = "GFX_province_infra_strip"
+			spriteType = "GFX_province_navalbase_strip"
 			position = { x= 23 y = -4 }
 			Orientation = "UPPER_LEFT"
 		}	
@@ -1492,7 +1492,7 @@ guiTypes = {
 		}
 		iconType = {
 			name = "build_icon2"
-			spriteType = "GFX_province_navalbase_strip"
+			spriteType = "GFX_province_infra_strip"
 			position = { x= 23 y = -4 }
 			Orientation = "UPPER_LEFT"
 		}
