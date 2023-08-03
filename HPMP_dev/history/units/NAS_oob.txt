@@ -1,3 +1,10 @@
+AUS = {
+	value = 100
+}
+PRU = {
+	value = 100
+}
+
 army = {
     name = "Nassauische Heer"
     location = 565

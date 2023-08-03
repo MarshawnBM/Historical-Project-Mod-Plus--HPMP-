@@ -4,7 +4,7 @@ culture = danish
 religion = protestant
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.8
 non_state_culture_literacy = 0.4
 civilized = yes
@@ -177,7 +177,6 @@ school_reforms = low_schools
     basic_chemistry = 1
     medicine = 1
     inorganic_chemistry = 1
-    mechanized_mining = 1
 
 #Inventions
 }

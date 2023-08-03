@@ -16,6 +16,18 @@ CLM = {
 VNZ = {
     value = -25
 }
+USA = {
+	value = 0
+}
+SPA = {
+	value = -1
+}
+PRG = {
+	value = -200
+}
+SPC = {
+	value = -200
+}
 
 
 leader = {

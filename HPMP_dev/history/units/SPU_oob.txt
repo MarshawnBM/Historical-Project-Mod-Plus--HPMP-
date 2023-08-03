@@ -1,5 +1,14 @@
 USA = {
-    value = -75
+    value = -50
+}
+SPA = {
+	value = -1
+}
+HAI = {
+	value = -50
+}
+SPC = {
+	value = -200
 }
 
 army = {

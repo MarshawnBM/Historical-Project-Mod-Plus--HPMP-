@@ -33,6 +33,12 @@ ARO = {
 CLA = {
     value = 60
 }
+SPA = {
+    value = 30
+}
+SPC = {
+    value = 30
+}
 
 army = {
     name = "Army of the Kingdom of Warri"

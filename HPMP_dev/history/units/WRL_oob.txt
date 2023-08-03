@@ -29,6 +29,9 @@ AWS = {
 HAR = {
     value = 75
 }
+ENG = {
+	value = -20
+}
 
 
 army = {

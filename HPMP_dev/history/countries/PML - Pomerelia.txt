@@ -1,7 +1,7 @@
 capital = 694
 primary_culture = polish
 religion = catholic
-government = hms_government
+government = prussian_constitutionalism
 plurality = 0.2
 nationalvalue = nv_liberty
 literacy = 0.6
@@ -15,7 +15,7 @@ public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = gerrymandering
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -28,7 +28,7 @@ school_reforms = no_schools
 
 #New Reforms
 conscription = no_draft
-debt_law = serfdom
+debt_law = peonage
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only

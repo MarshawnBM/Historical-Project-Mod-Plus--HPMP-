@@ -1,9 +1,10 @@
 CRL = {
+	value = 25
     truce_until = 1837.1.1
 }
 
 AFG = {
-    value = 110
+    value = -100
 }
 ENG = {
     value = 75

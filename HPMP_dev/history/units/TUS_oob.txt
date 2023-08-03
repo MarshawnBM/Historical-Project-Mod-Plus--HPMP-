@@ -1,3 +1,13 @@
+AUS = {
+	value = 75
+}
+SAR = {
+	value = 125
+}
+MOD = {
+	value = 100
+}
+
 leader = {
         name = "Leopoldo II"
         date = 1824.1.1

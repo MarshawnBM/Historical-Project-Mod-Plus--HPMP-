@@ -3,7 +3,7 @@ primary_culture = croat
 religion = catholic
 government = absolute_monarchy
 plurality = 0.05
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.2
 civilized = yes
 
@@ -12,7 +12,7 @@ slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = yes_meeting
-press_rights = state_press
+press_rights = free_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
 political_parties = underground_parties

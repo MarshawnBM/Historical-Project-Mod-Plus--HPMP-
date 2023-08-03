@@ -2,7 +2,7 @@ capital = 1387
 primary_culture = malay
 culture = yue
 religion = sunni
-government = democracy
+government = presidential_dictatorship
 plurality = 0.0
 nationalvalue = nv_equality
 literacy = 0.03
@@ -10,7 +10,7 @@ literacy = 0.03
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = none_voting
+vote_franschise = no_voting
 public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
@@ -34,7 +34,7 @@ child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
 
-ruling_party = INO_conservative
+ruling_party = INO_reactionary
 upper_house = {
     fascist = 0
     liberal = 15

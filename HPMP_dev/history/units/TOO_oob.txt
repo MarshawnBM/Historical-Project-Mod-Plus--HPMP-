@@ -1,17 +1,26 @@
 JAL = {
     value = 200
 }
-
 MAS = {
     value = 100
 }
-
 SOK = {
     value = 100
 }
-
 WOL = {
     value = 60
+}
+SPA = {
+    value = 50
+}
+SPC = {
+    value = 50
+}
+POR = {
+	value = 35
+}
+NET = {
+	value = 40
 }
 
 GBU = { value = -200 }

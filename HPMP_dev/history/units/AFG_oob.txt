@@ -2,26 +2,15 @@ CRL = {
     truce_until = 1840.1.1
 }
 
-KAZ = {
-    value = -200
-}
+BUK = { value = 25 }
 
-KHI = {
-    value = -200
-}
+KHI = { value = 400 }
 
-KOK = {
-    value = -200
-}
+RUS = { value = -25 }
 
-TKM = {
-    value = -200
-}
+PER = { value = -50 }
 
-BUK = {
-    value = -200
-}
-
+PNJ = { value = -100 }
 
 
 leader = {

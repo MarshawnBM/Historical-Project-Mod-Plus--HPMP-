@@ -25,6 +25,12 @@ KUB = {
 LUN = {
     value = 50
 }
+SPA = {
+    value = 40
+}
+SPC = {
+    value = 40
+}
 
 army = {
     name = "Army of the Kongo Kingdom"

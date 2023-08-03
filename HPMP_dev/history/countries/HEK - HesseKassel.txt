@@ -4,7 +4,7 @@ culture = south_german
 religion = protestant
 government = absolute_monarchy
 plurality = 25.0
-nationalvalue = nv_order
+nationalvalue = nv_autocracy
 literacy = 0.8
 civilized = yes
 prestige = 5
@@ -39,7 +39,7 @@ border_policy = open_borders
 
 set_country_flag = protestant_country
 
-ruling_party = HEK_conservative_2
+ruling_party = HEK_reactionary
 upper_house = {
     fascist = 0
     liberal = 35
@@ -159,7 +159,6 @@ oob = "HEK_oob.txt"
     basic_chemistry = 1
     medicine = 1
     inorganic_chemistry = 1
-    mechanized_mining = 1
 
 #Inventions
 

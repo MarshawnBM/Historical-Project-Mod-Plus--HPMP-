@@ -45,6 +45,12 @@ DAH = {
 ASH = {
     value = 30
 }
+SPA = {
+    value = 50
+}
+SPC = {
+    value = 50
+}
 
 army = {
     name = "Legions of the Empire of Benin"

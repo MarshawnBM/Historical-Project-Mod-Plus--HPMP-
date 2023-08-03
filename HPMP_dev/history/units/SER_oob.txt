@@ -1,3 +1,10 @@
+RUS = {
+	value = 125
+}
+AUS = {
+	value = -15
+}
+
 leader = {
     name = "Prince Aleksandar"
     type = land

@@ -6,6 +6,9 @@ WUR = {
     value = 150
     military_access = yes
 }
+GRE = {
+	value = 150
+}
 
 
 leader = {

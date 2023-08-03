@@ -15,7 +15,7 @@ XHO = {
 }
 
 POR = {
-    value = 30
+    value = 50
 }
 
 leader = {

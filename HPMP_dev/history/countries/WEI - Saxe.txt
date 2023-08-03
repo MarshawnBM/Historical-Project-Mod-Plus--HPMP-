@@ -2,7 +2,7 @@ capital = 561
 primary_culture = north_german
 culture = south_german
 religion = protestant
-government = absolute_monarchy
+government = prussian_constitutionalism
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.8
@@ -13,7 +13,7 @@ prestige = 5
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = none_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
@@ -39,12 +39,12 @@ border_policy = open_borders
 
 set_country_flag = protestant_country
 
-ruling_party = WEI_reactionary
+ruling_party = WEI_conservative_2
 upper_house = {
     fascist = 0
     liberal = 27
-    conservative = 19
-    reactionary = 54
+    conservative = 59
+    reactionary = 14
     anarcho_liberal = 0
     socialist = 0
     communist = 0
@@ -159,7 +159,6 @@ oob = "WEI_oob.txt"
     basic_chemistry = 1
     medicine = 1
     inorganic_chemistry = 1
-    mechanized_mining = 1
 
 #Inventions
 

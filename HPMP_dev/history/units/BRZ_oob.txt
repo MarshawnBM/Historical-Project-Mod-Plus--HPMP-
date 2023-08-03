@@ -1,6 +1,21 @@
 PBC = {
     value = -50
 }
+USA = {
+	value = 15
+}
+SPA = {
+	value = 35
+}
+URU = {
+	value = -100
+}
+PRG = {
+	value = -200
+}
+HAI = {
+	value = -50
+}
 
 army = {
     name = "Exército Imperial"

@@ -1,3 +1,15 @@
+RUS = {
+	value = 75
+}
+
+TUR = {
+	value = 50
+}
+
+AUS = {
+	value = 100
+}
+
 army = {
     name = "Army of the Principality of Wallachia"
     location = 669

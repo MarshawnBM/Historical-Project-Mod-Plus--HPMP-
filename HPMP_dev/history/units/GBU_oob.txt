@@ -3,10 +3,17 @@ NET = {
 }
 
 POR = {
-    value = 200
+    value = 100
 }
 
 SEG = {
+    value = 50
+}
+
+SPA = {
+    value = 50
+}
+SPC = {
     value = 50
 }
 

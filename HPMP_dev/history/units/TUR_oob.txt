@@ -1,8 +1,8 @@
 #Sphere of Influence
 #Asia
 PER = {
-    value = 150        #relation
-    level = 3        #3=cordial, 4 = friendly, 5 sphere
+    value = -25        #relation
+    level = 2        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 0
 }
 
@@ -73,8 +73,8 @@ QAT = {
 
 #Africa
 EGY = {
-    value = -50        #relation
-    level = 1        #3=cordial, 4 = friendly, 5 sphere
+    value = -200        #relation
+    level = 0        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 0
 }
 TUN = {
@@ -88,34 +88,39 @@ MOR = {
 
 #Europe
 GRE = {
-    value = -25        #relation
+    value = -150        #relation
     level = 0        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 0
 }
 SER = {
-    value = 0        #relation
+    value = -150        #relation
     level = 5        #3=cordial, 4 = friendly, 5 sphere
-    influence_value = 0
+    influence_value = 100
 }
 MOL = {
-    value = 125
+    value = 50
     level = 4
     influence_value = 0
 }
 WAL = {
-    value = 125
+    value = 50
     level = 4
     influence_value = 0
+}
+PAP = {
+	value = -50
+	level = 1
+	influence_value = 0
 }
 
 #Other GP's
 USA = { value = 0 }
-PRU = { value = 25 }
-SPA = { value = 25 }
-AUS = { value = 25 }
+PRU = { value = 50 }
+SPA = { value = -10 }
+AUS = { value = 50 }
 RUS = { value = 125 }
-ENG = { value = 125 }
-FRA = { value = -75 }
+ENG = { value = 30 }
+FRA = { value = -30 }
 
 army = {
     name = "Mansure Army"
@@ -428,128 +433,153 @@ navy = {
     name = "Ottoman Navy"
     location = 860
     ship = {
-        name= "Masudiya"
+        name= "Selimiye"
         type = manowar
     }
 
     ship = {
-        name= "Sadd al Bahri"
+        name= "Mahmudiye"
         type = manowar
     }
 
     ship = {
-        name= "Ankay i Barhi"
+        name= "Mesudiye"
         type = manowar
     }
 
     ship = {
-        name= "Taus i Barhi"
+        name= "Fethiye"
         type = manowar
     }
 
     ship = {
-        name= "Tevfik Nyuma"
+        name= "Memduhiye"
         type = manowar
     }
 
     ship = {
-        name= "Bisharet Nyuma"
+        name= "Tesrifiye"
         type = manowar
     }
 
     ship = {
-        name= "Killid i Barhi"
+        name= "Mukaddeme i Hayir"
         type = manowar
     }
 
     ship = {
-        name= "Heybetendaz"
+        name= "Rehber i Nusret"
         type = manowar
     }
 
     ship = {
-        name= "Melek i Barhi"
+        name= "Burc i Zafer"
         type = manowar
     }
 
     ship = {
-        name= "Sayyad i Barhi"
+        name= "Fevziye"
         type = manowar
     }
 
     ship = {
-        name= "Gulbang i Nusret"
+        name= "Tevfikiye"
         type = manowar
     }
 
     ship = {
-        name= "Jebel Andaz"
+        name= "Peyk i Mesiret"
+        type = manowar
+    }
+	
+	ship = {
+        name= "Necm i Sevket"
+        type = manowar
+    }
+	
+	ship = {
+        name= "Feyz i Memduh"
+        type = manowar
+    }
+	
+	ship = {
+        name= "Mukaddime i Seref"
         type = manowar
     }
 
     ship = {
-        name= "Iskenderiya"
+        name= "Nusretiye"
         type = frigate
     }
 
     ship = {
-        name= "Badere i Zaffar"
+        name= "Hifz ur Rahman"
         type = frigate
     }
 
     ship = {
-        name= "Mahubey Subham"
+        name= "Kaaid i Zafer"
         type = frigate
     }
 
     ship = {
-        name= "Metelin"
+        name= "Nesim i Zafer"
         type = frigate
     }
 
     ship = {
-        name= "Denyuvet"
+        name= "Serefresan"
         type = frigate
     }
 
     ship = {
-        name= "Rahbar i Alam"
+        name= "AvniIlah"
         type = frigate
     }
 
     ship = {
-        name= "Malbaik Nesuret"
+        name= "Yaveri Tevfik"
         type = frigate
     }
 
     ship = {
-        name= "Bedr i Zafar"
+        name= "Fazlullah"
         type = frigate
     }
 
     ship = {
-        name= "Meskeni Ghazi"
+        name= "Mazhar i Tevfik"
         type = frigate
     }
 
     ship = {
-        name= "Fakim i Zafar"
+        name= "Pertev Fesan"
         type = frigate
     }
 
     ship = {
-        name= "1st Transport Flotilla"
-        type = clipper_transport
+        name= "Sadiye"
+        type = frigate
     }
 
     ship = {
-        name= "2nd Transport Flotilla"
-        type = clipper_transport
+        name= "Tair i Bahri"
+        type = frigate
     }
 
     ship = {
-        name= "3rd Transport Flotilla"
-        type = clipper_transport
+        name= "Suriye"
+        type = frigate
+    }
+	
+	ship = {
+        name= "Sihab i Bahri"
+        type = frigate
+    }
+	
+	ship = {
+        name= "Mirat i Zafer"
+        type = frigate
     }
 
 }
@@ -624,13 +654,4 @@ leader = {
     personality = active_p
     background = war_college
     prestige = 0.0
-}
-
-leader = {
-    name = "Yaver Pasha"
-    date = 1836.1.1
-    type = sea
-    personality = diplomatic
-    background = gifted_administrator
-    prestige = 0.1
 }

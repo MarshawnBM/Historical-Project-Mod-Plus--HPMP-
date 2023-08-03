@@ -2,9 +2,9 @@ capital = 958
 primary_culture = ukrainian
 culture = ugrian
 religion = orthodox
-government = absolute_monarchy
+government = presidential_dictatorship
 plurality = 0.02
-nationalvalue = nv_autocracy
+nationalvalue = nv_productivity
 literacy = 0.15
 civilized = yes
 
@@ -14,10 +14,10 @@ slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = yes_meeting
-press_rights = state_press
+press_rights = censored_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = underground_parties
+political_parties = harassment
 
 # Social Reforms
 wage_reform = no_minimum_wage

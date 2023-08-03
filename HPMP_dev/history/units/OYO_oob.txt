@@ -33,6 +33,12 @@ WRI = {
 ARO = {
     value = 25
 }
+SPA = {
+    value = 30
+}
+SPC = {
+    value = 30
+}
 
 army = {
     name = "Army of the Oyo Empire"

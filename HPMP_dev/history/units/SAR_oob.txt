@@ -3,6 +3,27 @@
 SWI = {
     value = 125
 }
+FRA = {
+	value = -25
+}
+AUS = {
+	value = 100
+}
+PAR = {
+	value = 125
+}
+MOD = {
+	value = 125
+}
+LUC = {
+	value = 125
+}
+TUS = {
+	value = 125
+}
+SIC = {
+	value = 125
+}
 
 leader = {
     name = "Carlo Alberto"
@@ -159,7 +180,7 @@ navy = {
     }
 
     ship = {
-        name= "Haute Combe"
+        name= "Des Geneys"
         type = frigate
     }
 
@@ -170,6 +191,26 @@ navy = {
 
     ship = {
         name= "Regina"
+        type = frigate
+    }
+	
+	ship = {
+        name= "Euridice"
+        type = frigate
+    }
+	
+	ship = {
+        name= "Commercio di Genova"
+        type = frigate
+    }
+	
+	ship = {
+        name= "Maria Teresa"
+        type = frigate
+    }
+	
+	ship = {
+        name= "Maria Cristina"
         type = frigate
     }
 

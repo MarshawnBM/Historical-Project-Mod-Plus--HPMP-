@@ -3,7 +3,7 @@ primary_culture = greek
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.22
 civilized = yes
 is_releasable_vassal = no
@@ -28,7 +28,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
-conscription = no_draft
+conscription = mandatory_service
 debt_law = peonage
 penal_system = capital_punishment
 child_labor = child_labor_legal

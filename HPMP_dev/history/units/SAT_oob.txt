@@ -1,6 +1,7 @@
 RYU = { value = 125 }
 SUL = { value = 100 }
 BRU = { value = 100 }
+NET = { value = 200 }
 
 leader = {
     name = "Saigo Takamori"

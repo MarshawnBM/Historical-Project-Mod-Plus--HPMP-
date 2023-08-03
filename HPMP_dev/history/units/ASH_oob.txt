@@ -1,28 +1,35 @@
 MOS = {
     value = 20
 }
-
 BEN = {
     value = 30
 }
-
 OYO = {
     value = 35
 }
-
 CLA = {
     value = 30
 }
-
 WRI = {
     value = 25
 }
-
 DAH = {
     value = 45
 }
 SEG = {
     value = 10
+}
+SPA = {
+    value = 50
+}
+SPC = {
+    value = 50
+}
+POR = {
+	value = 50
+}
+NET = {
+	value = 75
 }
 
 TOO = { value = -200 }

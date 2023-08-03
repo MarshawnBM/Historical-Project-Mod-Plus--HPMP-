@@ -3,7 +3,7 @@ primary_culture = south_andean
 religion = catholic
 government = presidential_dictatorship
 plurality = 25.0
-nationalvalue = nv_equality
+nationalvalue = nv_order
 literacy = 0.09
 non_state_culture_literacy = 0.01
 civilized = yes
@@ -123,7 +123,6 @@ plurality = 50
     experimental_railroad = 1
     basic_chemistry = 1
     medicine = 1
-    mechanized_mining = 1
 
 #Inventions
 }

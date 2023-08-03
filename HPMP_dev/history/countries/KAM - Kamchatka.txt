@@ -1,10 +1,10 @@
-capital = 1078 #Chita
+capital = 1082 #Vladivostok
 primary_culture = russian
 culture = byelorussian
 culture = ukrainian
 culture = siberian
 religion = orthodox
-government = absolute_monarchy
+government = presidential_dictatorship
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.01
@@ -14,7 +14,7 @@ civilized = yes
 slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
-public_meetings = yes_meeting
+public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
@@ -30,7 +30,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
-conscription = two_year_draft
+conscription = mandatory_service
 debt_law = serfdom
 penal_system = capital_punishment
 child_labor = child_labor_legal
@@ -39,12 +39,12 @@ border_policy = open_borders
 
 set_country_flag = orthodox_country
 
-ruling_party = KAM_conservative
+ruling_party = KAM_reactionary
 upper_house = {
     fascist = 0
     liberal = 13
-    conservative = 77
-    reactionary = 10
+    conservative = 37
+    reactionary = 50
     anarcho_liberal = 0
     socialist = 0
     communist = 0

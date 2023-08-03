@@ -6,6 +6,9 @@ WUR = {
     value = 150
     military_access = yes
 }
+PRU = {
+	value = 50
+}
 
 leader = {
     name = "Leopold of Baden"

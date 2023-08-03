@@ -10,8 +10,8 @@ is_releasable_vassal = no
 
 # Political reforms
 slavery = yes_slavery
-upper_house_composition = appointed
-vote_franschise = wealth_voting
+upper_house_composition = population_equal_weight
+vote_franschise = universal_voting
 public_meetings = yes_meeting
 press_rights = free_press
 trade_unions = all_trade_unions

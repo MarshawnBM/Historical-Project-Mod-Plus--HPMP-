@@ -3,9 +3,9 @@ primary_culture = wallonian
 culture = flemish
 culture = picard
 religion = catholic
-government = hms_government
+government = prussian_constitutionalism
 plurality = 25.0
-nationalvalue = nv_liberty
+nationalvalue = nv_productivity
 literacy = 0.45
 non_state_culture_literacy = 0.5 #Germans/Dutch
 civilized = yes
@@ -14,7 +14,7 @@ prestige = 5
 # Political reforms
 slavery = no_slavery
 upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
 press_rights = free_press
 trade_unions = no_trade_unions
@@ -164,7 +164,6 @@ ruling_party = BEL_liberal
     basic_chemistry = 1
     medicine = 1
     inorganic_chemistry = 1
-    mechanized_mining = 1
 
 #Inventions
 }

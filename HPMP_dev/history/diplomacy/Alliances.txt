@@ -235,13 +235,7 @@ alliance = {
     start_date = 1835.1.1
     end_date = 1881.1.1
 }
-#France/Papal States
-alliance = {
-    first = FRA
-    second = PAP
-    start_date = 1835.1.1
-    end_date = 1861.1.1
-}
+
 #China/Lanfang
 # alliance = {
     # first = QNG
@@ -270,4 +264,12 @@ alliance = {
     second = CHK
     start_date = 1835.1.1
     end_date = 1911.1.1
+}
+
+#Austro-Piedmontese Alliance
+alliance = {
+    first = AUS
+    second = SAR
+    start_date = 1831.1.1
+    end_date = 1936.1.1
 }

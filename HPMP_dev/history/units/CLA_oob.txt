@@ -33,6 +33,12 @@ SOK = {
 DAH = {
     value = 30
 }
+SPA = {
+    value = 50
+}
+SPC = {
+    value = 50
+}
 
 army = {
     name = "Royal army of Calabar"

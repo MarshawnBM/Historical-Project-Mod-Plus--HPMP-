@@ -3,7 +3,7 @@ primary_culture = spanish
 culture = catalan
 culture = basque
 religion = catholic
-government = hms_government
+government = prussian_constitutionalism
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.13
@@ -16,13 +16,13 @@ prestige = 70
 
 # Political reforms
 slavery = yes_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
+upper_house_composition = appointed
+vote_franschise = landed_voting
 public_meetings = yes_meeting
 press_rights = censored_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
-political_parties = non_secret_ballots
+political_parties = harassment
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -43,7 +43,7 @@ border_policy = open_borders
 
 set_country_flag = catholic_country
 
-ruling_party = SPA_conservative
+ruling_party = SPA_liberal
 last_election = 1834.1.1
 upper_house = {
     fascist = 0
@@ -120,7 +120,6 @@ press_rights = free_press
 trade_unions = non_socialist
 voting_system = first_past_the_post
 political_parties = non_secret_ballots
-subsidise = subsidise_no
 
 ruling_party = SPA_conservative_2
 
@@ -188,7 +187,6 @@ school_reforms = low_schools
     early_railroad = 1
     basic_chemistry = 1
     medicine = 1
-    mechanized_mining = 1
 
 #Inventions
 }

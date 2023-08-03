@@ -1,9 +1,9 @@
 capital = 589
 primary_culture = south_german
-religion = catholic
+religion = protestant
 government = absolute_monarchy
 plurality = 25.0
-nationalvalue = nv_order
+nationalvalue = nv_autocracy
 literacy = 0.8
 civilized = yes
 prestige = 5
@@ -17,7 +17,7 @@ public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = underground_parties
+political_parties = harassment
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -29,14 +29,14 @@ pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
-conscription = two_year_draft
+conscription = mandatory_service
 debt_law = debtors_prisons
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = culture_voting_only
 border_policy = open_borders
 
-set_country_flag = catholic_country
+set_country_flag = protestant_country
 
 ruling_party = WUR_reactionary
 upper_house = {
@@ -148,7 +148,6 @@ oob = "WUR_oob.txt"
     basic_chemistry = 1
     medicine = 1
     inorganic_chemistry = 1
-    mechanized_mining = 1
 
 #Inventions
 

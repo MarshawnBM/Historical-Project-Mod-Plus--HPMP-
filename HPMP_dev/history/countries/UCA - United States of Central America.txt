@@ -11,8 +11,8 @@ prestige = 3
 
 # Political reforms
 slavery = no_slavery
-upper_house_composition = appointed
-vote_franschise = landed_voting
+upper_house_composition = state_equal_weight
+vote_franschise = wealth_weighted_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
@@ -101,7 +101,6 @@ oob = "UCA_oob.txt"
     iron_railroad = 1
     post_nelsonian_thought = 1
     the_command_principle = 1
-    mechanized_mining = 1
 
 #Inventions
     dobby_loom = yes

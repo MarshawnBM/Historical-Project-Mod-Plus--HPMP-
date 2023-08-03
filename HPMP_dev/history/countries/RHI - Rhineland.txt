@@ -2,9 +2,9 @@ capital = 576
 primary_culture = north_german
 culture = south_german
 religion = catholic
-government = absolute_monarchy
+government = prussian_constitutionalism
 plurality = 0.0
-nationalvalue = nv_order
+nationalvalue = nv_productivity
 literacy = 0.8
 civilized = yes
 prestige = 1
@@ -12,12 +12,12 @@ prestige = 1
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = none_voting
+vote_franschise = landed_voting
 public_meetings = yes_meeting
-press_rights = state_press
+press_rights = censored_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = underground_parties
+political_parties = non_secret_ballots
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -29,8 +29,8 @@ pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
-conscription = no_draft
-debt_law = peonage
+conscription = one_year_draft
+debt_law = debtors_prisons
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = culture_voting_only

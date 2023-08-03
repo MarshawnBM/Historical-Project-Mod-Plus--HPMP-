@@ -3,7 +3,7 @@ primary_culture = australian
 religion = protestant
 government = hms_government
 plurality = 0.98
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.7
 civilized = yes
 

@@ -1,21 +1,21 @@
 capital = 706
 primary_culture = polish
 religion = catholic
-government = democracy
+government = presidential_dictatorship
 plurality = 0.2
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.6
 civilized = yes
 
 # Political reforms
 slavery = no_slavery
 upper_house_composition = population_equal_weight
-vote_franschise = landed_voting
+vote_franschise = none_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = harassment
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -27,7 +27,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 # New Reforms
-conscription = two_year_draft
+conscription = mandatory_service
 debt_law = peonage
 penal_system = capital_punishment
 child_labor = child_labor_legal
@@ -36,7 +36,7 @@ border_policy = open_borders
 
 set_country_flag = catholic_country
 
-ruling_party = POL_conservative
+ruling_party = POL_reactionary
 upper_house = {
     fascist = 0
     liberal = 36

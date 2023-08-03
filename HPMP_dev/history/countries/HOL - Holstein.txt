@@ -4,7 +4,7 @@ culture = danish
 religion = protestant
 government = absolute_monarchy
 plurality = 25.0
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.8
 civilized = yes
 prestige = 5
@@ -157,7 +157,6 @@ oob = "HOL_oob.txt"
     basic_chemistry = 1
     medicine = 1
     inorganic_chemistry = 1
-    mechanized_mining = 1
 
 #Inventions
 

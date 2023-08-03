@@ -1,0 +1,37 @@
+RUS = {
+	value = -50
+}
+
+army = {
+    name = "Norsk Garde"
+    location = 313
+    regiment = {
+        name= "Konstitusjonelle Brigaden"
+        type = infantry
+        home = 313
+    }
+
+    regiment = {
+        name= "Konstitusjonelle Brigaden"
+        type = infantry
+        home = 313
+    }
+
+    regiment = {
+        name= "Konstitusjonelle Brigaden"
+        type = infantry
+        home = 310
+    }
+
+	regiment = {
+        name= "Konstitusjonelle Brigaden"
+        type = infantry
+        home = 309
+    }
+
+	regiment = {
+        name= "Konstitusjonelle Brigaden"
+        type = infantry
+        home = 305
+    }
+}

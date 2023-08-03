@@ -1,6 +1,15 @@
 PRG = {
     value = -200
 }
+POR = {
+	value = -100
+}
+URU = {
+	150
+}
+HAI = {
+	value = -50
+}
 
 leader = {
     name = "Bento Gonçalves"

@@ -4,8 +4,7 @@ religion = catholic
 government = absolute_monarchy
 plurality = 10.0
 nationalvalue = nv_autocracy
-literacy = 0.80
-non_state_culture_literacy = 0.25
+literacy = 0.45
 civilized = yes
 
 #GreaterPowers = prestige
@@ -28,7 +27,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-school_reforms = low_schools
+school_reforms = no_schools
 
 #New Reforms
 conscription = one_year_draft
@@ -100,12 +99,9 @@ oob = "AUS_oob.txt"
 }
 1861.1.1 = {
     ruling_party = AUS_conservative_3
-	government = prussian_constitutionalism 
-	vote_franschise = wealth_weighted_voting
-	debt_law = debtors_prisons
     plurality = 60
-    literacy = 0.90
-    non_state_culture_literacy = 0.35
+    literacy = 0.60
+    non_state_culture_literacy = 0.15
 
 # Technologies
     post_napoleonic_thought = 1
@@ -168,7 +164,6 @@ oob = "AUS_oob.txt"
     basic_chemistry = 1
     medicine = 1
     inorganic_chemistry = 1
-    mechanized_mining = 1
 
 #Inventions
 

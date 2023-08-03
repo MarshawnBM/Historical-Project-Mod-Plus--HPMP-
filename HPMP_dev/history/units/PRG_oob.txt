@@ -1,39 +1,47 @@
 SPA = {
-    value = 100
+    value = -200
 }
 USA = {
-    value = -400
+    value = -200
 }
 BRZ = {
-    value = -250
+    value = -200
 }
 URU = {
-    value = -250
+    value = -200
 }
 ARC = {
-    value = -250
+    value = -200
 }
 CHL = {
-    value = -250
+    value = -200
 }
 BOL = {
-    value = -250
+    value = -200
 }
 PBC = {
-    value = -400
+    value = -200
 }
 CRT = {
-    value = -250
+    value = -200
 }
 ENT = {
-    value = -300
+    value = -200
 }
 SBA = {
-    value = -250
+    value = -200
 }
-
 RGS = {
     value = -200
+}
+ENG = {
+	value = -200
+}
+FRA = {
+	value = -200
+}
+HAI = {
+	value = -50
 }
 
 

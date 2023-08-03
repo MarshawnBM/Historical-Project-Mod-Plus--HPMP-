@@ -1,6 +1,18 @@
 ECU = {
     value = -100
 }
+USA = {
+	value = -50
+}
+SPA = {
+	value = -1
+}
+HAI = {
+	value = -50
+}
+SPC = {
+	value = -200
+}
 
 leader = {
     name = "Andres de Santa Cruz"

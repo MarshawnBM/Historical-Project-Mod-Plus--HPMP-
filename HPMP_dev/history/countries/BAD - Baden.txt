@@ -1,9 +1,9 @@
 capital = 586
 primary_culture = south_german
 religion = catholic
-government = absolute_monarchy
+government = prussian_constitutionalism
 plurality = 25.0
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.8
 civilized = yes
 prestige = 5
@@ -11,12 +11,12 @@ prestige = 5
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = none_voting
+vote_franschise = wealth_weighted_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = underground_parties
+political_parties = harassment
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -29,7 +29,7 @@ school_reforms = no_schools
 
 
 #New Reforms
-conscription = two_year_draft
+conscription = four_year_draft
 debt_law = debtors_prisons
 penal_system = capital_punishment
 child_labor = child_labor_legal
@@ -148,7 +148,6 @@ oob = "BAD_oob.txt"
     basic_chemistry = 1
     medicine = 1
     inorganic_chemistry = 1
-    mechanized_mining = 1
 
 #Inventions
 

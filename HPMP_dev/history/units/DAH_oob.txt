@@ -45,6 +45,12 @@ MAS = {
 SEG = {
     value = 5
 }
+SPA = {
+    value = 30
+}
+SPC = {
+    value = 30
+}
 
 army = {
     name = "Army of Dahomey"

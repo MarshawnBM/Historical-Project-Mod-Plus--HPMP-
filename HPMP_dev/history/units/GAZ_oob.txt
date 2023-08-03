@@ -1,6 +1,6 @@
 POR = {
     truce_until = 1841.1.1
-    value = 125
+    value = -100
 }
 
 ZUL = {

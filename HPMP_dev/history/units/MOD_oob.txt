@@ -1,3 +1,13 @@
+AUS = {
+	value = 100
+}
+SAR = {
+	value = 125
+}
+TUS = {
+	value = 100
+}
+
 leader = {
     name = "Francesco IV"
     date = 1815.1.1

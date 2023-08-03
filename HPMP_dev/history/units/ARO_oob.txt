@@ -29,6 +29,12 @@ OYO = {
 DAH = {
     value = 40
 }
+SPA = {
+    value = 40
+}
+SPC = {
+    value = 40
+}
 
 army = {
     name = "Army of the Aro Confederacy"

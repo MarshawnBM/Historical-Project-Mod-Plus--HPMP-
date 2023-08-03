@@ -1,7 +1,7 @@
 capital = 729
 primary_culture = north_italian
 religion = catholic
-government = democracy
+government = presidential_dictatorship
 plurality = 0.1
 nationalvalue = nv_productivity
 literacy = 0.4
@@ -11,12 +11,12 @@ civilized = yes
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = landed_voting
+vote_franschise = none_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = harassment
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -28,7 +28,7 @@ pensions = no_pensions
 school_reforms = no_schools
 
 #New Reforms
-conscription = two_year_draft
+conscription = one_year_draft
 debt_law = debtors_prisons
 penal_system = capital_punishment
 child_labor = child_labor_legal
@@ -37,7 +37,7 @@ border_policy = open_borders
 
 set_country_flag = catholic_country
 
-ruling_party = VEN_conservative
+ruling_party = VEN_reactionary
 upper_house = {
     fascist = 0
     liberal = 30

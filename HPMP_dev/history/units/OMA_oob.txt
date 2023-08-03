@@ -1,3 +1,7 @@
+USA = {
+	value = 125
+}
+
 army = {
     name = "Army of the Sultan of Muscat"
     location = 1166
@@ -38,6 +42,36 @@ army = {
 navy = {
     name = "Omani Fleet"
     location = 1166
+	ship = {
+        name = "Liverpool"
+        type = manowar
+    }
+	
+	ship = {
+        name = "Shah Alam"
+        type = frigate
+    }
+	
+	ship = {
+        name = "Caroline"
+        type = frigate
+    }
+	
+	ship = {
+        name = "Humayun Shah"
+        type = frigate
+    }
+	
+	ship = {
+        name = "Prince of Wales"
+        type = frigate
+    }
+	
+	ship = {
+        name = "Piedmontaise"
+        type = frigate
+    }
+	
     ship = {
         name= "Transport Flotilla"
         type = clipper_transport

@@ -1,7 +1,7 @@
 capital = 521
 primary_culture = portuguese
 religion = catholic
-government = hms_government
+government = prussian_constitutionalism
 plurality = 25.0
 nationalvalue = nv_productivity
 literacy = 0.1
@@ -14,7 +14,7 @@ slavery = yes_slavery
 upper_house_composition = state_equal_weight
 vote_franschise = wealth_voting
 public_meetings = yes_meeting
-press_rights = state_press
+press_rights = censored_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
 political_parties = non_secret_ballots
@@ -102,7 +102,6 @@ press_rights = free_press
 trade_unions = non_socialist
 voting_system = jefferson_method
 political_parties = gerrymandering
-subsidise = subsidise_no
 
 ruling_party = POR_liberal_2
 plurality = 60

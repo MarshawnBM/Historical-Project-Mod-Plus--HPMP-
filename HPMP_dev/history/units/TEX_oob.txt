@@ -1,6 +1,12 @@
 USA = {
     value = 125
 }
+HAI = {
+	value = -50
+}
+SPC = {
+	value = -200
+}
 
 leader = {
     name = "Sam Houston"

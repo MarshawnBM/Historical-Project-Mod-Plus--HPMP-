@@ -1,11 +1,24 @@
 NET = {
-    truce_until = 1839.4.1
+    truce_until = 1837.12.1
+	value = -150
 }
 ENG = {
-    value = 200
+    value = 25
 }
 FRA = {
     value = 125
+}
+RUS = {
+	value = -25
+}
+AUS = {
+	value = -15
+}
+PRU = {
+	value = -15
+}
+POR = {
+	value = 80
 }
 
 army = {

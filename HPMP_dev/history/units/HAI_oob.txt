@@ -1,3 +1,61 @@
+USA = {
+	value = -150
+}
+SPA = {
+	value = -100
+}
+FRA = {
+	value = -50
+}
+VNZ = {
+	value = -50
+}
+POR = {
+	value = -50
+}
+NET = {
+	value = -50
+}
+SPU = {
+	value = -50
+}
+TEX = {
+	value = -50
+}
+URU = {
+	value = -50
+}
+PEU = {
+	value = -50
+}
+ARC = {
+	value = -50
+}
+BRZ = {
+	value = -50
+}
+RGS = {
+	value = -50
+}
+CLM = {
+	value = -50
+}
+ECU = {
+	value = -50
+}
+CRT = {
+	value = -50
+}
+PAP = {
+	value = -50
+}
+PRG = {
+	value = -50
+}
+SPC = {
+	value = -200
+}
+
 leader = {
     name = "Jean-Pierre Boyer"
     date = 1820.1.1

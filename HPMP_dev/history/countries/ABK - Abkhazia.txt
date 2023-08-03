@@ -51,6 +51,8 @@ upper_house = {
 
 decision = abkhazia_1836_setup
 
+oob = "ABK_oob.txt"
+
 # Technologies
 flintlock_rifles = 1
 bronze_muzzle_loaded_artillery = 1

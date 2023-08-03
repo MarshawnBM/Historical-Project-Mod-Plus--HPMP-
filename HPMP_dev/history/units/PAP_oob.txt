@@ -1,3 +1,31 @@
+ENG = {
+	value = -50
+}
+USA = {
+	value = -50
+}
+FRA = {
+	value = 50
+}
+SPA = {
+	value = -50
+}
+RUS = {
+	value = -50
+}
+TUR = {
+	value = -50
+}
+AUS = {
+	value = 100
+}
+POR = {
+	value = -50
+}
+HAI = {
+	value = -50
+}
+
 leader = {
     name = "Filippo Resta"
     date = 1815.1.1

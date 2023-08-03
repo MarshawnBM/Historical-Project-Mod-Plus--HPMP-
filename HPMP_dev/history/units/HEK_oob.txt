@@ -1,3 +1,10 @@
+AUS = {
+	value = 125
+}
+PRU = {
+	value = -20
+}
+
 leader = {
     name = "von Dörnberg"
     date = 1807.1.1

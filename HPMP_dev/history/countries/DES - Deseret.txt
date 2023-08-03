@@ -1,6 +1,7 @@
 capital = 97
 primary_culture = yankee
 culture = dixie
+culture = texan
 religion = mormon
 government = theocracy
 plurality = 0.2

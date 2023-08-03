@@ -1,9 +1,9 @@
 capital = 263
 primary_culture = irish
 religion = catholic
-government = democracy
+government = hms_government
 plurality = 0.1
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.55
 civilized = yes
 
@@ -11,7 +11,7 @@ civilized = yes
 # Political reforms
 slavery = no_slavery
 upper_house_composition = population_equal_weight
-vote_franschise = wealth_voting
+vote_franschise = universal_voting
 public_meetings = yes_meeting
 press_rights = censored_press
 trade_unions = no_trade_unions
@@ -25,7 +25,7 @@ safety_regulations = no_safety
 health_care = no_health_care
 unemployment_subsidies = no_subsidies
 pensions = no_pensions
-school_reforms = no_schools
+school_reforms = low_schools
 
 #New Reforms
 conscription = two_year_draft

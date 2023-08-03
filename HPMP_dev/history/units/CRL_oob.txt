@@ -1,4 +1,4 @@
-PNJ = { value = 200 }
+PNJ = { value = 25 }
 
 AFG = { truce_until = 1840.1.1 }
 

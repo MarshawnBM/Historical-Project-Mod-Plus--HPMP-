@@ -1,3 +1,10 @@
+AUS = {
+	value = 50
+}
+SAR = {
+	value = 125
+}
+
 leader = {
     name = "Carlo di Borbone-Parma"
     date = 1815.1.1

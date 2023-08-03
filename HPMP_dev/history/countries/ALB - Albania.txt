@@ -3,7 +3,7 @@ primary_culture = albanian
 religion = sunni
 government = absolute_monarchy
 plurality = 0.4
-nationalvalue = nv_order
+nationalvalue = nv_autocracy
 literacy = 0.15
 civilized = yes
 

@@ -1,3 +1,7 @@
+RUS = {
+	value = 125
+}
+
 army = {
     name = "Armia Krakówiej"
     location = 703

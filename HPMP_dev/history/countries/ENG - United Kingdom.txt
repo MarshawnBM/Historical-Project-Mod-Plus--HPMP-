@@ -3,9 +3,9 @@ primary_culture = british
 culture = anglo_canadian
 culture = australian
 religion = protestant
-government = hms_government
+government = prussian_constitutionalism
 plurality = 30
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.6
 civilized = yes
 
@@ -34,7 +34,7 @@ pensions = no_pensions
 school_reforms = low_schools
 
 #New Reforms
-conscription = one_year_draft
+conscription = no_draft
 debt_law = debtors_prisons
 penal_system = colonial_transportation
 child_labor = child_labor_restricted

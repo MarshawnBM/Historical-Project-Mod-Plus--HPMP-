@@ -4,7 +4,7 @@ culture = north_italian
 religion = catholic
 government = theocracy
 plurality = 25.0
-nationalvalue = nv_order
+nationalvalue = nv_tradition
 literacy = 0.15
 non_state_culture_literacy = 0.2
 civilized = yes
@@ -41,7 +41,7 @@ set_country_flag = catholic_country
 
 set_country_flag = theocratic_government
 
-ruling_party = PAP_conservative
+ruling_party = PAP_reactionary
 upper_house = {
     fascist = 0
     liberal = 10
@@ -154,7 +154,6 @@ oob = "PAP_oob.txt"
     basic_chemistry = 1
     medicine = 1
     inorganic_chemistry = 1
-    mechanized_mining = 1
 
 #Inventions
 }

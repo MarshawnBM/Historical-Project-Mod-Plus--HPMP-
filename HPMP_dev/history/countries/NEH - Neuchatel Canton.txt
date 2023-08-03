@@ -1,9 +1,9 @@
 capital = 608
 primary_culture = swiss
 religion = protestant
-government = hms_government
+government = prussian_constitutionalism
 plurality = 25.0
-nationalvalue = nv_order
+nationalvalue = nv_liberty
 literacy = 0.8
 civilized = yes
 prestige = 5
@@ -48,6 +48,8 @@ upper_house = {
     socialist = 0
     communist = 0
 }
+
+oob = "NEH_oob.txt"
 
 #Technologies
 post_napoleonic_thought = 1
