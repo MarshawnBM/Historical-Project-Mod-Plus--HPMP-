@@ -82,6 +82,7 @@ political_decisions = {
 			}
 		}
 		effect = {
+            set_country_flag = usstatehood_we_have_applied
 			random_owned = {
 				limit = {
 					owner = { tag = CAN }
