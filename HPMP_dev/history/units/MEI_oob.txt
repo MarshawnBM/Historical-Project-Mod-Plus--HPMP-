@@ -1,7 +1,3 @@
-AUS = {
-	value = 150
-}
-
 army = {
     name = "Meiningenische Landwehr"
     location = 563

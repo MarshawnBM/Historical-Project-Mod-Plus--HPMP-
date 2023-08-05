@@ -1318,3 +1318,92 @@ country_event = {
         random_owned = { limit = { province_id = 614 } assimilate = yes }
     }
 }
+
+# AUS or KUK - Coronation of Franz Joseph I
+country_event = {
+    id = 60055561
+    title = "EVTNAME60055561"
+    desc = "EVTDESC60055561"
+    picture = "Franz_Joseph_I_coronation"
+
+    trigger = {
+        OR = { tag = AUS tag = KUK }
+        OR = {
+            government = absolute_monarchy
+            government = prussian_constitutionalism
+            government = hms_government
+        }
+        year = 1849
+    }
+
+    mean_time_to_happen = { days = 1 }
+    fire_only_once = yes
+
+    option = {
+        name = "EVT60055561OPTA" #Long live!
+        prestige = 1
+        set_country_flag = coronation_of_franz_joseph_i
+		add_country_modifier = { name = franz_joseph_i duration = -1 }
+    }
+}
+
+# AUS or KUK - Death of Franz Joseph I
+country_event = {
+    id = 60055562
+    title = "EVTNAME60055562"
+    desc = "EVTDESC60055562"
+    picture = "Franz_Joseph_I_Death"
+
+    trigger = {
+        OR = { tag = AUS tag = KUK }
+        has_country_flag = coronation_of_franz_joseph_i
+		has_country_modifier = franz_joseph_i 
+        year = 1916
+        OR = {
+            government = absolute_monarchy
+            government = prussian_constitutionalism
+            government = hms_government
+        }
+    }
+
+    mean_time_to_happen = { months = 12 }
+    fire_only_once = yes
+
+    option = {
+        name = "EVT60055562OPTA" #He will be missed.
+        clr_country_flag = coronation_of_franz_joseph_i
+		remove_country_modifier = franz_joseph_i
+    }
+
+}
+
+# AUS or KUK - Abdication of Franz Joseph I
+country_event = {
+    id = 60055563
+    title = "EVTNAME60055563"
+    desc = "EVTDESC60055563"
+    picture = "Franz_Joseph_I_abdication"
+
+    trigger = {
+        OR = { tag = AUS tag = KUK }
+        has_country_flag = coronation_of_franz_joseph_i
+		has_country_modifier = franz_joseph_i 
+        NOT = { 
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+				}
+			}
+    }
+
+    mean_time_to_happen = { days = 1 }
+    fire_only_once = yes
+
+    option = {
+        name = "EVT60055563OPTA" #He will not be missed.
+        clr_country_flag = coronation_of_franz_joseph_i
+		remove_country_modifier = franz_joseph_i
+    }
+
+}

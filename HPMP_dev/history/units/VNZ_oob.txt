@@ -1,21 +1,6 @@
 PBC = {
     value = -25
 }
-ENG = {
-	value = -15
-}
-USA = {
-	value = -25
-}
-CLM = {
-	value = -50
-}
-HAI = {
-	value = -50
-}
-SPC = {
-	value = -200
-}
 
 leader = {
     name = "Juan Illingworth"

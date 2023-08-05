@@ -1,12 +1,12 @@
 #Sphere of Influence
 
 MOL = {
-    value = 100
+    value = 125
     level = 3
     influence_value = 0
 }
 WAL = {
-    value = 100
+    value = 125
     level = 3
     influence_value = 0
 }
@@ -50,8 +50,6 @@ COB = {
 }
 FRM = {
     value = 125
-	level = 5
-	influence_value = 25
     military_access = yes
 }
 HAM = {
@@ -64,14 +62,10 @@ HAN = {
 }
 HEK = {
     value = 125
-	level = 5
-	influence_value = 0
     military_access = yes
 }
 HES = {
-    value = 150
-	level = 5
-	influence_value = 0
+    value = 125
     military_access = yes
 }
 LIP = {
@@ -87,15 +81,11 @@ MEC = {
     military_access = yes
 }
 MEI = {
-    value = 150
-	level = 4
-	influence_value = 25
+    value = 125
     military_access = yes
 }
 NAS = {
-    value = 100
-	level = 4
-	influence_value = 50
+    value = 125
     military_access = yes
 }
 OLD = {
@@ -114,13 +104,18 @@ KRA = {
     influence_value = 0
 }
 SER = {
-    value = -15
+    value = 75
     level = 2
     influence_value = 0
 }
 SAR = {
-    value = 100
-    level = 4
+    value = 50
+    level = 2
+    influence_value = 0
+}
+PAP = {
+    value = 125
+    level = 3
     influence_value = 0
 }
 SWI = {
@@ -135,49 +130,30 @@ PAR = {
 MOD = {
     value = 100
     level = 5
-    influence_value = 100
+    influence_value = 0
 }
 TUS = {
     value = 75
     level = 5
-    influence_value = 100
+    influence_value = 0
 }
 LUC = {
-    value = 50
+    value = 75
     level = 5
     influence_value = 0
 }
-BEL = {
-	value = -15
-	level = 3
-	influence_value = 0
-}
-PAP = {
-	value = 100
-	level = 4
-	influence_value = 25
-	military_access = yes
-}
-SIC = {
-	value = 5
-	level = 4
-	influence_value = 0
-}
-NET = {
-	value = 25
-}
-POR = {
-	value = 5
+DEN = {
+    value = 55
 }
 
 #Other GP's
 ENG = { value = -75 }
 FRA = { value = -50 }
-RUS = { value = 80 }
+RUS = { value = 50 }
 USA = { value = 25 }
 PRU = { value = 150 }
-TUR = { value = 50 }
-SPA = { value = -15 }
+TUR = { value = 25 }
+SPA = { value = 0 }
 
 
 #Africa
@@ -185,7 +161,7 @@ MOR = {
     value = 75
 }
 EGY = {
-    value = -25
+    value = 0
     level = 2
     influence_value = 0
 }
@@ -416,28 +392,18 @@ navy = {
     name = "Austrian Imperial Navy"
     location = 729
     ship = {
-        name= "Italiano"
-        type = frigate
+        name= "1. Klipperflottille"
+        type = clipper_transport
     }
 
     ship = {
-        name= "Ebe"
-        type = frigate
+        name= "2. Klipperflottille"
+        type = clipper_transport
     }
 
     ship = {
-        name= "Guerriera"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Medea"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Venere"
-        type = frigate
+        name= "3. Klipperflottille"
+        type = clipper_transport
     }
 
 }
@@ -502,15 +468,6 @@ leader = {
     type = land
     personality = active_p
     background = aristocrat
-}
-
-leader = {
-    name = "Laval Nugent von Westmeath"
-    date = 1813.1.1
-    type = land
-    personality = skilled
-    background = generals_aide
-	prestige = 0.2
 }
 
 leader = {

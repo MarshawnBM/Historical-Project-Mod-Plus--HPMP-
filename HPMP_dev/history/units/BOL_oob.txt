@@ -1,9 +1,4 @@
-PEU = {
-	value = -100
-}
-SPA = {
-	value = -1
-}
+PEU = { value=200 }
 
 leader = {
     name = "Jose Ballivián"

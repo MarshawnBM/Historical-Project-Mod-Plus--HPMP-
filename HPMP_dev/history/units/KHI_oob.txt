@@ -1,6 +1,14 @@
 AFG = { value = 400 }
 
-PER = { value = -50 }
+PER = {
+    value = -200
+}
+
+
+RUS = {
+    value = -200
+}
+
 
 leader = {
     name = "Muhammad Rahim Quli"

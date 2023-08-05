@@ -1,15 +1,3 @@
-RUS = {
-	value = 75
-}
-
-TUR = {
-	value = 50
-}
-
-AUS = {
-	value = 100
-}
-
 army = {
     name = "Armata Principatul Moldovei"
     location = 673

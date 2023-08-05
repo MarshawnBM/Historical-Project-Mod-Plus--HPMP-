@@ -1,65 +1,67 @@
 #Carinthia-Styria Region (204000) #see Austria.txt for balance of Region
 #under the rule of Austria in 1836
 #Maribor (204000/51000 POPS) #Part of Slovenia Today
+######Jews
+########
 767 = {
     aristocrats = {
         culture = south_german
         religion = catholic
-        size = 750
+        size = 787
     }
 
     bureaucrats = {
         culture = south_german
         religion = catholic
-        size = 250
+        size = 262
     }
 
     clergymen = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 105
     }
 
     artisans = {
         culture = south_german
         religion = catholic
-        size = 1100
+        size = 1155
     }
 
     soldiers = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 105
     }
 
     farmers = {
         culture = south_german
         religion = catholic
-        size = 3150
+        size = 3307
     }
 
     clergymen = {
         culture = slovene
         religion = catholic
-        size = 450
+        size = 472
     }
 
     artisans = {
         culture = slovene
         religion = catholic
-        size = 1600
+        size = 1680
     }
 
     soldiers = {
         culture = slovene
         religion = catholic
-        size = 450
+        size = 472
     }
 
     farmers = {
         culture = slovene
         religion = catholic
-        size = 45000
+        size = 47250
     }
 
     serfs = {
@@ -74,20 +76,17 @@
         size = 1000
     }
 
-    ######Jews
     artisans = {
         culture = ashkenazi
         religion = jewish
-        size = 100
+        size = 105
     }
 
     farmers = {
         culture = ashkenazi
         religion = jewish
-        size = 100
+        size = 105
     }
-    ########
-
 }
 #Carniola Region (460000)
 #under the rule of Austria in 1836
@@ -96,43 +95,43 @@
     aristocrats = {
         culture = slovene
         religion = catholic
-        size = 825
+        size = 866
     }
 
     bureaucrats = {
         culture = slovene
         religion = catholic
-        size = 225
+        size = 236
     }
 
     officers = {
         culture = slovene
         religion = catholic
-        size = 100
+        size = 105
     }
 
     clergymen = {
         culture = slovene
         religion = catholic
-        size = 700
+        size = 735
     }
 
     artisans = {
         culture = slovene
         religion = catholic
-        size = 4000
+        size = 4200
     }
 
     soldiers = {
         culture = slovene
         religion = catholic
-        size = 1100
+        size = 1155
     }
 
     farmers = {
         culture = slovene
         religion = catholic
-        size = 43150
+        size = 45307
     }
 
     serfs = {
@@ -140,56 +139,54 @@
         religion = catholic
         size = 20000
     }
-
 }
 #Postojna (180000/45000 POPS)
 769 = {
     aristocrats = {
         culture = slovene
         religion = catholic
-        size = 500
+        size = 525
     }
 
     clergymen = {
         culture = slovene
         religion = catholic
-        size = 425
+        size = 446
     }
 
     artisans = {
         culture = slovene
         religion = catholic
-        size = 2100
+        size = 2205
     }
 
     soldiers = {
         culture = slovene
         religion = catholic
-        size = 425
+        size = 446
     }
 
     farmers = {
         culture = slovene
         religion = catholic
-        size = 39075
+        size = 41028
     }
 
     farmers = {
         culture = gypsy
         religion = catholic
-        size = 500
+        size = 525
     }
 
     clergymen = {
         culture = south_german
         religion = catholic
-        size = 100
+        size = 105
     }
 
     farmers = {
         culture = south_german
         religion = catholic
-        size = 1975
+        size = 2073
     }
-
 }

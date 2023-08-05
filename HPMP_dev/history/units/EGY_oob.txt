@@ -26,111 +26,87 @@ MAJ = {
     value = 60
 }
 
-ENG = {
-	value = 10
-}
-
-USA = {
-	value = 50
-}
-
-FRA = {
-	value = 20
-}
-
-RUS = {
-	value = -50
-}
-
-TUR = {
-	value = -200
-}
-
-AUS = {
-	value = -25
-}
-
 navy = {
     name = "Taba"
     location = 1751
     ship = {
-        name= "Aboukir"
+        name= "Toushka"
         type = manowar
     }
 
     ship = {
-        name= "Beylan"
+        name= "Sharm El-Sheikh"
         type = manowar
     }
 
     ship = {
-        name= "Mansourah"
+        name= "Damyat"
         type = manowar
     }
 
     ship = {
-        name= "Mahalet-el- Koubra"
+        name= "Rasheed"
         type = manowar
     }
 
     ship = {
-        name= "Iskander"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Homs"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Masr"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Aké"
+        name= "El Suez"
         type = manowar
     }
 
     ship = {
-        name= "Menoufieh"
+        name= "El Aboukir"
         type = frigate
     }
 
     ship = {
-        name= "Mouftagehad"
+        name= "Najim al Zafir"
         type = frigate
     }
 
     ship = {
-        name= "Kafrecheick"
+        name= "Cairo"
         type = frigate
     }
 
     ship = {
-        name= "Damietta"
+        name= "Al Iskandariyah"
         type = frigate
     }
 
     ship = {
-        name= "Raschid"
+        name= "Aswan"
         type = frigate
     }
 
     ship = {
-        name= "Bahireh"
+        name= "Port Said"
         type = frigate
     }
 
     ship = {
-        name= "Sir-I Gihad"
+        name= "Marsa Matruh"
         type = frigate
     }
 
     ship = {
-        name= "Nile"
-        type = steam_transport
+        name= "Bur Tawfiq"
+        type = frigate
+    }
+
+    ship = {
+        name= "Al Ghardaqah"
+        type = frigate
+    }
+
+    ship = {
+        name= "Bur Safajah"
+        type = frigate
+    }
+
+    ship = {
+        name= "1st transport flotilla"
+        type = clipper_transport
     }
 
 }
@@ -309,13 +285,5 @@ leader = {
     date="1832.1.1"
     personality = balanced_p
     background = drillmaster
-    prestige = 0.1
-}
-leader = {
-    name = "Yaver Pasha"
-    date = 1836.1.1
-    type = sea
-    personality = diplomatic
-    background = gifted_administrator
     prestige = 0.1
 }

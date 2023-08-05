@@ -2,7 +2,6 @@
 #under the rule of Ottoman Empire in 1836
 #Ulcinj (36000/9000 POPS)
 800 = {
-
     soldiers = {
         culture = serb
         religion = sunni
@@ -53,7 +52,6 @@
 }
 #Niksic (52000/13000 POPS)
 2569 = {
-
     aristocrats = {
         culture = serb
         religion = orthodox
@@ -187,7 +185,6 @@
 #under the rule of Ottoman Empire in 1836
 #Pljevlja (52000/13000 POPS) #now part of Montenegro
 2577 = {
-
     soldiers = {
         culture = serb
         religion = orthodox
@@ -261,7 +258,7 @@
     aristocrats = {
         culture = croat
         religion = catholic
-        size = 100
+        size = 105
     }
 
     officers = {
@@ -273,37 +270,37 @@
     clergymen = {
         culture = croat
         religion = catholic
-        size = 100
+        size = 105
     }
 
     artisans = {
         culture = croat
         religion = catholic
-        size = 250
+        size = 262
     }
 
     soldiers = {
         culture = croat
         religion = catholic
-        size = 100
+        size = 105
     }
 
     farmers = {
         culture = croat
         religion = catholic
-        size = 4000
+        size = 4200
     }
 
     farmers = {
         culture = albanian
         religion = catholic
-        size = 350
+        size = 367
     }
 
     aristocrats = {
         culture = serb
         religion = orthodox
-        size = 200
+        size = 210
     }
 
     officers = {
@@ -315,37 +312,37 @@
     clergymen = {
         culture = serb
         religion = orthodox
-        size = 100
+        size = 105
     }
 
     artisans = {
         culture = serb
         religion = orthodox
-        size = 550
+        size = 577
     }
 
     soldiers = {
         culture = serb
         religion = orthodox
-        size = 125
+        size = 131
     }
 
     farmers = {
         culture = serb
         religion = orthodox
-        size = 10225
+        size = 10736
     }
 
     farmers = {
         culture = serb
         religion = catholic
-        size = 350
+        size = 367
     }
 
     aristocrats = {
         culture = north_italian
         religion = catholic
-        size = 100
+        size = 105
     }
 
     officers = {
@@ -357,25 +354,24 @@
     clergymen = {
         culture = north_italian
         religion = catholic
-        size = 100
+        size = 105
     }
 
     artisans = {
         culture = north_italian
         religion = catholic
-        size = 100
+        size = 105
     }
 
     soldiers = {
         culture = north_italian
         religion = catholic
-        size = 100
+        size = 105
     }
 
     farmers = {
         culture = north_italian
         religion = catholic
-        size = 100
+        size = 105
     }
-
 }

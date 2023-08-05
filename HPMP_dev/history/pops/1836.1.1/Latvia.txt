@@ -267,115 +267,115 @@
     clergymen = {
         culture = latvian
         religion = protestant
-        size = 182
+        size = 146
     }
 
     artisans = {
         culture = latvian
         religion = protestant
-        size = 877
+        size = 710
     }
 
     soldiers = {
         culture = latvian
         religion = protestant
-        size = 337
+        size = 272
     }
 
     farmers = {
         culture = latvian
         religion = protestant
-        size = 26730
+        size = 21651
     }
 
     aristocrats = {
         culture = north_german
         religion = protestant
-        size = 945
+        size = 765
     }
 
     clergymen = {
         culture = north_german
         religion = protestant
-        size = 103
+        size = 82
     }
 
     artisans = {
         culture = north_german
         religion = protestant
-        size = 2970
+        size = 2405
     }
 
     soldiers = {
         culture = north_german
         religion = protestant
-        size = 135
+        size = 108
     }
 
     clergymen = {
         culture = ashkenazi
         religion = jewish
-        size = 103
+        size = 82
     }
 
     artisans = {
         culture = ashkenazi
         religion = jewish
-        size = 540
+        size = 437
     }
 
     soldiers = {
         culture = ashkenazi
         religion = jewish
-        size = 135
+        size = 108
     }
 
     farmers = {
         culture = ashkenazi
         religion = jewish
-        size = 2058
+        size = 1666
     }
 
     aristocrats = {
         culture = russian
         religion = orthodox
-        size = 135
+        size = 108
     }
 
     clergymen = {
         culture = russian
         religion = orthodox
-        size = 103
+        size = 82
     }
 
     artisans = {
         culture = russian
         religion = orthodox
-        size = 135
+        size = 108
     }
 
     soldiers = {
         culture = russian
         religion = orthodox
-        size = 135
+        size = 108
     }
 
     farmers = {
         culture = russian
         religion = orthodox
-        size = 2767
+        size = 2241
     }
 
     farmers = {
         culture = lithuanian
         religion = catholic
-        size = 5197
+        size = 4209
     }
 
     farmers = {
         culture = polish
         religion = catholic
-        size = 2733
+        size = 2213
     }
 }
 #Jelgava (128000/32000 POPS)

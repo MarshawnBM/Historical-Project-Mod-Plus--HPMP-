@@ -1,13 +1,3 @@
-AUS = {
-	value = 100
-}
-SAR = {
-	value = 125
-}
-SPC = {
-	value = -200
-}
-
 leader = {
     name = "Wilhelm Albrecht"
     date = 1836.1.1

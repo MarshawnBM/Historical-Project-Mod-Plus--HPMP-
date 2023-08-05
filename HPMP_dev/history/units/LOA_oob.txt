@@ -21,12 +21,6 @@ KUB = {
 LUN = {
     value = 40
 }
-SPA = {
-    value = 30
-}
-SPC = {
-    value = 30
-}
 
 army = {
     name = "Army of the Loango Kingdom"

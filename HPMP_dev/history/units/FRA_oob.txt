@@ -1,4 +1,9 @@
 #Sphere of Influence
+LUC = {
+    value = 75
+    level = 3
+    influence_value = 0
+}
 BEL = {
     value = 125        #relation
     level = 4        #3=cordial, 4 = friendly, 5 sphere
@@ -14,13 +19,13 @@ NET = {
     level = 3        #3=cordial, 4 = friendly, 5 sphere
 }
 PAP = {
-    value = 50        #relation
-    level = 4        #3=cordial, 4 = friendly, 5 sphere
+    value = 125        #relation
+    level = 5        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 25
 }
 SIC = {
-    value = 25        #relation
-    level = 2        #3=cordial, 4 = friendly, 5 sphere
+    value = 125        #relation
+    level = 3        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 25
 }
 SWI = {
@@ -29,8 +34,8 @@ SWI = {
     influence_value = 25
 }
 SAR = {
-    value = -25        #relation
-    level = 2        #3=cordial, 4 = friendly, 5 sphere
+    value = 125        #relation
+    level = 4        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 25
 }
 GRE = {
@@ -38,27 +43,14 @@ GRE = {
     level = 4        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 10
 }
-EGY = {
-	value = 20
-	level = 2
-	influence_value = 25
-}
-PRG = {
-	value = -200
-	level = 0
-	influence_value = 0
-}
-HAI = {
-	value = -50
-}
 
 #GPs
 ENG = { value = 25 }
-RUS = { value = -100 }
-AUS = { value = -50 }
-USA = { value = -50 }
-PRU = { value = -50 }
-TUR = { value = -30 }
+RUS = { value = -200 }
+AUS = { value = -100 }
+USA = { value = 50 }
+PRU = { value = -100 }
+TUR = { value = -75 }
 SPA = { value = 55 }
 
 TRZ = { value = -100 }
@@ -505,17 +497,17 @@ navy = {
     }
 
     ship = {
-        name= "Breslaw"
+        name= "Superbe"
         type = manowar
     }
 
     ship = {
-        name= "Océan"
+        name= "Jean Bart"
         type = manowar
     }
 
     ship = {
-        name= "Scipion"
+        name= "Dix-huit Fructidor"
         type = manowar
     }
 
@@ -525,17 +517,17 @@ navy = {
     }
 
     ship = {
-        name= "Trocadéro"
+        name= "Trocadero "
         type = manowar
     }
 
     ship = {
-        name= "Duquesne"
+        name= "Zélandais"
         type = manowar
     }
 
     ship = {
-        name= "Commerce"
+        name= "Superbe"
         type = manowar
     }
 
@@ -550,12 +542,12 @@ navy = {
     }
 
     ship = {
-        name= "Majestueux"
+        name= "République Française"
         type = manowar
     }
 
     ship = {
-        name= "Alger"
+        name= "Conquérant"
         type = manowar
     }
 
@@ -565,7 +557,7 @@ navy = {
     }
 
     ship = {
-        name= "Algésiras"
+        name= "Algerisas"
         type = manowar
     }
 
@@ -575,7 +567,7 @@ navy = {
     }
 
     ship = {
-        name= "Minerve"
+        name= "Duchesse de Berry"
         type = frigate
     }
 
@@ -595,17 +587,17 @@ navy = {
     }
 
     ship = {
-        name= "Aurore"
+        name= "Clorinde"
         type = frigate
     }
 
     ship = {
-        name= "Cybèle"
+        name= "Maure"
         type = frigate
     }
 
     ship = {
-        name= "Amphitrite"
+        name= "Vestale"
         type = frigate
     }
 
@@ -615,7 +607,7 @@ navy = {
     }
 
     ship = {
-        name= "Calypso"
+        name= "Marie Thérese"
         type = frigate
     }
 
@@ -625,7 +617,7 @@ navy = {
     }
 
     ship = {
-        name= "Syréne"
+        name= "Sirène"
         type = frigate
     }
 
@@ -645,57 +637,7 @@ navy = {
     }
 
     ship = {
-        name= "Sirene"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Bellone"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Prosperpine"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Victoire"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Ariane"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Alcmène"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Circé"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Aréthuse"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Galathée"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Cornaline"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Sapho"
+        name= "Sultane"
         type = frigate
     }
 
@@ -735,7 +677,7 @@ navy = {
     }
 
     ship = {
-        name= "Santi Pietri"
+        name= "Centaure"
         type = manowar
     }
 
@@ -745,7 +687,12 @@ navy = {
     }
 
     ship = {
-        name= "Iéna"
+        name= "Duc d’Angouleme"
+        type = manowar
+    }
+
+    ship = {
+        name= "Hercules"
         type = manowar
     }
 
@@ -756,6 +703,11 @@ navy = {
 
     ship = {
         name= "Diadème"
+        type = manowar
+    }
+
+    ship = {
+        name= "Couronne"
         type = manowar
     }
 
@@ -780,7 +732,7 @@ navy = {
     }
 
     ship = {
-        name= "Indépendante"
+        name= "Belle Gabrielle"
         type = frigate
     }
 
@@ -790,7 +742,7 @@ navy = {
     }
 
     ship = {
-        name= "Dryade"
+        name= "Caroline"
         type = frigate
     }
 
@@ -815,7 +767,7 @@ navy = {
     }
 
     ship = {
-        name= "Berceau"
+        name= "Jeanne d’Arc"
         type = frigate
     }
 
@@ -825,62 +777,22 @@ navy = {
     }
 
     ship = {
-        name= "Amélie"
+        name= "Erigone"
         type = frigate
     }
 
     ship = {
-        name= "Thisbé"
+        name= "Nereide"
         type = frigate
     }
 
     ship = {
-        name= "Flore"
+        name= "Gloire"
         type = frigate
     }
 
     ship = {
-        name= "Boussole"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Armide"
-        type = frigate
-    }
-
-    ship = {
-        name= "Constance"
-        type = frigate
-    }
-
-    ship = {
-        name= "Guerriére"
-        type = frigate
-    }
-
-    ship = {
-        name= "Sabine"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Pallas"
-        type = frigate
-    }
-
-    ship = {
-        name= "Hermione"
-        type = frigate
-    }
-
-    ship = {
-        name= "Médée"
-        type = frigate
-    }
-
-    ship = {
-        name= "Héroïne"
+        name= "Reine Blanche"
         type = frigate
     }
 

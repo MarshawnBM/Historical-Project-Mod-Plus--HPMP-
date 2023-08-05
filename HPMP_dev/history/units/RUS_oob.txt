@@ -2,7 +2,7 @@
 
 #Europe
 MON = {
-    value = 125
+    value = -10
     level = 5
     influence_value = 0
 }
@@ -10,35 +10,30 @@ MON = {
 TCA = {
     value = 200
     level = 5
-    influence_value = 100
+    influence_value = 0
 }
 
 UBD = {
     value = 200
     level = 5
-    influence_value = 100
+    influence_value = 0
 }
 
 ABK = {
     value = 200
     level = 5
-    influence_value = 100
+    influence_value = 0
 }
 
 FIN = {
-    value = 25
+    value = 100
     level = 5
     influence_value = 0
 }
 SWE = {
-    value = 25
-    level = 2
-    influence_value = 25
-}
-NOR = {
-	value = -50
-	level = 1
-	influence_value = 0
+    value = 125
+    level = 3
+    influence_value = 0
 }
 SER = {
     value = 125
@@ -56,72 +51,98 @@ KRA = {
     influence_value = 0
 }
 DEN = {
-    value = 25
+    value = 125
 }
 MOL = {
-    value = 75
-    level = 5
-    influence_value = 25
+    value = 125
+    level = 4
+    influence_value = 0
 }
 WAL = {
-    value = 75
-    level = 5
-    influence_value = 25
-}
-BEL = {
-	value = -25
-	level = 3
-	influence_value = 0
-}
-PAP = {
-	value = -50
-	level = 1
-	influence_value = 0
-}
-SIC = {
-	value = 25
-}
-NET = {
-	value = 25
-}
-
-#Africa
-EGY = {
-	value = -50
-	influence = 0
-	influence_value = 0
+    value = 125
+    level = 4
+    influence_value = 0
 }
 
 #Asia
+QNG = {
+    value = 150
+}
+TKG = {
+    value = 75
+}
 KOR = {
-    value = -1
+    value = 100
     level = 0
     influence_value = 0
 }
-PER = {
-    value = -50
+MGL = {
+    value = 100
+}
+
+MCK = {
+    value = 100
     level = 3
     influence_value = 0
 }
+
+PER = {
+    value = -50
+    level = 2
+    influence_value = 0
+}
+
 XIN = {
     value = -200
     level = 0
     influence_value = 0
 }
+
 AFG = {
-	value = -25
+    value = 100
 }
+
 CIR = {
     value = -200
     level = 1
     influence_value = 1
 }
 
+KAZ = {
+    value = -200
+    level = 0
+    influence_value = 0
+}
+
+KHI = {
+    value = -200
+    level = 0
+    influence_value = 0
+}
+
+KOK = {
+    value = -200
+    level = 0
+    influence_value = 0
+}
+
+TKM = {
+    value = -200
+    level = 0
+    influence_value = 0
+}
+
+BUK = {
+    value = -200
+    level = 0
+    influence_value = 0
+}
+
 #Other GP's
 #GPs
 ENG = { value = -100 }
 FRA = { value = -100 }
-AUS = { value = 80 }
+AUS = { value = 50 }
 USA = { value = 25 }
 PRU = { value = 80 }
 TUR = { value = 125 }
@@ -792,12 +813,42 @@ navy = {
     name = "Imperial Black Sea Fleet"
     location = 967
     ship = {
-        name= "Varshava"
+        name= "Nord Adler"
         type = manowar
     }
 
     ship = {
-        name= "Imperatritsa Mariia"
+        name= "Prints Gustav"
+        type = manowar
+    }
+
+    ship = {
+        name= "Ne Tron Menya"
+        type = manowar
+    }
+
+    ship = {
+        name= "Svyastoslav"
+        type = manowar
+    }
+
+    ship = {
+        name= "Chrabryi"
+        type = manowar
+    }
+
+    ship = {
+        name= "Smelyi"
+        type = manowar
+    }
+
+    ship = {
+        name= "Tri Svyatitelei"
+        type = manowar
+    }
+
+    ship = {
+        name= "Yupiter"
         type = manowar
     }
 
@@ -807,123 +858,44 @@ navy = {
     }
 
     ship = {
-        name= "Anapa"
+        name= "Mironosets"
         type = manowar
     }
 
     ship = {
-        name= "Pamyat Evstafiya"
+        name= "Asia"
         type = manowar
     }
 
     ship = {
-        name= "Adrianopol"
+        name= "Azov"
         type = manowar
     }
 
     ship = {
-        name= "Imperatritsa Ekaterina"
+        name= "Rossiya"
         type = manowar
     }
 
     ship = {
-        name= "Silistriya"
+        name= "Saratov"
         type = manowar
     }
 
     ship = {
-        name= "Pimen"
+        name= "Blagodat'"
         type = manowar
     }
 
+
     ship = {
-        name= "Panteleimon"
-        type = manowar
+        name= "1. Transportnaya Flotiliya"
+        type = clipper_transport
     }
 
     ship = {
-        name= "Ioann Zlatoust"
-        type = manowar
-    }
-
-    ship = {
-        name= "Sviatoi Andrei"
-        type = manowar
-    }
-
-    ship = {
-        name= "Nord- Adler"
-        type = manowar
-    }
-	
-    ship = {
-        name= "Kniaginia Lovich"
-        type = frigate
-    }
-
-    ship = {
-        name= "Anna"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Venera"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Yumona"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Flora"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Pospeshnyi"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Shtandart"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Tenedos"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Erivan"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Arkhipelag"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Varna"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Enos"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Burgas"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Agatopol"
-        type = frigate
+        name= "2. Transportnaya Flotiliya"
+        type = clipper_transport
     }
 
 }
@@ -932,32 +904,7 @@ navy = {
     name = "Imperial Northern Fleet"
     location = 994
     ship = {
-        name= "Imperator Aleksandr"
-        type = manowar
-    }
-
-    ship = {
-        name= "Imperator Pyotr I"
-        type = manowar
-    }
-
-    ship = {
-        name= "Sviatoi Georgyi Pobedonosets"
-        type = manowar
-    }
-
-    ship = {
-        name= "Gangut"
-        type = manowar
-    }
-
-    ship = {
-        name= "Imperatritsa Aleksandra"
-        type = manowar
-    }
-
-    ship = {
-        name= "Emgeiten"
+        name= "Dvenadtsat' Apostolov"
         type = manowar
     }
 
@@ -967,203 +914,63 @@ navy = {
     }
 
     ship = {
-        name= "Ne Tron Menia"
+        name= "Ratnyi"
         type = manowar
     }
 
     ship = {
-        name= "Vladimir"
+        name= "Hiagudil"
         type = manowar
     }
 
     ship = {
-        name= "Lefort"
+        name= "Gangut"
         type = manowar
     }
 
     ship = {
-        name= "Prokhor"
+        name= "Ezekiel"
         type = manowar
     }
 
     ship = {
-        name= "Iezekil"
+        name= "Tsar Konstantin"
         type = manowar
     }
 
     ship = {
-        name= "Velikii Kniaz Mikhail"
+        name= "Yaroslav"
         type = manowar
     }
 
     ship = {
-        name= "Katsbakh"
+        name= "Izyaslav"
         type = manowar
     }
-	
-	ship = {
-        name= "Kul’m"
+
+    ship = {
+        name= "Dimitri Donskoi"
         type = manowar
     }
-	
-	ship = {
-        name= "Arsis"
+
+    ship = {
+        name= "Paraskevia"
         type = manowar
     }
-	
-	ship = {
-        name= "Lesnoe"
+
+    ship = {
+        name= "Sv Ytoslav"
         type = manowar
     }
-	
-	ship = {
-        name= "Narva"
-        type = manowar
+
+    ship = {
+        name= "3. Transportnaya Flotiliya"
+        type = clipper_transport
     }
-	
-	ship = {
-        name= "Brien"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Borodino"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Krasnoi"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Berezino"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Smolensk"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Pamiat Azova"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Oryol"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Ostrolenka"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Leiptsig"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Fershampenuaz"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Aleksandr Nevskii"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Konstantin"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Aleksandra"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Mariya"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Olga"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Elisaveta"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Ekaterina"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Prints Oranskiy"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Neva"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Bellona"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Pomona"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Tserera"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Kastor"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Amfitrida"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Prozerpina"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Diana"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Avrora"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Melpomena"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Pallada"
-        type = frigate
+
+    ship = {
+        name= "4. Transportnaya Flotiliya"
+        type = clipper_transport
     }
 
 }

@@ -1329,12 +1329,12 @@ country_event = {
         }
         add_country_modifier = {
             name = the_statue_of_liberty
-            duration = 3650
+            duration = -1
         }
         232 = {
             add_province_modifier = {
                 name = gateway_to_america
-                duration = 1825
+                duration = -1
             }
         }
     }

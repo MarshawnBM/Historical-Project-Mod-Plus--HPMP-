@@ -1,14 +1,9 @@
 ENG = {
-    value = -25
-}=
+    value = 0
+}
+
 PRU = {
     value = 49
-}
-USA = {
-	value = -100
-}
-RUS = {
-	value = 25
 }
 
 leader = {
@@ -70,67 +65,12 @@ navy = {
     name = "Royal Navy"
     location = 372
     ship = {
-        name= "Dronning Marie"
+        name= "Danmark"
         type = manowar
     }
 
     ship = {
-        name= "Valdemar"
+        name= "Dronning Marie"
         type = manowar
-    }
-	
-	ship = {
-        name= "Frederik den Sjette"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Skjold"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Danmark"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Phoenix"
-        type = manowar
-    }
-	
-	ship = {
-        name= "Freja"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Rota"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Havfruen"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Bellona"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Nymphen"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Fylla"
-        type = frigate
-    }
-	
-	ship = {
-        name= "Minerva"
-        type = frigate
     }
 }

@@ -39,6 +39,11 @@ BAN_ADJ;Banatian;;;;;;;;;;;;x
 BAN_democracy;The Banat Republic;;;;;;;;;;;;x
 BAV_proletarian_dictatorship;The Bavarian Soviet Republic;;;;;;;;;x;;;;
 BEN_absolute_monarchy;The Benin Empire;;;;;;;;;;x;;;;;;;;;;;;;;
+BEL_absolute_monarchy;The Kingdom of Belgium;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+BEL_communist;The Socialist Republic of Belgium;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+BEL_democracy;The Belgian Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+BEL_hms_government;The Kingdom of Belgium;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+BEL_prussian_constitutionalism;The Kingdom of Belgium;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 BHM;The Bahamas;;;;;;;;;;;;x
 BNG_proletarian_dictatorship;The Bengali People's Republic;;;;;;;;;;;;
 BOH;Bohemia & Moravia;;;;;;;;;x;;;;
@@ -358,6 +363,7 @@ SOK_absolute_monarchy;The Sokoto Caliphate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 SOK_hms_government;The Sokoto Caliphate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 SOK_prussian_constitutionalism;The Sokoto Caliphate;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
 SPA_democracy;The Spanish Republic;;;;;;;;;x;;;;
+SPA_prussian_constitutionalism;The Kingdom of Spain;;;;;;;;;x;;;;
 SPA_hms_government;The Kingdom of Spain;;;;;;;;;x;;;;
 SPA_bourgeois_dictatorship;The Spanish Republic;;;;;;;;;x;;;;
 SPA_presidential_dictatorship;The Spanish State;;;;;;;;;x;;;;

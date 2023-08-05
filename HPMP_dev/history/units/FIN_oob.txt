@@ -1,7 +1,3 @@
-RUS = {
-	value = 25
-}
-
 army = {
     name = "Suomen Kaarti"
     location = 343

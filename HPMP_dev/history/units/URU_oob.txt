@@ -7,7 +7,7 @@ RGS = {
 BRZ = {
     value = -100
 }
-CRT = {
+ARC = {
     value = 100
 }
 SBA = {
@@ -16,20 +16,9 @@ SBA = {
 ENT = {
     value = 150
 }
-ENG = {
-	value = 125
-}
+
 PRG = {
-    value = -200
-}
-SPA = {
-	value = -1
-}
-HAI = {
-	value = -50
-}
-SPC = {
-	value = -200
+    value = 10
 }
 
 leader = {

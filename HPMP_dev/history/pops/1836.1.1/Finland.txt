@@ -635,48 +635,48 @@
     clergymen = {
         culture = swedish
         religion = protestant
-        size = 35
+        size = 27
     }
 
     artisans = {
         culture = swedish
         religion = protestant
-        size = 202
+        size = 162
     }
 
     soldiers = {
         culture = swedish
         religion = protestant
-        size = 33
+        size = 26
     }
 
     farmers = {
         culture = swedish
         religion = protestant
-        size = 3226
+        size = 2612
     }
 
     clergymen = {
         culture = finnish
         religion = protestant
-        size = 2
+        size = 0
     }
 
     artisans = {
         culture = finnish
         religion = protestant
-        size = 13
+        size = 9
     }
 
     soldiers = {
         culture = finnish
         religion = protestant
-        size = 6
+        size = 4
     }
 
     farmers = {
         culture = finnish
         religion = protestant
-        size = 175
+        size = 141
     }
 }

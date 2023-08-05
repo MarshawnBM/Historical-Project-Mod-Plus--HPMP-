@@ -1,7 +1,3 @@
-RUS = {
-	value = 200
-}
-
 army = {
     name = "I. Korps"
     location = 354

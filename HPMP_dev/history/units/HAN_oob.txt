@@ -1,7 +1,3 @@
-PRU = {
-	value = 50
-}
-
 leader = {
     name = "von Alten"
     date = 1810.1.1

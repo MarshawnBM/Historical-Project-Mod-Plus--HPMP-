@@ -5,91 +5,91 @@
     aristocrats = {
         culture = alaskan
         religion = protestant
-        size = 4
+        size = 2
     }
 
     clergymen = {
         culture = alaskan
         religion = protestant
-        size = 7
+        size = 5
     }
 
     artisans = {
         culture = alaskan
         religion = protestant
-        size = 16
+        size = 12
     }
 
     officers = {
         culture = alaskan
         religion = protestant
-        size = 4
+        size = 2
     }
 
     soldiers = {
         culture = alaskan
         religion = protestant
-        size = 18
+        size = 14
     }
 
     farmers = {
         culture = alaskan
         religion = protestant
-        size = 90
+        size = 72
     }
 
     aristocrats = {
         culture = alaskan
         religion = orthodox
-        size = 4
+        size = 2
     }
 
     clergymen = {
         culture = alaskan
         religion = orthodox
-        size = 7
+        size = 5
     }
 
     artisans = {
         culture = alaskan
         religion = orthodox
-        size = 16
+        size = 12
     }
 
     officers = {
         culture = alaskan
         religion = orthodox
-        size = 4
+        size = 2
     }
 
     soldiers = {
         culture = alaskan
         religion = orthodox
-        size = 18
+        size = 14
     }
 
     farmers = {
         culture = alaskan
         religion = orthodox
-        size = 90
+        size = 72
     }
 
     aristocrats = {
         culture = native_american_minor
         religion = animist
-        size = 45
+        size = 36
     }
 
     aristocrats = {
         culture = inuit
         religion = animist
-        size = 45
+        size = 36
     }
 
     farmers = {
         culture = native_american_minor
         religion = animist
-        size = 1755
+        size = 1421
     }
 }
 #Juneau / Saint Dionysius (4000/1000 POPS)
@@ -97,55 +97,55 @@
     clergymen = {
         culture = alaskan
         religion = orthodox
-        size = 1
+        size = 0
     }
 
     artisans = {
         culture = alaskan
         religion = orthodox
-        size = 4
+        size = 2
     }
 
     soldiers = {
         culture = alaskan
         religion = orthodox
-        size = 4
+        size = 2
     }
 
     farmers = {
         culture = alaskan
         religion = orthodox
-        size = 13
+        size = 9
     }
 
     clergymen = {
         culture = alaskan
         religion = protestant
-        size = 1
+        size = 0
     }
 
     artisans = {
         culture = alaskan
         religion = protestant
-        size = 4
+        size = 2
     }
 
     soldiers = {
         culture = alaskan
         religion = protestant
-        size = 4
+        size = 2
     }
 
     farmers = {
         culture = alaskan
         religion = protestant
-        size = 13
+        size = 9
     }
 
     farmers = {
         culture = native_american_minor
         religion = animist
-        size = 909
+        size = 736
     }
 }
 #Kenai/Kasilof (2400/600 POPS)
@@ -153,49 +153,221 @@
     clergymen = {
         culture = alaskan
         religion = orthodox
-        size = 1
+        size = 0
     }
 
     artisans = {
         culture = alaskan
         religion = orthodox
-        size = 4
+        size = 2
     }
 
     soldiers = {
         culture = alaskan
         religion = orthodox
-        size = 9
+        size = 7
     }
 
     farmers = {
         culture = alaskan
         religion = orthodox
-        size = 18
+        size = 14
     }
 
     clergymen = {
         culture = alaskan
         religion = protestant
-        size = 1
+        size = 0
     }
 
     artisans = {
         culture = alaskan
         religion = protestant
-        size = 4
+        size = 2
     }
 
     soldiers = {
         culture = alaskan
         religion = protestant
-        size = 4
+        size = 2
     }
 
     farmers = {
         culture = alaskan
         religion = protestant
-        size = 13
+        size = 9
+    }
+
+    farmers = {
+        culture = inuit
+        religion = animist
+        size = 294
+    }
+
+    farmers = {
+        culture = native_american_minor
+        religion = animist
+        size = 72
+    }
+}
+#Cordova (2000/500 POPS)
+4 = {
+    clergymen = {
+        culture = alaskan
+        religion = orthodox
+        size = 0
+    }
+
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 2
+    }
+
+    soldiers = {
+        culture = alaskan
+        religion = orthodox
+        size = 7
+    }
+
+    farmers = {
+        culture = alaskan
+        religion = orthodox
+        size = 14
+    }
+
+    clergymen = {
+        culture = alaskan
+        religion = protestant
+        size = 0
+    }
+
+    artisans = {
+        culture = alaskan
+        religion = protestant
+        size = 2
+    }
+
+    soldiers = {
+        culture = alaskan
+        religion = protestant
+        size = 2
+    }
+
+    farmers = {
+        culture = alaskan
+        religion = protestant
+        size = 9
+    }
+
+    farmers = {
+        culture = inuit
+        religion = animist
+        size = 276
+    }
+}
+#Dutch Harbor/Unalaska (2000/500 POPS)
+5 = {
+    clergymen = {
+        culture = alaskan
+        religion = orthodox
+        size = 0
+    }
+
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 2
+    }
+
+    soldiers = {
+        culture = alaskan
+        religion = orthodox
+        size = 7
+    }
+
+    farmers = {
+        culture = alaskan
+        religion = orthodox
+        size = 14
+    }
+
+    clergymen = {
+        culture = alaskan
+        religion = protestant
+        size = 0
+    }
+
+    artisans = {
+        culture = alaskan
+        religion = protestant
+        size = 2
+    }
+
+    soldiers = {
+        culture = alaskan
+        religion = protestant
+        size = 2
+    }
+
+    farmers = {
+        culture = alaskan
+        religion = protestant
+        size = 9
+    }
+
+    farmers = {
+        culture = inuit
+        religion = animist
+        size = 235
+    }
+
+    farmers = {
+        culture = native_american_minor
+        religion = animist
+        size = 181
+    }
+}
+#Fairbanks (2000/500 POPS)
+2599 = {
+    farmers = {
+        culture = native_american_minor
+        religion = animist
+        size = 396
+    }
+}
+#Cordova (1600/360 POPS)
+2630 = {
+    farmers = {
+        culture = native_american_minor
+        religion = animist
+        size = 291
+    }
+}
+#Unalakeet (3000/750 POPS)
+2631 = {
+    clergymen = {
+        culture = alaskan
+        religion = orthodox
+        size = 0
+    }
+
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 2
+    }
+
+    soldiers = {
+        culture = alaskan
+        religion = orthodox
+        size = 7
+    }
+
+    farmers = {
+        culture = alaskan
+        religion = orthodox
+        size = 14
     }
 
     farmers = {
@@ -204,206 +376,34 @@
         size = 364
     }
 
-    farmers = {
-        culture = native_american_minor
-        religion = animist
-        size = 90
-    }
-}
-#Cordova (2000/500 POPS)
-4 = {
     clergymen = {
         culture = alaskan
-        religion = orthodox
-        size = 1
+        religion = protestant
+        size = 0
     }
 
     artisans = {
         culture = alaskan
-        religion = orthodox
-        size = 4
+        religion = protestant
+        size = 2
     }
 
     soldiers = {
         culture = alaskan
-        religion = orthodox
+        religion = protestant
+        size = 2
+    }
+
+    farmers = {
+        culture = alaskan
+        religion = protestant
         size = 9
     }
 
     farmers = {
-        culture = alaskan
-        religion = orthodox
-        size = 18
-    }
-
-    clergymen = {
-        culture = alaskan
-        religion = protestant
-        size = 1
-    }
-
-    artisans = {
-        culture = alaskan
-        religion = protestant
-        size = 4
-    }
-
-    soldiers = {
-        culture = alaskan
-        religion = protestant
-        size = 4
-    }
-
-    farmers = {
-        culture = alaskan
-        religion = protestant
-        size = 13
-    }
-
-    farmers = {
-        culture = inuit
-        religion = animist
-        size = 342
-    }
-}
-#Dutch Harbor/Unalaska (2000/500 POPS)
-5 = {
-    clergymen = {
-        culture = alaskan
-        religion = orthodox
-        size = 1
-    }
-
-    artisans = {
-        culture = alaskan
-        religion = orthodox
-        size = 4
-    }
-
-    soldiers = {
-        culture = alaskan
-        religion = orthodox
-        size = 9
-    }
-
-    farmers = {
-        culture = alaskan
-        religion = orthodox
-        size = 18
-    }
-
-    clergymen = {
-        culture = alaskan
-        religion = protestant
-        size = 1
-    }
-
-    artisans = {
-        culture = alaskan
-        religion = protestant
-        size = 4
-    }
-
-    soldiers = {
-        culture = alaskan
-        religion = protestant
-        size = 4
-    }
-
-    farmers = {
-        culture = alaskan
-        religion = protestant
-        size = 13
-    }
-
-    farmers = {
-        culture = inuit
-        religion = animist
-        size = 292
-    }
-
-    farmers = {
         culture = native_american_minor
         religion = animist
-        size = 225
-    }
-}
-#Fairbanks (2000/500 POPS)
-2599 = {
-    farmers = {
-        culture = native_american_minor
-        religion = animist
-        size = 490
-    }
-}
-#Cordova (1600/360 POPS)
-2630 = {
-    farmers = {
-        culture = native_american_minor
-        religion = animist
-        size = 360
-    }
-}
-#Unalakeet (3000/750 POPS)
-2631 = {
-    clergymen = {
-        culture = alaskan
-        religion = orthodox
-        size = 1
-    }
-
-    artisans = {
-        culture = alaskan
-        religion = orthodox
-        size = 4
-    }
-
-    soldiers = {
-        culture = alaskan
-        religion = orthodox
-        size = 9
-    }
-
-    farmers = {
-        culture = alaskan
-        religion = orthodox
-        size = 18
-    }
-
-    farmers = {
-        culture = inuit
-        religion = animist
-        size = 450
-    }
-
-    clergymen = {
-        culture = alaskan
-        religion = protestant
-        size = 1
-    }
-
-    artisans = {
-        culture = alaskan
-        religion = protestant
-        size = 4
-    }
-
-    soldiers = {
-        culture = alaskan
-        religion = protestant
-        size = 4
-    }
-
-    farmers = {
-        culture = alaskan
-        religion = protestant
-        size = 13
-    }
-
-    farmers = {
-        culture = native_american_minor
-        religion = animist
-        size = 225
+        size = 181
     }
 }
 #Washington Region (20000)

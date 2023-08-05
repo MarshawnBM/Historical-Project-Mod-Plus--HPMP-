@@ -1,9 +1,6 @@
 ENG = {
     value = 50
 }
-TUR = {
-	value = 125
-}
 
 army = {
     name = "Al Khalifa Army"

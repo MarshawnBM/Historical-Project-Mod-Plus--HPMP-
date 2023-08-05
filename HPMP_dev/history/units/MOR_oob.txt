@@ -11,7 +11,7 @@ SPA = {
     value = 100
 }
 USA = {
-    value = 200
+    value = 100
 }
 ENG = {
     value = 100

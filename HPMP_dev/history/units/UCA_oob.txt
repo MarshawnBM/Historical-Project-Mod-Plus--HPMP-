@@ -1,13 +1,3 @@
-USA = {
-	value = 50
-}
-SPA = {
-	value = -1
-}
-SPC = {
-	value = -200
-}
-
 leader = {
     name = "Francisco Morazán"
     type = land

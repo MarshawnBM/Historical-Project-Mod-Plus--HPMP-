@@ -3,10 +3,10 @@
 FRA = { value = 25 }
 RUS = { value = -100 }
 AUS = { value = -75 }
-USA = { value = 15 }
+USA = { value = 50 }
 PRU = { value = 25 }
-TUR = { value = 30 }
-SPA = { value = 25 }
+TUR = { value = 125 }
+SPA = { value = -75 }
 
 #Africa
 BSH = { value = 75 }
@@ -91,8 +91,8 @@ NYE ={
 
 ARC = {
     value = -50
-    level = 3
-    influence_value = 25
+    level = 1
+    influence_value = 0
 }
 
 SBA = {
@@ -160,10 +160,6 @@ MHR = {
     influence_value = 0
 }
 
-EGY = {
-	value = 10
-}
-
 
 #Europe
 POR = {
@@ -178,15 +174,15 @@ NET = {
 
 }
 DEN = {
-    value = -25        #relation
-    level = 2        #3=cordial, 4 = friendly, 5 sphere
+    value = 125        #relation
+    level = 3        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 0
 
 }
 SWE = {
-    value = 25        #relation
-    level = 2        #3=cordial, 4 = friendly, 5 sphere
-    influence_value = 25
+    value = 125        #relation
+    level = 3        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
 }
 GRE = {
     value = 75
@@ -194,8 +190,8 @@ GRE = {
     influence_value = 0
 }
 BEL = {
-    value = 25
-    level = 4
+    value = 200
+    level = 5
     influence_value = 0
 }
 HAN = {
@@ -208,16 +204,11 @@ ION = {
     level = 5
     influence_value = 0
 }
-PAP = {
-	value = -50
-	level = 1
-	influence_value = 0
-}
 
 #South America
 VNZ = {
-    value = -15        #relation
-    level = 2        #3=cordial, 4 = friendly, 5 sphere
+    value = 125        #relation
+    level = 3        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 0
 }
 URU = {
@@ -225,47 +216,13 @@ URU = {
     level = 4        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 0
 }
-CHL = {
-	value = 50
-	level = 4
-	influence_value = 0
-}
-MEX = {
-	value = 50
-	level = 2
-	influence_value = 25
-}
-NIC = {					#Nicaragua and Guatemala represented with negatives to represent disputes over Bluefields and Belize, to reduce British influence despite sharing a land border
-	value = -50
-	level = 0
-	influence_value = 0
-}
-GUA = {
-	value = -25
-	level = 1
-	influence_value = 0
-}
-CLM = {
-	value = 25
-	level = 2
-	influence_value = 25
-}
-PRG = {
-	value = -200
-	level = 0
-	influence_value = 0
-}
+
 
 #Other
 COL = {                #Columbia if released
     value = 150        #relation
     level = 4        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 5
-}
-WRL = {
-	value = -20
-	level = 3
-	influence_value = 25
 }
 
 #India
@@ -504,6 +461,8 @@ leader = {
     prestige = 0.0
 }
 
+
+
 leader = {
     name = "Sir George Brown"
     date = 1836.1.1
@@ -555,67 +514,18 @@ army = {
         type = infantry
         home = 293
     }
-	
-	regiment = {
-        name= "3.1st Division"
-        type = infantry
-        home = 277
-    }
-	
-	regiment = {
-        name= "4.1st Division"
-        type = infantry
-        home = 285
-    }
-	
-	regiment = {
-        name= "5.1st Division"
-        type = infantry
-        home = 303
-    }
 
     regiment = {
-        name= "5.1st Division"
+        name= "3.1st Division"
         type = artillery
         home = 295
-    }
-	
-	regiment = {
-        name= "6.1st Division"
-        type = artillery
-        home = 290
-    }
-	
-	regiment = {
-        name= "7.1st Division"
-        type = artillery
-        home = 301
-    }
-	
-	regiment = {
-        name= "8.1st Division"
-        type = artillery
-        home = 284
     }
 
 }
 
 army = {
-    name = "2nd Corps"
+    name = "2nd Division"
     location = 288
-	
-	regiment = {
-        name= "1.2nd Cavalry Division"
-        type = hussar
-        home = 298
-    }
-	
-	regiment = {
-        name= "2.2nd Cavalry Division"
-        type = hussar
-        home = 302
-    }
-	
     regiment = {
         name= "1.2nd Division"
         type = infantry
@@ -633,8 +543,13 @@ army = {
         type = infantry
         home = 256
     }
-	
-	 regiment = {
+
+}
+
+army = {
+    name = "3rd Division"
+    location = 273
+    regiment = {
         name= "1.3rd Division"
         type = infantry
         home = 273
@@ -651,72 +566,51 @@ army = {
         type = infantry
         home = 270
     }
-	
-	regiment = {
+
+}
+
+army = {
+    name = "4th Division"
+    location = 263
+    regiment = {
+        name= "1.4th Division"
+        type = infantry
+        home = 263
+    }
+
+    regiment = {
+        name= "2.4th Division"
+        type = infantry
+        home = 255
+    }
+
+    regiment = {
+        name= "3.4th Division"
+        type = infantry
+        home = 281
+    }
+
+}
+
+army = {
+    name = "5th Division"
+    location = 269
+    regiment = {
         name= "1.5th Division"
-        type = artillery
+        type = infantry
         home = 269
     }
 
     regiment = {
         name= "2.5th Division"
-        type = artillery
+        type = infantry
         home = 271
     }
 
     regiment = {
         name= "3.5th Division"
-        type = artillery
+        type = infantry
         home = 267
-    }
-	
-	regiment = {
-        name= "4.5th Division"
-        type = artillery
-        home = 286
-    }
-
-}
-
-
-army = {
-    name = "Irish Garrison"
-    location = 263
-	
-	regiment = {
-        name= "Irish Cavalry Division"
-        type = hussar
-        home = 264
-    }
-	
-    regiment = {
-        name= "1.4th Division"
-        type = infantry
-        home = 255
-    }
-	
-	regiment = {
-        name= "2.4th Division"
-        type = infantry
-        home = 263
-    }
-	
-	regiment = {
-        name= "3.4th Division"
-        type = infantry
-        home = 281
-    }
-	
-	regiment = {
-        name= "4.4th Division"
-        type = artillery
-        home = 259
-    }
-	
-	regiment = {
-        name= "5.4th Division"
-        type = artillery
-        home = 262
     }
 
 }
@@ -875,12 +769,6 @@ army = {
         type = infantry
         home = 2087
     }
-	
-	 regiment = {
-        name= "3rd Infantry Division"
-        type = infantry
-        home = 2087
-    }
 
 }
 
@@ -963,28 +851,12 @@ army = {
         type = infantry
         home = 1317
     }
-	
-	regiment = {
-        name= "Bombay Artillery Division"
-        type = artillery
-        home = 1305
-    }
 
 }
 
 army = {
     name = "The Calcutta Army"
     location = 1256
-	regiment = {
-        name= "1st Calcutta Hussar Division"
-        type = hussar
-        home = 1255
-    }
-	regiment = {
-        name= "1st Calcutta Cavalry Division"
-        type = cavalry
-        home = 1257
-    }
     regiment = {
         name= "1.10th Division"
         type = infantry
@@ -1038,142 +910,12 @@ army = {
         type = infantry
         home = 1243
     }
-	
-	 regiment = {
-        name= "4.4th Indian Division"
-        type = infantry
-        home = 1241
-    }
-	
-	regiment = {
-        name= "1st Calcutta Artillery Division"
-        type = artillery
-        home = 1252
-    }
-	
-	regiment = {
-        name= "2nd Calcutta Artillery Division"
-        type = artillery
-        home = 1251
-    }
-
-}
-
-army = {
-    name = "The Madras Army"
-    location = 1304
-    regiment = {
-        name= "1.Madras Division"
-        type = infantry
-        home = 1304
-    }
-
-    regiment = {
-        name= "2.Madras Division"
-        type = infantry
-        home = 1304
-    }
-
-    regiment = {
-        name= "3.Madras Division"
-        type = infantry
-        home = 1304
-    }
-
-    regiment = {
-        name= "4. Madras Division"
-        type = infantry
-        home = 1304
-    }
-	
-	regiment = {
-        name= "5. Madras Division"
-        type = infantry
-        home = 1307
-    }
-	
-	regiment = {
-        name= "6. Madras Division"
-        type = infantry
-        home = 1309
-    }
-	
-	regiment = {
-        name= "7. Madras Division"
-        type = infantry
-        home = 1311
-    }
-	
-	regiment = {
-        name= "8. Madras Division"
-        type = infantry
-        home = 1256
-    }
-	
-	regiment = {
-        name= "1. Madras Artillery Division"
-        type = artillery
-        home = 1306
-    }
-	
-	regiment = {
-        name= "2. Madras Artillery Division"
-        type = artillery
-        home = 1310
-    }
-
-}
-
-army = {
-    name = "The Panjabi Army"
-    location = 1237
-    regiment = {
-        name= "1.Panjabi Division"
-        type = infantry
-        home = 1237
-    }
-
-    regiment = {
-        name= "2.Panjabi Division"
-        type = infantry
-        home = 1243
-    }
-
-    regiment = {
-        name= "3.Panjabi Division"
-        type = infantry
-        home = 1245
-    }
-
-    regiment = {
-        name= "4. Panjabi Division"
-        type = infantry
-        home = 1246
-    }
-	
-	regiment = {
-        name= "5. Panjabi Division"
-        type = infantry
-        home = 1247
-    }
-	
-	regiment = {
-        name= "1. Panjabi Artillery Division"
-        type = artillery
-        home = 1249
-    }
-	
-	regiment = {
-        name= "2. Panjabi Artillery Division"
-        type = artillery
-        home = 1250
-    }
 
 }
 
 army = {
     name = "The Delhi Army"
-    location = 1261
+    location = 1239
     regiment = {
         name= "1.2nd Cavalry Division"
         type = cuirassier
@@ -1227,8 +969,11 @@ army = {
         type = infantry
         home = 258
     }
-	
-	regiment = {
+}
+army = {
+    name = "5th Indian Division"
+    location = 1239
+    regiment = {
         name= "1.5th Indian Division"
         type = infantry
         home = 1239
@@ -1245,20 +990,8 @@ army = {
         type = infantry
         home = 1251
     }
-	
-	regiment = {
-        name= "1st Delhi Artillery Division"
-        type = artillery
-        home = 1240
-    }
-	
-	regiment = {
-        name= "2nd Delhi Artillery Division"
-        type = artillery
-        home = 1235
-    }
-}
 
+}
 
 #Channel Fleet
 navy = {
@@ -1364,81 +1097,6 @@ navy = {
         name= "HMS Talavera"
         type = manowar
     }
-	
-	 ship = {
-        name= "HMS San Josef"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Queen Charlotte"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Ocean"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Victory"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Windsor Castle"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Achille"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Agincourt"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Medway"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Minotaur"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Mulgrave"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Revenge"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Redoutable"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Sultan"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Warspite"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Tremendous"
-        type = manowar
-    }
 
     ship = {
         name= "HMS America"
@@ -1461,7 +1119,7 @@ navy = {
     }
 
     ship = {
-        name= "HMS Aligator"
+        name= "HMS Forth"
         type = frigate
     }
 
@@ -1476,7 +1134,7 @@ navy = {
     }
 
     ship = {
-        name= "HMS Rainbow"
+        name= "HMS Seahorse"
         type = frigate
     }
 
@@ -1491,7 +1149,7 @@ navy = {
     }
 
     ship = {
-        name= "HMS Crocodile"
+        name= "HMS Vernon"
         type = frigate
     }
 
@@ -1501,117 +1159,7 @@ navy = {
     }
 
     ship = {
-        name= "HMS Talbot"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Penelope"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Hebe"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Mermaid"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Rhin"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Volage"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Greenwich"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Tyne"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Samarang"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Africaine"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Andromache"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Cerberus"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Salisbury"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Endymion"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Lavinia"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Mercury"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Undaunted"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Unite"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Termagant"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Rattlesnake"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Sapphire"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS North Star"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Tartar"
+        name= "HMS Medea"
         type = frigate
     }
 
@@ -1671,61 +1219,6 @@ navy = {
         name= "HMS Waterloo"
         type = manowar
     }
-	
-	ship = {
-        name= "HMS Foudroyant"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Hogue"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Stirling Castle"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Canopus"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Bellona"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Pitt"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Blenheim"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Spartiate"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Implacable"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Kent"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Scarborough"
-        type = manowar
-    }
 
     ship = {
         name= "HMS Amazon"
@@ -1733,7 +1226,7 @@ navy = {
     }
 
     ship = {
-        name= "HMS Diana"
+        name= "HMS Fisguard"
         type = frigate
     }
 
@@ -1743,7 +1236,7 @@ navy = {
     }
 
     ship = {
-        name= "HMS Conway"
+        name= "HMS Latona"
         type = frigate
     }
 
@@ -1774,31 +1267,6 @@ navy = {
 
     ship = {
         name= "HMS Venus"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS President"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Veron"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Boadicea"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Fisgard"
-        type = frigate
-    }
-	
-	ship = {
-        name= "HMS Eurotas"
         type = frigate
     }
 
@@ -1848,24 +1316,14 @@ navy = {
         name= "HMS Pembroke"
         type = manowar
     }
-	
-	ship = {
-        name= "HMS Armada"
-        type = manowar
-    }
-	
-	ship = {
-        name= "HMS Donegal"
-        type = manowar
-    }
 
     ship = {
-        name= "HMS Alfred Catham"
+        name= "HMS Alfred"
         type = frigate
     }
 
     ship = {
-        name= "HMS Belvidera"
+        name= "HMS Andromeda"
         type = frigate
     }
 
@@ -1963,7 +1421,7 @@ navy = {
     }
 
     ship = {
-        name= "HMS Crescent"
+        name= "HMS Daedalus"
         type = frigate
     }
 
@@ -2025,7 +1483,7 @@ navy = {
     }
 
     ship = {
-        name= "HMS Bacchante"
+        name= "HMS Thisbe"
         type = frigate
     }
 
@@ -2098,110 +1556,100 @@ navy = {
     name = "1st Transport Squadron"
     location = 301 #Canterbury
     ship = {
-        name= "HMS Hermes"
+        name= "1st Transport Flotilla"
         type = steam_transport
     }
     ship = {
-        name= "HMS Dee"
+        name= "2nd Transport Flotilla"
         type = steam_transport
     }
 
     ship = {
-        name= "HMS Phoenix"
+        name= "3rd Transport Flotilla"
         type = steam_transport
     }
 
     ship = {
-        name= "HMS Echo"
+        name= "4th Transport Flotilla"
         type = steam_transport
     }
 
     ship = {
-        name= "HMS Salamander"
+        name= "5th Transport Flotilla"
         type = steam_transport
     }
 
     ship = {
-        name= "HMS Medea"
+        name= "6th Transport Flotilla"
         type = steam_transport
     }
 
     ship = {
-        name= "HMS Confiance"
+        name= "7th Transport Flotilla"
         type = steam_transport
     }
 
     ship = {
-        name= "HMS Carron"
+        name= "8th Transport Flotilla"
         type = steam_transport
     }
     ship = {
-        name= "HMS Firebrand"
+        name= "9th Transport Flotilla"
         type = steam_transport
     }
 
     ship = {
-        name= "HMS Alban"
+        name= "10th Transport Flotilla"
         type = steam_transport
     }
 
     ship = {
-        name= "HMS Hugh Lindsay"
+        name= "11th Transport Flotilla"
         type = steam_transport
     }
 
     ship = {
-        name= "HMS Flamer"
+        name= "12th Transport Flotilla"
         type = steam_transport
     }
 
     ship = {
-        name= "HMS Tartarus"
+        name= "13th Transport Flotilla"
         type = steam_transport
     }
 
     ship = {
-        name= "HMS Pluto"
+        name= "14th Transport Flotilla"
         type = steam_transport
     }
 
     ship = {
-        name= "HMS Meteor"
-        type = steam_transport
-    }
-	
-	ship = {
-        name= "HMS African"
-        type = steam_transport
-    }
-	
-	ship = {
-        name= "HMS Blazer"
+        name= "15th Transport Flotilla"
         type = steam_transport
     }
 
     ship = {
-        name= "HMS Columbia"
+        name= "HMS Bacchante"
         type = commerce_raider
     }
 
     ship = {
-        name= "HMS Lightning"
+        name= "HMS Belvidera"
         type = commerce_raider
     }
 
     ship = {
-        name= "HMS Rhadamanthus"
+        name= "HMS Briton"
         type = commerce_raider
     }
 
     ship = {
-        name= "HMS Firefly"
+        name= "HMS Crescent"
         type = commerce_raider
     }
 
     ship = {
-        name= "HMS Spitfire"
+        name= "HMS Galatea"
         type = commerce_raider
     }
 
@@ -2211,12 +1659,12 @@ navy = {
     }
 
     ship = {
-        name= "HMS Galatea"
+        name= "HMS Maidstone"
         type = frigate
     }
 
     ship = {
-        name= "HMS Briton"
+        name= "HMS Menelaus"
         type = frigate
     }
 
@@ -2258,15 +1706,5 @@ navy = {
     ship = {
         name= "HMS Owen Glendower"
         type = frigate
-    }
-	
-	ship = {
-        name= "HMS Jupiter"
-        type = clipper_transport
-    }
-	
-	ship = {
-        name= "HMS Romney"
-        type = clipper_transport
     }
 }

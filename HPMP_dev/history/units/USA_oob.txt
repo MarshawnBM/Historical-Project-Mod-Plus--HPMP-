@@ -11,12 +11,12 @@ TEX = {
     influence_value = 0
 }
 MEX = {
-    value = 25        #relation
+    value = 100        #relation
     level = 1        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 0
 }
 UCA = {
-    value = 50        #relation
+    value = 100        #relation
     level = 3        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 0
 }
@@ -33,18 +33,18 @@ ECU = {
     influence_value = 0
 }
 PEU = {
-    value = -50        #relation
+    value = 100        #relation
     level = 1        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 0
 }
 BOL = {
-    value = 0        #relation
-    level = 2        #3=cordial, 4 = friendly, 5 sphere
+    value = 100        #relation
+    level = 1        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 0
 }
 PBC = {
-    value = 0        #relation
-    level = 2        #3=cordial, 4 = friendly, 5 sphere
+    value = 100        #relation
+    level = 1        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 0
 }
 CHL = {
@@ -53,12 +53,12 @@ CHL = {
     influence_value = 0
 }
 CLM = {
-    value = 50        #relation
-    level = 2        #3=cordial, 4 = friendly, 5 sphere
-    influence_value = 25
+    value = 100        #relation
+    level = 1        #3=cordial, 4 = friendly, 5 sphere
+    influence_value = 0
 }
 BRZ = {
-    value = 15        #relation
+    value = 100        #relation
     level = 1        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 0
 }
@@ -111,49 +111,42 @@ ARC = {
 }
 
 VNZ = {
-    value = -25    #relation
+    value = 0    #relation
     level = 1        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 0
 }
 
 SPU = {
-    value = -50    #relation
-    level = 1        #3=cordial, 4 = friendly, 5 sphere
+    value = 0    #relation
+    level = 0        #3=cordial, 4 = friendly, 5 sphere
     influence_value = 0
 }
 
-HAI = {
-	value = -150
-	level = 0
-	influence_value = 0
-}
 
-
-#Other GPs
-ENG = { value = 15 }
-FRA = { value = -50 }
+#Other GP's
+ENG = { value = 50 }
+FRA = { value = 75 }
 AUS = { value = 25 }
 RUS = { value = 25 }
 PRU = { value = 25 }
 TUR = { value = 0 }
-SPA = { value = -50 }
-SPC = { value = -150 } #in case the carlists win
+SPA = { value = -25 }
 
 #Other
 TKG = {
-    value = 1 #for some reason 0 won't work
+    value = 0
+    level = 3
+    influence_value = 25
 }
 
 MOR = {
-    value = 125
-    level = 3
+    value = 0
+    level = 0
     influence_value = 0
 }
 
 DEN = {
-    value = -100
-	level = 2
-	influence_value = 15
+    value = 200
 }
 
 QNG ={
@@ -172,22 +165,6 @@ PNB ={
     value = -25
     level = 0
     influence_value = 0
-}
-
-PAP = {
-	value = -50
-	level = 1
-	influence_value = 0
-}
-EGY = {
-	value = 50
-}
-POR = {
-	value = 20
-}
-OMA = {
-	value = 125
-	level = 3
 }
 
 #African Uncivs
@@ -386,7 +363,7 @@ navy = {
     }
 
     ship = {
-        name= "Independence"
+        name= "Pennsylvania"
         type = manowar
     }
 
@@ -396,7 +373,7 @@ navy = {
     }
 
     ship = {
-        name= "Fairfield"
+        name= "Columbia"
         type = frigate
     }
 
@@ -441,6 +418,11 @@ navy = {
     name = "4th Squadron"
     location = 219
     ship = {
+        name= "Independance"
+        type = frigate
+    }
+
+    ship = {
         name= "Brandywine"
         type = frigate
     }
@@ -465,7 +447,32 @@ navy = {
 navy = {
     name = "1st Reserve Squadron"
     location = 247
-	ship = {
+    ship = {
+        name= "Alabama"
+        type = manowar
+    }
+
+    ship = {
+        name= "Vermont"
+        type = manowar
+    }
+
+    ship = {
+        name= "Virginia"
+        type = manowar
+    }
+
+    ship = {
+        name= "1st Reserve Transport"
+        type = clipper_transport
+    }
+
+}
+
+navy = {
+    name = "2nd Reserve Squadron"
+    location = 214
+    ship = {
         name= "Columbus"
         type = manowar
     }
@@ -476,16 +483,16 @@ navy = {
     }
 
     ship = {
+        name= "New York"
+        type = manowar
+    }
+
+    ship = {
         name= "North Carolina"
         type = manowar
     }
 
     ship = {
-        name= "1st Reserve Transport"
-        type = clipper_transport
-    }
-	
-	ship = {
         name= "2nd Reserve Transport"
         type = clipper_transport
     }

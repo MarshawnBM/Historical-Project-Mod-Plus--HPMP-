@@ -3,13 +3,12 @@ KOK = {
 }
 
 PER = {
-    value = -50
+    value = -200
 }
 
-AFG = {
-	value = 25
+RUS = {
+    value = -200
 }
-
 
 
 army = {

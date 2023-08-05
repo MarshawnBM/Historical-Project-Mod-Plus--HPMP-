@@ -125,43 +125,43 @@
     aristocrats = {
         culture = turkmen
         religion = sunni
-        size = 90
+        size = 72
     }
 
     clergymen = {
         culture = turkmen
         religion = sunni
-        size = 33
+        size = 26
     }
 
     artisans = {
         culture = turkmen
         religion = sunni
-        size = 360
+        size = 291
     }
 
     soldiers = {
         culture = turkmen
         religion = sunni
-        size = 180
+        size = 145
     }
 
     farmers = {
         culture = turkmen
         religion = sunni
-        size = 5760
+        size = 4665
     }
 
     artisans = {
         culture = persian
         religion = shiite
-        size = 180
+        size = 145
     }
 
     farmers = {
         culture = persian
         religion = shiite
-        size = 630
+        size = 510
     }
 }
 #under the rule of Bukhara in 1836

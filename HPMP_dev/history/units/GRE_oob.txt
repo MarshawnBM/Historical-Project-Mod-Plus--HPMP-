@@ -1,13 +1,3 @@
-RUS = {
-	value = 125
-}
-TUR = {
-	value = -150
-}
-BAV = {
-	value = 150
-}
-
 leader = {
     name = "von Heideck"
     type = land

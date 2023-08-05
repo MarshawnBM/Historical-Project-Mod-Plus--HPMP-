@@ -127,91 +127,91 @@
     aristocrats = {
         culture = azerbaijani
         religion = sunni
-        size = 67
+        size = 54
     }
 
     clergymen = {
         culture = azerbaijani
         religion = sunni
-        size = 51
+        size = 40
     }
 
     artisans = {
         culture = azerbaijani
         religion = sunni
-        size = 202
+        size = 162
     }
 
     soldiers = {
         culture = azerbaijani
         religion = sunni
-        size = 33
+        size = 26
     }
 
     farmers = {
         culture = azerbaijani
         religion = sunni
-        size = 3678
+        size = 2979
     }
 
     aristocrats = {
         culture = azerbaijani
         religion = shiite
-        size = 168
+        size = 135
     }
 
     clergymen = {
         culture = azerbaijani
         religion = shiite
-        size = 78
+        size = 63
     }
 
     artisans = {
         culture = azerbaijani
         religion = shiite
-        size = 472
+        size = 381
     }
 
     soldiers = {
         culture = azerbaijani
         religion = shiite
-        size = 100
+        size = 81
     }
 
     farmers = {
         culture = azerbaijani
         religion = shiite
-        size = 8640
+        size = 6998
     }
 
     aristocrats = {
         culture = dagestani
         religion = sunni
-        size = 100
+        size = 81
     }
 
     clergymen = {
         culture = dagestani
         religion = sunni
-        size = 103
+        size = 82
     }
 
     artisans = {
         culture = dagestani
         religion = sunni
-        size = 135
+        size = 108
     }
 
     soldiers = {
         culture = dagestani
         religion = sunni
-        size = 135
+        size = 108
     }
 
     farmers = {
         culture = dagestani
         religion = sunni
-        size = 4860
+        size = 3936
     }
 }
 #Sheki (24000/6000 POPS)
