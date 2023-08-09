@@ -136,6 +136,7 @@ press_rights = state_press
 trade_unions = state_controlled
 voting_system = first_past_the_post
 political_parties = underground_parties
+subsidise = subsidise_yes
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -146,8 +147,8 @@ unemployment_subsidies = no_subsidies
 pensions = no_pensions
 school_reforms = no_schools
 
-ruling_party = FRA_reactionary
-government = presidential_dictatorship
+ruling_party = FRA_conservative_2
+government = absolute_monarchy
 upper_house = {
     fascist = 0
     liberal = 30
