@@ -1,8 +1,9 @@
-owner = TRI
-controller = TRI
+owner = TUR
+controller = TUR
 add_core = TRI
 trade_goods = fruit
 life_rating = 10
+colonial = 2
 1861.1.1 = {
     owner = TUR
     controller = TUR

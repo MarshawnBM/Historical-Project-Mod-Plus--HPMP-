@@ -7,7 +7,7 @@ country_event = {
     is_triggered_only = yes
 
     option = {
-        name = "Keep it in Lisbon, the Metropolis of the old nation of Portugal!"
+        name = "Lisbon, the Metropolis of the old nation of Portugal!"
         capital = 521
         prestige = 15
         random_owned = {
@@ -38,7 +38,7 @@ country_event = {
        ai_chance = { factor = 50 }
     }
     option = {
-        name = "Move it to the great Rio de Janeiro, the future is in the New World!"
+        name = "Rio de Janeiro, the future is in the New World!"
         capital = 2447
         any_pop = {
             limit = {

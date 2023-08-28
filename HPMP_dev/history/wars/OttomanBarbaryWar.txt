@@ -9,21 +9,14 @@ name = "Ottoman Restoration of Tripoli"
     # casus_belli - cb type
     # country - 3rd party
     # state_province_id - target state capital
-    war_goal = {
-        casus_belli = make_puppet
-        actor = TUR
-        receiver = TRI
-    }
-
-    war_goal = {
-        casus_belli = status_quo
-        actor = TRI
-        receiver = TUR
-    }
-
+	war_goal = {
+		casus_belli = conquest
+		actor = TUR
+		receiver = TRI
+	}
 }
 
-1836.6.6 = {
+1835.12.31 = {
     rem_attacker = TUR
     rem_defender = TRI
 }

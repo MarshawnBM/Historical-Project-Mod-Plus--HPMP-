@@ -1160,19 +1160,19 @@ guiTypes = {
 			}
 			
 			iconType = {
-				name = "build_icon_navalbase"
+				name = "build_icon_infra"
 				spriteType = "GFX_province_navalbase_strip"
+				position = { x= 270 y = 88 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			iconType = {
+				name = "build_icon_navalbase"
+				spriteType = "GFX_province_infra_strip"
 				position = { x= 180 y = 88 }
 				Orientation = "UPPER_LEFT"
 			}
 
-			
-			iconType = {
-				name = "build_icon_infra"
-				spriteType = "GFX_province_infra_strip"
-				position = { x= 270 y = 88 }
-				Orientation = "UPPER_LEFT"
-			}
 			### progressbar when investing in railroad.
 			windowType = {
 				name = "infra_progress_win"

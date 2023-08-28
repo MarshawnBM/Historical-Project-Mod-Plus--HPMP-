@@ -3,8 +3,8 @@ political_decisions = {
         picture = reino_unido
         potential = {
             OR = { 
-                primary_culture = portuguese
-                primary_culture = brazilian
+                tag = BRZ
+                tag = POR
             }
             NOT = { has_global_flag = Union_of_PTBR}
         }
@@ -17,17 +17,13 @@ political_decisions = {
             }
             OR = {
                 BRZ = {
-                    OR = {
-                        substate_of  = THIS
                         vassal_of = THIS
                     }
-                }
+                
                 POR = {
-                    OR = {
-                        substate_of = THIS
                         vassal_of = THIS
                     }
-                }
+                
             }
             AND = {
                 BRZ = {

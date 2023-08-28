@@ -90,12 +90,12 @@ spriteTypes = {
 		noOfFrames = 8
 	}
 	spriteType = {
-		name = "GFX_province_infra_strip"
+		name = "GFX_province_navalbase_strip"
 		textureFile = "gfx\\interface\\province_infra_strip.dds"
 		noOfFrames = 8
 	}
 	spriteType = {
-		name = "GFX_province_navalbase_strip"
+		name = "GFX_province_infra_strip"
 		textureFile = "gfx\\interface\\province_navalbase_strip.dds"
 		noOfFrames = 8
 	}
