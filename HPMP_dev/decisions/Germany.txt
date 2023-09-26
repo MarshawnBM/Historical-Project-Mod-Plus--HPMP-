@@ -1131,6 +1131,171 @@ core_heligoland = {
     ai_will_do = { factor = 1 }
 }
 
+    release_lithuania = {
+    picture = eastern_europe
+        potential = {
+            owns = 360		
+            OR = {
+                tag = PRU
+                tag = GER
+                tag = NGF
+            }
+            LIT = { exists = no }
+        }
+
+        allow = {
+            war = no
+        }
+
+        effect = {
+            release_vassal = LIT
+            create_alliance = LIT
+            diplomatic_influence = { who = LIT value = 200 }
+            relation = { who = LIT value = 200 }
+            badboy = -5			
+            698 = { secede_province = THIS }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    release_latvia = {
+    picture = eastern_europe
+        potential = {
+            owns = 354			
+            OR = {
+                tag = PRU
+                tag = GER
+                tag = NGF
+            }
+            LAT = { exists = no }
+        }
+
+        allow = {
+            war = no
+        }
+
+        effect = {
+            release_vassal = LAT
+            create_alliance = LAT
+            diplomatic_influence = { who = LAT value = 200 }
+            relation = { who = LAT value = 200 }
+            badboy = -5			
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    release_estonia = {
+    picture = eastern_europe
+        potential = {
+            owns = 349			
+            OR = {
+                tag = PRU
+                tag = GER
+                tag = NGF
+            }
+            EST = { exists = no }
+        }
+
+        allow = {
+            war = no
+        }
+
+        effect = {
+            release_vassal = EST
+            create_alliance = EST
+            diplomatic_influence = { who = EST value = 200 }
+            relation = { who = EST value = 200 }
+            badboy = -5			
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    release_poland = {
+    picture = eastern_europe
+        potential = {
+            owns = 706
+            owns = 713			
+            OR = {
+                tag = PRU
+                tag = GER
+                tag = NGF
+            }
+            POL = { exists = no }
+        }
+
+        allow = {
+            war = no
+        }
+
+        effect = {
+            release_vassal = POL
+            create_alliance = POL
+            diplomatic_influence = { who = POL value = 200 }
+            relation = { who = POL value = 200 }
+            badboy = -5			
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    release_belarus = {
+    picture = eastern_europe
+        potential = {
+            owns = 719
+#            owns = 940			
+            owns = 718
+            owns = 944
+            OR = {
+                tag = PRU
+                tag = GER
+                tag = NGF
+            }
+            BYE = { exists = no }
+        }
+
+        allow = {
+            war = no
+        }
+
+        effect = {
+            release_vassal = BYE
+            create_alliance = BYE
+            diplomatic_influence = { who = BYE value = 200 }
+            relation = { who = BYE value = 200 }
+            badboy = -5			
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+    release_ukraine = {
+    picture = eastern_europe
+        potential = {
+            owns = 955
+            owns = 958			
+            owns = 968
+            owns = 961
+            OR = {
+                tag = PRU
+                tag = GER
+                tag = NGF
+            }
+            UKR = { exists = no }
+        }
+
+        allow = {
+            war = no
+        }
+
+        effect = {
+            release_vassal = UKR
+            create_alliance = UKR
+            diplomatic_influence = { who = UKR value = 200 }
+            relation = { who = UKR value = 200 }
+            badboy = -5			
+        }
+        ai_will_do = { factor = 1 }
+    }
+
+
 #    sudeteland_exchange = {
 #        picture = treaty_signing
 #        potential = {

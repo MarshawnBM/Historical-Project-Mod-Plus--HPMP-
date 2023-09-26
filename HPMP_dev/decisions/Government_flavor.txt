@@ -8,7 +8,7 @@ political_decisions = {
                 ai = yes
             }
             government = absolute_monarchy
-            upper_house_composition = appointed
+#            upper_house_composition = appointed
             NOT = { has_country_flag = dissolving_parliament }
         }
 
