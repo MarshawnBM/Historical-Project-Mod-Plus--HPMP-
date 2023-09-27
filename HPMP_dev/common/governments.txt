@@ -43,7 +43,8 @@ absolute_monarchy = {
     liberal = yes
     conservative = yes
     reactionary = yes
-
+    fascist = yes
+	
 
     election = no
     appoint_ruling_party = yes

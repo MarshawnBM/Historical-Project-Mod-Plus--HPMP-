@@ -1295,6 +1295,34 @@ core_heligoland = {
         ai_will_do = { factor = 1 }
     }
 
+    trade_the_ardennes_for_alsace_lorraine = {
+    picture = restore_alsace
+        potential = {
+            owns = 413
+            owns = 411			
+            owns = 414
+            owns = 412
+            owns = 409			
+            owns = 410
+            OR = {
+                tag = PRU
+                tag = GER
+                tag = NGF
+            }
+        }
+
+        allow = {
+            war = no
+        }
+
+        effect = {
+            412 = { remove_core = FRA }
+            409 = { remove_core = FRA }
+            410 = { remove_core = FRA }
+            any_owned = { limit = { is_core = FRA } secede_province = FRA }
+        }
+        ai_will_do = { factor = 1 }
+    }
 
 #    sudeteland_exchange = {
 #        picture = treaty_signing
