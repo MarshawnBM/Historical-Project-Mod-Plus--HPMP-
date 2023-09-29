@@ -762,22 +762,40 @@ political_decisions = {
                     owned_by = GER
                 }
             }
+            409 = {
+                NOT = {
+                    is_core = GER
+                    owned_by = GER
+                }
+            }
+            410 = {
+                NOT = {
+                    is_core = GER
+                    owned_by = GER
+                }
+            }
         }
 
         allow = {
             tag = GER
             is_greater_power = yes
             412 = { owner = { NOT = { truce_with = THIS } } }
+            409 = { owner = { NOT = { truce_with = THIS } } }
+            410 = { owner = { NOT = { truce_with = THIS } } }
             OR = {
                 war_policy = jingoism
                 412 = { owner = { war_with = THIS } }
+                409 = { owner = { war_with = THIS } }
+                410 = { owner = { war_with = THIS } }
             }
         }
 
         effect = {
             clr_country_flag = lost_alsace_lorraine
             badboy = 5
-            FRA_412 = { add_core = GER }
+			412 = { add_core = GER }
+            409 = { add_core = GER }
+            410 = { add_core = GER }
             random_country = {
                 limit = {
                     owns = 412
@@ -1304,6 +1322,9 @@ core_heligoland = {
             owns = 412
             owns = 409			
             owns = 410
+            412 = { is_core = FRA }
+            409 = { is_core = FRA }
+            410 = { is_core = FRA }
             OR = {
                 tag = PRU
                 tag = GER
@@ -1323,6 +1344,36 @@ core_heligoland = {
         }
         ai_will_do = { factor = 1 }
     }
+
+    the_german_fleet_act = {
+        picture = naval_arms_race
+        potential = {
+            NOT = { has_global_flag = the_german_fleet_act }
+            tag = GER
+			steam_turbine_ships = 1
+			owns = 369
+			owns = 528
+			owns = 539
+        }
+
+        allow = {
+			steam_turbine_ships = 1
+            money = 1001000
+        }
+
+        effect = {
+            set_global_flag = the_german_fleet_act
+            prestige = 10
+            treasury = -1000000
+			relation = { who = ENG value = -300 }
+			leave_alliance = ENG
+			369 = { naval_base = 6 add_province_modifier = { name = fleet_act_funding duration = 3650 } }
+			528 = { naval_base = 6 add_province_modifier = { name = fleet_act_funding duration = 3650 } }			
+			539 = { naval_base = 6 add_province_modifier = { name = fleet_act_funding duration = 3650 } }
+        }
+        ai_will_do = { factor = 1 }
+    }
+
 
 #    sudeteland_exchange = {
 #        picture = treaty_signing

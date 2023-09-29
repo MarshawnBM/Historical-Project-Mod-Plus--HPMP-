@@ -72,3 +72,86 @@ country_event = {
 		}
 	}
 }
+
+#Splendid Isolation RUS
+country_event = {
+	id = 99931
+	title = "EVTNAME99931" #Russian Isolation
+	desc = "EVTDESC99931"
+	picture = "bad_badboy"
+	
+	trigger = {
+		tag = RUS
+		any_greater_power = {
+			alliance_with = RUS
+		}
+        has_global_flag = russian_isolation
+		is_greater_power = yes
+		NOT = { year = 1890 }
+		OR = {
+			TUR = {
+				is_greater_power = yes
+				NOT = { alliance_with = THIS }
+			}
+			TUR = { is_greater_power = no }
+		}
+		OR = {
+			PRU = {
+				is_greater_power = yes
+				NOT = { alliance_with = THIS }
+			}
+			PRU = { is_greater_power = no }
+		}
+		OR = {
+			NGF = {
+				is_greater_power = yes
+				NOT = { alliance_with = THIS }
+			}
+			NGF = { is_greater_power = no }
+		}
+		OR = {
+			GER = {
+				is_greater_power = yes
+				NOT = { alliance_with = THIS }
+			}
+			GER = { is_greater_power = no }
+		}
+		OR = {
+			AUS = {
+				is_greater_power = yes
+				NOT = { alliance_with = THIS }
+			}
+			AUS = { is_greater_power = no }
+		}
+		OR = {
+			KUK = {
+				is_greater_power = yes
+				NOT = { alliance_with = THIS }
+			}
+			KUK = { is_greater_power = no }
+		}
+
+	}
+
+	option = {
+		name = "EVT99931OPT"
+		any_greater_power = {
+			limit = {
+				NOT = { 
+					tag = TUR
+					tag = PRU
+					tag = NGF
+					tag = GER
+					tag = AUS
+					tag = KUK					
+				}
+				alliance_with = RUS
+			}
+			leave_alliance = THIS
+			relation = {
+				who = THIS
+				value = -150
+			}
+		}
+	}
+}

@@ -1241,4 +1241,105 @@ political_decisions = {
         }
     }
 
+    french_russian_friendship = {
+        picture = french_russia_bffs
+        potential = {
+            tag = FRA
+			year = 1890
+			exists = GER
+            NOT = { has_country_flag = french_russian_friendship }
+        }
+
+        allow = {
+            war = no
+			money = 501000
+        }
+
+        effect = {
+            set_country_flag = french_russian_friendship
+            treasury = -1000000
+			RUS = { treasury = 1000000 }
+            create_alliance = RUS
+			relation = {
+				who = RUS
+				value = 400
+			}
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    reclaim_alsace_lorraine_france = {
+        picture = reichsland_elsass
+        potential = {
+            412 = {
+                NOT = {
+                    is_core = FRA
+                    owned_by = FRA
+                }
+            }
+            409 = {
+                NOT = {
+                    is_core = FRA
+                    owned_by = FRA
+                }
+            }
+            410 = {
+                NOT = {
+                    is_core = FRA
+                    owned_by = FRA
+                }
+            }
+        }
+
+        allow = {
+            tag = FRA
+            is_greater_power = yes
+            412 = { owner = { NOT = { truce_with = THIS } } }
+            409 = { owner = { NOT = { truce_with = THIS } } }
+            410 = { owner = { NOT = { truce_with = THIS } } }
+            OR = {
+                war_policy = jingoism
+                412 = { owner = { war_with = THIS } }
+                409 = { owner = { war_with = THIS } }
+                410 = { owner = { war_with = THIS } }
+            }
+        }
+
+        effect = {
+            badboy = 5
+            412 = { add_core = FRA }
+            409 = { add_core = FRA }
+            410 = { add_core = FRA }
+            random_country = {
+                limit = {
+                    owns = 412
+                    NOT = { tag = THIS }
+                }
+                relation = { who = FRA value = -100 }
+                leave_alliance = FRA
+                casus_belli = {
+                    target = THIS
+                    type = cut_down_to_size
+                    months = 24
+                }
+                casus_belli = {
+                    target = THIS
+                    type = humiliate
+                    months = 24
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                badboy = 0.8
+            }
+        }
+    }
+
+
 }

@@ -1711,6 +1711,11 @@ germania_werft = {
     icon = 15
 }
 
+fleet_act_funding = {
+    local_ship_build = -0.3
+    icon = 15
+}
+
 ruhr_boom = {
     factory_owner_cost = -0.5
     global_population_growth = 0.001
@@ -2736,6 +2741,7 @@ orthodoxy_autocracy_nationality = {
     global_pop_consciousness_modifier = -0.05
     global_pop_militancy_modifier = -0.05
 	global_assimilation_rate = 0.01
+	war_exhaustion = -2
 #	core_pop_militancy_modifier = -0.05
 #	core_pop_consciousness_modifier = -0.05
 	icon = 7

@@ -1550,8 +1550,8 @@ country_event = {
         owns = 549
 		NOT = { has_global_flag = german_LR_normalized }
 		OR = { 
-		        total_pops = 10250000
-				year = 1875
+		        total_pops = 10000000
+				year = 1870
 			}
     }
 

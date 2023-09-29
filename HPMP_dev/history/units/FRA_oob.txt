@@ -46,7 +46,7 @@ GRE = {
 
 #GPs
 ENG = { value = 25 }
-RUS = { value = -200 }
+RUS = { value = -100 }
 AUS = { value = -100 }
 USA = { value = 50 }
 PRU = { value = -100 }
