@@ -314,7 +314,14 @@ country_event = {
 		civilized = yes
 		OR = {
 		has_pop_type = slaves
-		NOT = { government = proletarian_dictatorship }
+		NOT = { 			
+			OR = {
+				government = bourgeois_dictatorship
+				government = fascist_dictatorship
+				government = presidential_dictatorship
+				government = proletarian_dictatorship
+				government = absolute_monarchy }
+			}
 		}
 		OR = {
 		year = 1895

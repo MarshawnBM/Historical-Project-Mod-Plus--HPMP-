@@ -1247,23 +1247,17 @@ political_decisions = {
             tag = FRA
 			year = 1890
 			exists = GER
-            NOT = { has_country_flag = french_russian_friendship }
+            NOT = { has_country_flag = french_russian_friendship_offered }
         }
 
         allow = {
             war = no
-			money = 501000
+			money = 1001000
         }
 
         effect = {
-            set_country_flag = french_russian_friendship
-            treasury = -1000000
-			RUS = { treasury = 1000000 }
-            create_alliance = RUS
-			relation = {
-				who = RUS
-				value = 400
-			}
+            set_country_flag = french_russian_friendship_offered
+            RUS = { country_event = 325463 }
         }
         ai_will_do = {
             factor = 1

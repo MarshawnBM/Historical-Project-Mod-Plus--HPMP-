@@ -20,3 +20,7 @@ the_german_fleet_act_desc;The German naval laws were were five separate laws pas
 reclaim_alsace_lorraine_france_title;Reclaim Alsace-Lorraine;;;;;;;;;;;;;
 reclaim_alsace_lorraine_france_desc;The neighbouring territory of Alsace-Lorraine is an integral part of France, and rightfully belongs to us. We renounced our rightful claim to it, but perhaps the time has come for us to re-assert our claim?;;;;;;;;;;;;;
 fleet_act_funding;Fleet Act Funding;;;;;;;;;;;;;
+EVTNAME325463;French offer of Friendship;;;;;;;;;;;;;
+EVTDESC325463;The French, feeling threaten by the growing power of Germany, have offered us money to aid our development, in exchange for an alliance to secure our mutual protection in the event either of us end up in a war against Germany.;;;;;;;;;;;;;
+EVT325463OPTA;We accept, Vive La France and God protect Russia!;;;;;;;;;;;;;
+EVT325463OPTB;We decline, Germany is no threat to us.;;;;;;;;;;;;;

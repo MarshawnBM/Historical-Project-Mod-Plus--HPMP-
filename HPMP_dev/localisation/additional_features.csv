@@ -40,7 +40,7 @@ enable_splendid_isolation_desc;This will cause an event to prevent the UK from f
 disable_splendid_isolation_title;Disable Splendid Isolation;;;;;;;;;;;;;
 disable_splendid_isolation_desc;This will disable an event to prevent the UK from forming an alliance with other great powers until either after 1870, Germany forms, or the UK is no longer the 1st place great power.;;;;;;;;;;;;;
 enable_russian_isolation_title;Enable Russian Isolation;;;;;;;;;;;;;
-enable_russian_isolation_desc;This will cause an event to prevent Russia from forming an alliance with other great powers, besides Prussia/NGF/Germany and Austria/Austria-Hungary, until after 1890. This will help simulate the deep distrust the western power of Britian and France had with the Russian empire for most of the 19th century. This will also likely have the effect of keeping Russia out of the Franco-Prussian wars, thus maintaining its stability better.;;;;;;;;;;;;;
+enable_russian_isolation_desc;This will cause an event to prevent Russia from forming an alliance with other great powers, besides Prussia/NGF/Germany and Austria/Austria-Hungary, until after 1890. This will help simulate the deep distrust the western powers of Britian and France had with the Russian empire for most of the 19th century. This will also likely have the effect of keeping Russia out of the Franco-Prussian wars, thus maintaining its stability better.;;;;;;;;;;;;;
 disable_russian_isolation_title;Disable Russian Isolation;;;;;;;;;;;;;
 disable_russian_isolation_desc;This will disable an event to prevent Russia from forming an alliance with other great powers, besides Prussia/NGF/Germany and Austria/Austria-Hungary, until after 1890.;;;;;;;;;;;;;
 EVTNAME99930;Splendid Isolation;;;;;;;;;;;;x

@@ -3007,6 +3007,52 @@ country_event = {
     }
 }
 
+#French offer of Friendship
+country_event = {
+    id = 325463
+    title = "EVTNAME325463"
+    desc = "EVTDESC325463"
+    picture = "franco_russian_alliance"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT325463OPTA"
+            treasury = 1000000
+			FRA = { treasury = -1000000 }
+            create_alliance = FRA
+			relation = {
+				who = FRA
+				value = 400
+			}
+
+        ai_chance = {
+            factor = 95
+        modifier = {
+            factor = 0
+            alliance_with = GER
+        }
+        modifier = {
+            factor = 0.5
+            relation = { who = GER value = 150 }
+        }
+     }
+}
+
+    option = {
+        name = "EVT325463OPTB"
+			relation = {
+				who = FRA
+				value = -100
+			}
+
+        ai_chance = {
+            factor = 5
+    }
+}
+
+
+
 country_event = {
 	
 	id = 999999999
