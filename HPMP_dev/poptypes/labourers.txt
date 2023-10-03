@@ -363,6 +363,8 @@ migration_target = {
     }
 }
 
+promote_to = {
+
 	slaves = {
 		factor = 0.01
 					modifier = {

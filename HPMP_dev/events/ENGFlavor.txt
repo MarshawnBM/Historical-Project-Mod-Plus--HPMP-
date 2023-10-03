@@ -3719,3 +3719,44 @@ country_event = {
         }
     }
 }
+
+#French offer of Friendship
+country_event = {
+    id = 110082
+    title = "EVTNAME110082"
+    desc = "EVTDESC110082"
+    picture = "french_anglo_friendship"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT110082OPTA"
+			relation = {
+				who = FRA
+				value = 400
+			}
+
+        ai_chance = {
+            factor = 95
+        modifier = {
+            factor = 0
+            alliance_with = GER
+        }
+        modifier = {
+            factor = 0.5
+            relation = { who = GER value = 150 }
+        }
+     }
+}
+
+    option = {
+        name = "EVT110082OPTB"
+			relation = {
+				who = FRA
+				value = -100
+			}
+
+        ai_chance = {
+            factor = 5
+    }
+}

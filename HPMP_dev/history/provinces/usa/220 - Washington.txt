@@ -4,7 +4,7 @@ controller = USA
 
 add_core = USA
 trade_goods = grain
-life_rating = 50
+life_rating = 45
 fort = 1
 
 party_loyalty = {

@@ -1336,4 +1336,26 @@ political_decisions = {
     }
 
 
+    french_anglo_friendship = {
+        picture = french_anglo_bffs
+        potential = {
+            tag = FRA
+			has_global_flag = the_german_fleet_act
+            NOT = { has_country_flag = french_anglo_friendship_offered }
+        }
+
+        allow = {
+            war = no
+        }
+
+        effect = {
+            set_country_flag = french_anglo_friendship_offered
+            ENG = { country_event = 110082 }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+
 }

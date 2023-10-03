@@ -3,4 +3,4 @@ controller = USA
 add_core = USA
 colonial = 2
 trade_goods = cattle
-life_rating = 50
+life_rating = 45

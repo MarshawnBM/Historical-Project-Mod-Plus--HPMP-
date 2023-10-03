@@ -13,7 +13,7 @@ country_event = {
 
     trigger = {
         NOT = { is_ideology_enabled = socialist  }
-        year = 1860
+        OR = { year = 1860 AND = { year = 1848 has_global_flag = early_socialism } }
         civilized = yes
         literacy = 0.4
         OR = {
@@ -71,7 +71,7 @@ country_event = {
         NOT = {
             is_ideology_enabled = communist
         }
-        year = 1870
+        OR = { year = 1870 AND = { year = 1848 has_global_flag = early_socialism } }
         civilized = yes
         literacy = 0.5
         OR = {

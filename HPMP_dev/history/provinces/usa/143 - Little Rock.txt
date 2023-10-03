@@ -4,7 +4,7 @@ controller = USA
 
 add_core = USA
 trade_goods = cotton
-life_rating = 40
+life_rating = 35
 colonial = 2
 
 party_loyalty = {

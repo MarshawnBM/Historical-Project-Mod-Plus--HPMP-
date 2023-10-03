@@ -54,6 +54,10 @@ country_event = {
 		}
 	}
 
+	mean_time_to_happen = {
+		days = 0
+	}
+
 	option = {
 		name = "EVT99930OPT"
 		any_greater_power = {
@@ -131,6 +135,10 @@ country_event = {
 			KUK = { is_greater_power = no }
 		}
 
+	}
+
+	mean_time_to_happen = {
+		days = 0
 	}
 
 	option = {

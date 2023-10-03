@@ -2,7 +2,7 @@ owner = USA
 controller = USA
 add_core = USA
 trade_goods = timber
-life_rating = 60
+life_rating = 55
 colonial = 2
 
 party_loyalty = {

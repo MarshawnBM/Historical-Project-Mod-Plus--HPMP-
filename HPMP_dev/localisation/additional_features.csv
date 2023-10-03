@@ -84,6 +84,10 @@ enable_harder_ai_title;Enable Harder AI;;;;;;;;;;;;;
 enable_harder_ai_desc;This will cause the AI to use tariffs more effectively, making the AI have more money and be harder.;;;;;;;;;;;;;
 disable_harder_ai_title;Disable Harder AI;;;;;;;;;;;;;
 disable_harder_ai_desc;This will cause the AI to not use tariffs more effectively, making the AI have less money and be easier.;;;;;;;;;;;;;
+enable_early_socialism_title;Enable Early Socialism and Communism;;;;;;;;;;;;;
+enable_early_socialism_desc;This will cause Socialism and Communism to be enabled after 1848, instead of 1860/1870, I have not extensivly tested this yet, but it's based on the fact socialism existed before 1848 to some degree, and the communist manifesto was published in 1848, so it makes some sense to enable these ideologies in that year.;;;;;;;;;;;;;
+disable_early_socialism_title;Disable Early Socialism and Communism;;;;;;;;;;;;;
+disable_early_socialism_desc;This will disable Early Socialism and Communism if you accidentlly selected the option.;;;;;;;;;;;;;
 #############################################;;;;;;;;;;;;;;x
 #Save The Nation;;;;;;;;;;;;;;x
 #############################################;;;;;;;;;;;;;;x

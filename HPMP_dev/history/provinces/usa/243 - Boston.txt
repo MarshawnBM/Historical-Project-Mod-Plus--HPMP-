@@ -5,7 +5,7 @@ controller = USA
 add_core = USA
 add_core = NEN
 trade_goods = grain
-life_rating = 60
+life_rating = 55
 railroad = 1
 naval_base = 1
 

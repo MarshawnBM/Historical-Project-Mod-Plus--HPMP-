@@ -4,7 +4,7 @@ controller = USA
 add_core = USA
 trade_goods = iron
 
-life_rating = 55
+life_rating = 50
 
 party_loyalty = {
     ideology = conservative
