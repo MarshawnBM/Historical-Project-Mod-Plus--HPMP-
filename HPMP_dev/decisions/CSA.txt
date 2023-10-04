@@ -117,17 +117,25 @@ political_decisions = {
 			RGR = { all_core = { add_core = CSA	} }
 			2143 = { add_core = CSA } #Paso del Norte
 			2144 = { add_core = CSA } #Delicias
+			2142 = { add_core = CSA } 
+			2145 = { add_core = CSA } 
+			2147 = { add_core = CSA } 
+			2149 = { add_core = CSA } 
+			2152 = { add_core = CSA } 
+			2155 = { add_core = CSA } 
+			2151 = { add_core = CSA } 
+			2150 = { add_core = CSA } 
 			HAI_2213 = { add_core = CSA } #Hispanola
 			2222 = { add_core = CSA } #Puerto Rico
 			any_pop = {
 				limit = {
 					OR = {
 						has_pop_culture = afro_american
-						has_pop_culture = afro_american
-						has_pop_culture = african_minor
-						has_pop_culture = afro_american
-						has_pop_culture = afro_american
-						has_pop_culture = afro_american
+						has_pop_culture = afro_caribbean
+						has_pop_culture = afro_caribeno
+						has_pop_culture = afro_antillean
+						has_pop_culture = afro_brazilian
+						has_pop_culture = kreol
 					}
 				}
 				consciousness = 2
@@ -188,11 +196,11 @@ political_decisions = {
 				limit = {
 					OR = {
 						has_pop_culture = afro_american
-						has_pop_culture = afro_american
-						has_pop_culture = african_minor
-						has_pop_culture = afro_american
-						has_pop_culture = afro_american
-						has_pop_culture = afro_american
+						has_pop_culture = afro_caribbean
+						has_pop_culture = afro_caribeno
+						has_pop_culture = afro_antillean
+						has_pop_culture = afro_brazilian
+						has_pop_culture = kreol
 					}
 				}
 				consciousness = 4
@@ -260,11 +268,11 @@ political_decisions = {
 				limit = {
 					OR = {
 						has_pop_culture = afro_american
-						has_pop_culture = afro_american
-						has_pop_culture = african_minor
-						has_pop_culture = afro_american
-						has_pop_culture = afro_american
-						has_pop_culture = afro_american
+						has_pop_culture = afro_caribbean
+						has_pop_culture = afro_caribeno
+						has_pop_culture = afro_antillean
+						has_pop_culture = afro_brazilian
+						has_pop_culture = kreol
 					}
 				}
 				consciousness = 6
@@ -340,11 +348,11 @@ political_decisions = {
 				limit = {
 					OR = {
 						has_pop_culture = afro_american
-						has_pop_culture = afro_american
-						has_pop_culture = african_minor
-						has_pop_culture = afro_american
-						has_pop_culture = afro_american
-						has_pop_culture = afro_american
+						has_pop_culture = afro_caribbean
+						has_pop_culture = afro_caribeno
+						has_pop_culture = afro_antillean
+						has_pop_culture = afro_brazilian
+						has_pop_culture = kreol
 					}
 				}
 				consciousness = 8

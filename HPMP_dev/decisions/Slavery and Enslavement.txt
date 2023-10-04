@@ -918,6 +918,37 @@ enslave_minorities = {
 		}
 	}
 
+	ai_expands_slavery = {
+	alert = no
+	picture = gulag
+	potential = {
+			ai = yes
+			OR = { slavery = yes_slavery slavery = freedom_of_womb }
+			NOT { has_country_modifier = the_slavery_debate }
+			OR = {		
+					has_country_modifier = enslaving_minorities
+					has_country_modifier = enslaving_political_prisoners
+					has_country_modifier = enslaving_the_poor
+		}
+		}
+	allow = {
+			ai = yes
+	}
+	effect = {
+			any_owned = {
+			state_scope = {
+				is_slave = yes
+			}
+		}		
+	}
+			
+		ai_will_do = {
+				factor = 1
+			}
+		}
+}
+
+
 #####Ending Specific types of slavery, work but are OP and not balanced/localized yet###
 #	end_enslave_the_poor = {
 #	alert = no

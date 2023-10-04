@@ -155,6 +155,37 @@ zremove_cores = {
 	}
 }
 
+#########################################################################
+# 							MANAGE SLAVE STATE							#
+#########################################################################
+
+	zmanage_slave_state = {
+		picture = gulag
+		potential = {
+			ai = no
+			OR = { slavery = yes_slavery slavery = freedom_of_womb }
+			NOT { has_country_modifier = the_slavery_debate }
+			OR = {		
+					has_country_modifier = enslaving_minorities
+					has_country_modifier = enslaving_political_prisoners
+					has_country_modifier = enslaving_the_poor
+		}
+	}
+		allow = {
+			any_owned_province = {
+				has_building = province_selector
+			}
+		}
+		effect = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+				}
+				province_selector = -1
+				province_event = { id = 91522 days = 0 }
+			}
+		}
+	}
 
 
 

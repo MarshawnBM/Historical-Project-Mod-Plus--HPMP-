@@ -1267,6 +1267,7 @@ political_decisions = {
     reclaim_alsace_lorraine_france = {
         picture = reichsland_elsass
         potential = {
+            tag = FRA
             412 = {
                 NOT = {
                     is_core = FRA

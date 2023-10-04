@@ -48,3 +48,9 @@ diplomatic_cores;Core Integration in Progress;;;;;;;;;;;;;x
 diplomatic_cores_desc;If the provinces in a state still have the "Removing Cores" or "Adding Cores" province modifier when this country modifier runs out, then an event will trigger to remove other countries' cores or add this country's cores to said state. All province modifiers are automatically removed when a state changes owners, so if the state changes owners before this timer runs out then the event to add or remove cores will not trigger.;;;;;;;;;;;;;x
 removing_cores;Removing Cores\n§WIf this province does not get occupied or change owners for 15 years after this province modifier is added, then all cores other than the owner's will be removed from this province.;;;;;;;;;;;;;x
 adding_cores;Adding Cores\n§WIf this province does not get occupied or change owners for 15 years after this province modifier is added, then it's owners cores will be added to this province.;;;;;;;;;;;;;x
+zmanage_slave_state_title;Manage Slave/Forced Labor State;;;;;;;;;x;;;;
+zmanage_slave_state_desc;Will let you manage if a state should allow slavery/forced labor or not.;;;;;;;;;x;;;;
+EVTNAME91522;Manage Slave State;;;;;;;;;x;;;;
+EVTDESC91522;We can choose if this province should allow slavery/forced labor.;;;;;;;;;x;;;;
+EVTOPTA91522;Yes, allow slaves/forced labor camps;;;;;;;;;x;;;;
+EVTOPTB91522;No, this state shall not have slaves/forced labor;;;;;;;;;x;;;;

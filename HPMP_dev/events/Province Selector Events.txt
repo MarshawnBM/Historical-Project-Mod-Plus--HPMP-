@@ -321,3 +321,32 @@ province_event = {
 	}
 }
 
+#########################################################################
+# 							MANAGE SLAVE STATE							#
+#########################################################################
+
+
+province_event = {
+	id = 91522
+	title = "EVTNAME91522"
+	desc = "EVTDESC91522"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA91522"
+		state_scope = {
+			is_slave = yes
+		}
+
+	}
+	option = {
+		name = "EVTOPTB91522"
+		state_scope = {
+			is_slave = no
+		}
+
+	}
+
+}
+
