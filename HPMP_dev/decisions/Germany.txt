@@ -1157,6 +1157,9 @@ core_heligoland = {
                 tag = PRU
                 tag = GER
                 tag = NGF
+                tag = AUS
+                tag = KUK
+                tag = DNB
             }
             LIT = { exists = no }
         }
@@ -1171,7 +1174,7 @@ core_heligoland = {
             diplomatic_influence = { who = LIT value = 200 }
             relation = { who = LIT value = 200 }
             badboy = -5			
-            698 = { secede_province = THIS }
+            all_core = { secede_province = THIS }
         }
         ai_will_do = { factor = 1 }
     }
@@ -1184,6 +1187,9 @@ core_heligoland = {
                 tag = PRU
                 tag = GER
                 tag = NGF
+                tag = AUS
+                tag = KUK
+                tag = DNB
             }
             LAT = { exists = no }
         }
@@ -1198,6 +1204,7 @@ core_heligoland = {
             diplomatic_influence = { who = LAT value = 200 }
             relation = { who = LAT value = 200 }
             badboy = -5			
+            all_core = { secede_province = THIS }
         }
         ai_will_do = { factor = 1 }
     }
@@ -1210,6 +1217,9 @@ core_heligoland = {
                 tag = PRU
                 tag = GER
                 tag = NGF
+                tag = AUS
+                tag = KUK
+                tag = DNB
             }
             EST = { exists = no }
         }
@@ -1224,6 +1234,7 @@ core_heligoland = {
             diplomatic_influence = { who = EST value = 200 }
             relation = { who = EST value = 200 }
             badboy = -5			
+            all_core = { secede_province = THIS }
         }
         ai_will_do = { factor = 1 }
     }
@@ -1231,12 +1242,17 @@ core_heligoland = {
     release_poland = {
     picture = eastern_europe
         potential = {
+		OR = {
             owns = 706
             owns = 713			
-            OR = {
+            }
+			OR = {
                 tag = PRU
                 tag = GER
                 tag = NGF
+                tag = AUS
+                tag = KUK
+                tag = DNB
             }
             POL = { exists = no }
         }
@@ -1251,6 +1267,7 @@ core_heligoland = {
             diplomatic_influence = { who = POL value = 200 }
             relation = { who = POL value = 200 }
             badboy = -5			
+            all_core = { secede_province = THIS }
         }
         ai_will_do = { factor = 1 }
     }
@@ -1258,14 +1275,19 @@ core_heligoland = {
     release_belarus = {
     picture = eastern_europe
         potential = {
+		OR = {
 #            owns = 719
 #            owns = 940			
             owns = 718
             owns = 944
+			}
             OR = {
                 tag = PRU
                 tag = GER
                 tag = NGF
+                tag = AUS
+                tag = KUK
+                tag = DNB
             }
             BYE = { exists = no }
         }
@@ -1280,6 +1302,7 @@ core_heligoland = {
             diplomatic_influence = { who = BYE value = 200 }
             relation = { who = BYE value = 200 }
             badboy = -5			
+            all_core = { secede_province = THIS }
         }
         ai_will_do = { factor = 1 }
     }
@@ -1287,14 +1310,19 @@ core_heligoland = {
     release_ukraine = {
     picture = eastern_europe
         potential = {
+		OR = {
             owns = 955
             owns = 958			
             owns = 968
             owns = 961
+			}
             OR = {
                 tag = PRU
                 tag = GER
                 tag = NGF
+                tag = AUS
+                tag = KUK
+                tag = DNB				
             }
             UKR = { exists = no }
         }
@@ -1309,6 +1337,7 @@ core_heligoland = {
             diplomatic_influence = { who = UKR value = 200 }
             relation = { who = UKR value = 200 }
             badboy = -5			
+            all_core = { secede_province = THIS }
         }
         ai_will_do = { factor = 1 }
     }

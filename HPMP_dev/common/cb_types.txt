@@ -130,6 +130,7 @@ negotiated_transfer
 status_quo
 take_capital
 demand_concession_capital
+restore_puppet_province
 }
 
 # Great War CB's
@@ -427,7 +428,7 @@ acquire_core_state = {
         }
         NOT = { is_our_vassal = THIS }
         number_of_states = 2 # annex if you want their last state
-        is_vassal = no
+#        is_vassal = no
         any_owned_province = { is_core = THIS }
         NOT = { has_country_modifier = neutrality_modifier }
         THIS = { NOT = { has_country_modifier = neutrality_modifier } }
@@ -498,10 +499,10 @@ acquire_all_cores = {
         always = no
         NOT = { is_our_vassal = THIS }
         number_of_states = 2 # annex if you want their last state
-        is_vassal = no
+#        is_vassal = no
         any_owned_province = { is_core = THIS }
         any_owned_province = { NOT = { is_core = THIS } }
-        NOT = { has_country_modifier = neutrality_modifier }
+       NOT = { has_country_modifier = neutrality_modifier }
         THIS = {
             NOT = {
                 has_country_modifier = neutrality_modifier
@@ -1206,7 +1207,7 @@ annex_core_country = {
             }
         }
         NOT = { is_our_vassal = THIS }
-        is_vassal = no
+#        is_vassal = no
         any_owned_province = { is_core = THIS }
         NOT = {
             any_owned_province = {
@@ -4430,7 +4431,7 @@ acquire_state = {
                 }
             }
         }
-        is_vassal = no
+#        is_vassal = no
         OR = {
             AND = {
                 THIS = { total_amount_of_ships = 5 }
@@ -4440,7 +4441,7 @@ acquire_state = {
             war_with = THIS
         }
         NOT = {
-            is_our_vassal = THIS
+#            is_our_vassal = THIS
             has_country_modifier = neutrality_modifier
         }
         any_state = {
@@ -5582,7 +5583,7 @@ conquest = {
                 NOT = { number_of_states = 4 }
             }
         }
-        is_vassal = no
+#        is_vassal = no
         NOT = { has_country_modifier = neutrality_modifier }
         THIS = {
             NOT = {
@@ -11672,3 +11673,56 @@ demand_concession_capital = {
     }
 }
 
+#Restore Puppet Province
+restore_puppet_province = {
+	sprite_index = 6
+#	is_triggered_only = yes
+	months = 12
+	construction_speed = 0.5
+	
+	badboy_factor = 1
+	prestige_factor = 5
+	peace_cost_factor = 0.002
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 60
+
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = {
+			OR = {
+				has_country_flag = neutral
+				THIS = { has_country_flag = neutral }
+			}
+		}
+	}
+
+	allowed_countries = {
+		FROM = { vassal_of = THIS }
+		any_owned_province = { is_core = FROM }
+	}
+
+	allowed_states = {
+		any_owned_province = {
+			is_core = FROM
+		}
+	}
+
+	po_transfer_provinces = yes
+	
+	war_name = WAR_TAKE_CORE_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}

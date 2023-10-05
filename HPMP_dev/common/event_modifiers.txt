@@ -2793,3 +2793,9 @@ settlement = {
 	immigrant_attract = 10
 	icon = 19
 }
+
+########## Labor Camps ##########
+
+#labor_camp = {
+#    icon = 18
+#}

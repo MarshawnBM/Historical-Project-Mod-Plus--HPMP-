@@ -30,3 +30,7 @@ EVTNAME110082;French offer of Friendship;;;;;;;;;;;;;
 EVTDESC110082;The French, feeling threaten by the growing power of Germany, have offered their hand in friendship and cooperation for our mutual benefit.;;;;;;;;;;;;;
 EVT110082OPTA;We accept, Vive La France and God bless Britannia!;;;;;;;;;;;;;
 EVT110082OPTB;We decline, Britannia stands alone and above all others!;;;;;;;;;;;;;
+restore_puppet_province;Acquire core for Puppet;;;;;;;;;;;;;x
+restore_puppet_province_desc;Retake a province for our puppet.;;;;;;;;;;;;;x
+restore_puppet_province_short;Make $RECIPIENT$ transfer $STATE$ to a puppet.;;;;;;;;;;;;;x
+restore_puppet_province_setup;Make $RECIPIENT$ transfer $STATE$ to a puppet.;;;;;;;;;;;;;x

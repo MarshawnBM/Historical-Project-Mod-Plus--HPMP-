@@ -187,7 +187,46 @@ zremove_cores = {
 		}
 	}
 
+#########################################################################
+# 							POPULATION TRANSFERS						#
+#########################################################################
 
+#zcreate_labor_camp = {
+#	picture = supply_depot
+#	alert = yes
+#	potential = {
+#		ai = no
+#		OR = { slavery = yes_slavery slavery = freedom_of_womb }
+#		NOT { has_country_modifier = the_slavery_debate }
+#	}
+#	allow = {
+#		any_owned_province = { has_building = province_selector }
+#	}
+#	effect = {
+#		random_owned = {
+#			limit = { has_building = province_selector }
+#			add_province_modifier = { name = labor_camp duration = -1 }
+#			province_selector = -1
+#		}
+#	}
+#}
+
+#zmove_forced_labor_to_camp = {
+#		picture = "expulsion_of_germans"
+#		potential = {
+#			ai = no
+#			OR = { slavery = yes_slavery slavery = freedom_of_womb }
+#			NOT { has_country_modifier = the_slavery_debate }
+#		}
+#
+#		allow = {
+#			any_owned_province = { has_building = province_selector }
+#		}
+#
+#		effect = {
+#			any_pop = { limit = { type = slaves location = { random_owned = { limit = { has_building = province_selector } } } move_pop = any_owned_province = { limit = { has_province_modifier = labor_camp } } } } 
+#		}
+#	}
 
 
 
