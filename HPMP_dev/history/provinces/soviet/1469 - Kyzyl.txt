@@ -2,4 +2,4 @@ owner = TNT
 controller = TNT
 add_core = TNT
 trade_goods = coal
-life_rating = 40
+life_rating = 45

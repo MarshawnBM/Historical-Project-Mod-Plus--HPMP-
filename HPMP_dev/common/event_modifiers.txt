@@ -2799,3 +2799,10 @@ settlement = {
 #labor_camp = {
 #    icon = 18
 #}
+
+new_capital_modifier = {
+	immigrant_attract = 2.5
+	population_growth = 0.002
+	icon = 19
+}
+

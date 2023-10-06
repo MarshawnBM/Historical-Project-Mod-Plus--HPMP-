@@ -1242,10 +1242,8 @@ core_heligoland = {
     release_poland = {
     picture = eastern_europe
         potential = {
-		OR = {
             owns = 706
             owns = 713			
-            }
 			OR = {
                 tag = PRU
                 tag = GER

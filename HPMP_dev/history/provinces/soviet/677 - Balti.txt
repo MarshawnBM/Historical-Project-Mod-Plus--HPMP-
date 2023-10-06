@@ -5,4 +5,4 @@ add_core = MOL
 add_core = MDV
 add_core = ROM
 trade_goods = fruit
-life_rating = 40
+life_rating = 45

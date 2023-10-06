@@ -4,4 +4,4 @@ add_core = CHI
 add_core = FJN
 trade_goods = tea
 terrain = plains
-life_rating = 40
+life_rating = 45

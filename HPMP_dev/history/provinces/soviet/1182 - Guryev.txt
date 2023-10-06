@@ -2,5 +2,5 @@ owner = RUS
 controller = RUS
 add_core = KAZ
 trade_goods = opium
-life_rating = 40
+life_rating = 45
 colonial = 2

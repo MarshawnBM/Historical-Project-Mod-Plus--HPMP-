@@ -4,4 +4,4 @@ add_core = RUS
 add_core = UKR
 add_core = CRI
 trade_goods = fish
-life_rating = 40
+life_rating = 45
