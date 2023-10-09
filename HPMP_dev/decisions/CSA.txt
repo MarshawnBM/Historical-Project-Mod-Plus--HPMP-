@@ -338,7 +338,7 @@ political_decisions = {
 			2264 = { add_core = CSA } #Caracas
 			2268 = { add_core = CSA } #san felipe
 			2273 = { add_core = CSA } #Barquisimeto
-			NET_2235 = { add_core = CSA } #Leeward Antilles
+			2235 = { add_core = CSA } #Leeward Antilles
 			2267 = { add_core = CSA } #Cumana
 			2269 = { add_core = CSA } #Guiria
 			2276 = { add_core = CSA } #Curiapo

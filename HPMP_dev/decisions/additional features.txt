@@ -216,7 +216,7 @@ political_decisions = {
         }
 
         effect = {
-		remove_global_flag = splendid_isolation
+		clr_global_flag = splendid_isolation
         }
 
         ai_will_do = { factor = 0 }
@@ -254,7 +254,7 @@ political_decisions = {
         }
 
         effect = {
-		remove_global_flag = russian_isolation
+		clr_global_flag = russian_isolation
         }
 
         ai_will_do = { factor = 0 }
@@ -340,7 +340,7 @@ political_decisions = {
         }
 
         effect = {
-		remove_global_flag = enabled_early_dismantle_cb
+		clr_global_flag = enabled_early_dismantle_cb
         }
 
         ai_will_do = { factor = 0 }
@@ -379,7 +379,7 @@ political_decisions = {
         }
 
         effect = {
-		remove_global_flag = enabled_target_coring
+		clr_global_flag = enabled_target_coring
         }
 
         ai_will_do = { factor = 0 }
@@ -417,7 +417,7 @@ political_decisions = {
         }
 
         effect = {
-		remove_global_flag = harder_ai
+		clr_global_flag = harder_ai
         }
 
         ai_will_do = { factor = 0 }
@@ -456,7 +456,7 @@ political_decisions = {
         }
 
         effect = {
-		remove_global_flag = early_socialism
+		clr_global_flag = early_socialism
         }
 
         ai_will_do = { factor = 0 }

@@ -801,11 +801,11 @@ political_decisions = {
 			}
 
 			random_owned = { 
-				limit = { owner = { ruling_party_ideology = anarcho_liberal } } owner = { any_pop = { ideology = { value = communist_social factor = 0.5 } } }
+				limit = { owner = { ruling_party_ideology = anarcho_liberal } } owner = { any_pop = { ideology = { value = anarcho_liberal factor = 0.5 } } }
 			}
 
 			random_owned = { 
-				limit = { owner = { ruling_party_ideology = liberal } } owner = { any_pop = { ideology = { value = communist_social factor = 0.5 } } }
+				limit = { owner = { ruling_party_ideology = liberal } } owner = { any_pop = { ideology = { value = liberal factor = 0.5 } } }
 			}
 
 			random_owned = { 

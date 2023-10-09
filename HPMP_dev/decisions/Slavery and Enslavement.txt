@@ -839,7 +839,7 @@ enslave_minorities = {
 		}
 	}
 		set_country_flag = enslaving_political_prisoners
-			
+		}	
 		ai_will_do = {
 				factor = 1
 				modifier = {
@@ -855,7 +855,6 @@ enslave_minorities = {
 				NOT = { average_militancy = 5 }
 			}
 			}
-		}
 	}
 
 	enslave_the_poor = {
@@ -911,11 +910,10 @@ enslave_minorities = {
 		}
 	}
 		set_country_flag = enslaving_the_poor
-			
+	}		
 		ai_will_do = {
 				factor = 1
 			}
-		}
 	}
 
 	ai_expands_slavery = {
@@ -924,7 +922,7 @@ enslave_minorities = {
 	potential = {
 			ai = yes
 			OR = { slavery = yes_slavery slavery = freedom_of_womb }
-			NOT { has_country_modifier = the_slavery_debate }
+			NOT = { has_country_modifier = the_slavery_debate }
 			OR = {		
 					has_country_modifier = enslaving_minorities
 					has_country_modifier = enslaving_political_prisoners
@@ -946,8 +944,33 @@ enslave_minorities = {
 				factor = 1
 			}
 		}
-}
 
+
+	#Aberdeen Act for UK
+	aberdeen_act = {
+		potential = {
+			tag = ENG
+			is_greater_power = yes
+			slavery = no_slavery
+			BRZ = {
+				slavery = yes_slavery
+			}
+			NOT = {
+				has_country_flag = aberdeen_act_signed
+			}
+		}
+		allow = {
+			state_n_government = 1
+			war = no
+		}
+		effect = {
+			prestige = 5
+			set_country_flag = aberdeen_act_signed
+			BRZ = {
+				country_event = 187911
+			}
+		}
+	}
 
 #####Ending Specific types of slavery, work but are OP and not balanced/localized yet###
 #	end_enslave_the_poor = {

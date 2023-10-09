@@ -1412,7 +1412,6 @@ liberate_puppet = {
 	# war target country of goal is scope
 	allowed_countries = {
 	OR = {
-	tag = JER
 	THIS = { tag = FRA }
 	AND = {
 		FROM = { exists = no }
@@ -1648,7 +1647,6 @@ liberate_puppet_state = {
 	# war target country of goal is scope
 	allowed_countries = {
 	OR = {
-	tag = JER
 	THIS = { tag = FRA }
 	AND = {
 		FROM = { exists = no }
@@ -1903,7 +1901,7 @@ liberate_puppet_state = {
 				FROM = { tag = BOS }
 			}
 			AND = {
-				any_owned_province = { region = RUS_361 }
+				any_owned_province = { region = RUS_360 }
 				FROM = { tag = LIT }
 			}
 			AND = {
@@ -11584,10 +11582,6 @@ demand_concession_capital = {
         #Restrictions to non-African State conquering
         OR = {
             continent = africa
-            continent = central_africa
-            continent = west_africa
-            continent = east_africa
-            continent = south_west_africa
 
             NOT = { total_pops = 500000 }
 

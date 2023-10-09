@@ -109,7 +109,7 @@ province_event = {
 
     trigger = {
         province_id = 2436 #Bahia
-        owned_by = OR = { tag = BRZ tag = UPB }
+        OR = { tag = BRZ tag = UPB } 
         year = 1837
         owner = { OR = {
             slavery = yes_slavery

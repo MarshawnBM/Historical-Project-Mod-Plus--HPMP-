@@ -3525,13 +3525,7 @@ political_decisions = {
                 }
                 inherit  = TMT
             }
-            random_owned = {
-                limit = {
-                    owner = { 2553 = { empty = yes } }
-                }
-                # Audax Validator "." Ignore_NEXT
-                FROM = { inherit = THIS }
-            }
+
             any_owned = {
                 limit = {
                     owner = {

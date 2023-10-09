@@ -3050,6 +3050,7 @@ country_event = {
             factor = 5
     }
 }
+}
 
 
 

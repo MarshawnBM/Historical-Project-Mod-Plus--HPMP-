@@ -140,7 +140,7 @@ annex_california = {
 
     effect = {
         set_country_flag = annex_california
-        CAL = { country_event = 110062 }
+#        CAL = { country_event = 110062 }
     }
 
     ai_will_do = { factor = 1 }

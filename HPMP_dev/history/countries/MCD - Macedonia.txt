@@ -31,7 +31,7 @@ conscription = no_draft
 debt_law = peonage
 penal_system = capital_punishment
 child_labor = child_labor_legal
-citizens_rights = all_allowed_cultures
+citizens_rights = all_voting_pops
 border_policy = open_borders
 
 set_country_flag = orthodox_country

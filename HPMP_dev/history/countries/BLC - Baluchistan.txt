@@ -34,7 +34,7 @@ child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
 
-ruling_party = KAL_conservative
+ruling_party = MAK_conservative
 upper_house = {
     fascist = 0
     liberal = 15

@@ -796,95 +796,95 @@ fertilizer_factory = {
 
 ############# SLAVE FACTORIES
 
-slave_lumber_mill = {
-    template = slave_factory_template
-    input_goods = {
-        timber = 100        #90    total input+maint = 100
-    }
-    output_goods = lumber
+#slave_lumber_mill = {
+#    template = slave_factory_template
+#    input_goods = {
+#        timber = 100        #90    total input+maint = 100
+#    }
+#    output_goods = lumber
 
-	slavery = yes_slavery
+#	slavery = yes_slavery
 
-    value = 107            #107 - profit = 7
-    bonus = {
-        trigger = { trade_goods_in_state = timber }
-        value = 0.25
-    }
-}
+#    value = 107            #107 - profit = 7
+#    bonus = {
+#        trigger = { trade_goods_in_state = timber }
+#        value = 0.25
+#    }
+#}
 
-slave_fabric_factory = {
-    template = slave_factory_template
-    input_goods = {
-        cotton = 18        # 36
-        dye = 2                # 24 total input+maint = 69.875
-    }
-    output_goods = fabric
+#slave_fabric_factory = {
+#    template = slave_factory_template
+#    input_goods = {
+#        cotton = 18        # 36
+#        dye = 2                # 24 total input+maint = 69.875
+#    }
+#    output_goods = fabric
 
-	slavery = yes_slavery
+#	slavery = yes_slavery
 
-    value = 44            #79.2 - profit = 9.3
-    bonus = {
-        trigger = { trade_goods_in_state = cotton }
-        value = 0.125
-    }
-    bonus = {
-        trigger = {
-            OR = {
-                has_building = dye_factory
-                trade_goods_in_state = dye
-                }
-            }
-        value = 0.125
-    }
-}
+#    value = 44            #79.2 - profit = 9.3
+#    bonus = {
+#        trigger = { trade_goods_in_state = cotton }
+#        value = 0.125
+#    }
+#    bonus = {
+#        trigger = {
+#            OR = {
+#                has_building = dye_factory
+#                trade_goods_in_state = dye
+#                }
+#            }
+#        value = 0.125
+#    }
+#}
 
-slave_cement_factory = {
-    template = slave_cement_template
-    input_goods = {
-        coal = 12        #27.6        total input+maint = 37.6
-    }
-    output_goods = cement
+#slave_cement_factory = {
+#    template = slave_cement_template
+#    input_goods = {
+#        coal = 12        #27.6        total input+maint = 37.6
+#    }
+#    output_goods = cement
 
-	slavery = yes_slavery
+#	slavery = yes_slavery
+#
+#    value = 3        #48 - profit = 10.4
+#    bonus = {
+#        trigger = { trade_goods_in_state = coal }
+#        value = 0.25
+#    }
+#}
 
-    value = 3        #48 - profit = 10.4
-    bonus = {
-        trigger = { trade_goods_in_state = coal }
-        value = 0.25
-    }
-}
+#slave_glass_factory = {
+#    template = slave_factory_template
+#    input_goods = {
+#        coal = 14        #32.2        total input+maint = 42.2
+#    }
+#    output_goods = glass
+#
+#	slavery = yes_slavery
+#
+#    value = 18        #52.2 - profit = 10
+#    bonus = {
+#        trigger = { trade_goods_in_state = coal }
+#        value = 0.25
+#    }
+#}
 
-slave_glass_factory = {
-    template = slave_factory_template
-    input_goods = {
-        coal = 14        #32.2        total input+maint = 42.2
-    }
-    output_goods = glass
+#slave_fertilizer_factory = {
+#    template = slave_factory_template
+#    input_goods = {
+#        sulphur = 6        #36        total input = 36
+#    }
+#    output_goods = fertilizer
 
-	slavery = yes_slavery
+#	slavery = yes_slavery
 
-    value = 18        #52.2 - profit = 10
-    bonus = {
-        trigger = { trade_goods_in_state = coal }
-        value = 0.25
-    }
-}
-
-slave_fertilizer_factory = {
-    template = slave_factory_template
-    input_goods = {
-        sulphur = 6        #36        total input = 36
-    }
-    output_goods = fertilizer
-
-	slavery = yes_slavery
-
-    value = 5                #50 - profit = 14
-    bonus = {
-        trigger = { trade_goods_in_state = sulphur }
-        value = 0.25
-    }
-}
+#    value = 5                #50 - profit = 14
+#    bonus = {
+#        trigger = { trade_goods_in_state = sulphur }
+#        value = 0.25
+#    }
+#}
 
 
 ### RGOs Templates #####################################################################################

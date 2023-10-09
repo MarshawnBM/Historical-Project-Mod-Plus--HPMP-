@@ -348,7 +348,6 @@ country_event = {
 		}
 		clr_country_flag = the_slavery_debate
 		remove_country_modifier = the_slavery_debate
-		remove_country_modifier = slavery_timer
 		set_country_flag = slavery_ended_event
 		add_country_modifier = {
 			name = national_confusion
@@ -400,7 +399,7 @@ country_event = {
 			modifier = {
 			factor = 0.5
 			OR = {
-				government = republic
+				government = democracy
 				government = hms_government
 				}
 			}
@@ -552,10 +551,7 @@ province_event = {
 	
 	trigger = {
 		owner = {
-			OR = {
-				is_culture_group = central_american_cultures
-				is_culture_group = south_american_cultures
-			}
+			is_culture_group = latin_american_cultures
 			capital_scope = {
 				OR = {
 					continent = north_america
@@ -565,11 +561,11 @@ province_event = {
 			number_of_states = 2
 			slavery = yes_slavery
 		}
-		state_scope = { is_capital = no }
+		is_capital = no 
 		OR = {
 			terrain = hills
 			terrain = mountain
-			terrain = woods
+			terrain = forest
 			terrain = marsh
 			terrain = desert
 			terrain = jungle
@@ -631,10 +627,7 @@ province_event = {
 	
 	trigger = {
 		owner = {
-			OR = {
-				is_culture_group = central_american_cultures
-				is_culture_group = south_american_cultures
-			}
+			is_culture_group = latin_american_cultures
 			capital_scope = {
 				OR = {
 					continent = north_america
@@ -1057,7 +1050,6 @@ country_event = {
 		name = "Slavery is no more, for the good of our nation!"
 		clr_country_flag = the_slavery_debate
 		remove_country_modifier = the_slavery_debate
-		remove_country_modifier = slavery_timer
 		any_owned = {
 			remove_province_modifier = quilombo_presence
 			remove_province_modifier = progressive_society_csa

@@ -549,7 +549,7 @@ political_decisions = {
 				 
 			}
 			NOT = { has_global_flag = organized_lyon }
-			MEX_2146 = { owned_by = THIS }
+			2146 = { owned_by = THIS }
 		}
 		allow = {
 			war = no
@@ -811,7 +811,7 @@ political_decisions = {
 				 
 			}
 			NOT = { has_global_flag = organized_mexico }
-			MEX_2162 = { owned_by = THIS }
+			2162 = { owned_by = THIS }
 		}
 		allow = {
 			war = no
