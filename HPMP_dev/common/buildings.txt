@@ -747,7 +747,7 @@ railroad = {
 
 province_selector = {
 	type = province_selector
-	ai = no
+#	ai = no
 	goods_cost =
 	{
 	}
