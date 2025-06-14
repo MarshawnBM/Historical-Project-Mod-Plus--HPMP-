@@ -1268,6 +1268,7 @@ political_decisions = {
         picture = reichsland_elsass
         potential = {
             tag = FRA
+		OR = {
             412 = {
                 NOT = {
                     is_core = FRA
@@ -1286,6 +1287,7 @@ political_decisions = {
                     owned_by = FRA
                 }
             }
+		}
         }
 
         allow = {
